@@ -316,12 +316,22 @@ Worked on by: Lori
 
 Due by: before Week 12 Lab
 
+Completed: 
+
+## 31. Cross device and browser compatability testing:
+
+Desc:  test the pages and responsiveness on different browsers and mobile devices.
+
+Worked on by: Ryan & Lori
+
+Due by: mid Week 14
+
 Completed: N
 
 
-## 31. Final Website Review
+## 32. Final Website Review
 
-Desc:  final review of the website before submission (run tests for errors & warnings for all html, css and .js pages)
+Desc:  final review of the website before submission (run tests for errors & warnings for all html, css and .js pages, check for duplicate IDs, unused CSS, run validator tool)
 
 Worked on by: All
 
@@ -330,7 +340,7 @@ Due by: mid Week 14
 Completed: N
 
 
-## 32. Final Website Submission
+## 33. Final Website Submission
 
 Desc:  submit to dropbox and GitHub before scheduled lab
 
