@@ -2,7 +2,7 @@
 
 ## 1. Create consulting group name 
 
-Desc: brainstorm in Teams meeting a name 
+Desc: brainstorm in Teams meeting a name ... Layer Larks
 
 Worked on by: All
 
@@ -57,7 +57,7 @@ Completed: Y
 
 ## 6. Create File Directory
 
-Desc:  create main repository on GitHub with folders for images, Javascript, CSS on GitHub, named a3web
+Desc:  create main a3web repository on GitHub with html files, folders for images, Javascript, CSS on GitHub
 
 Worked on by: Lori & Helen
 
@@ -83,7 +83,7 @@ Desc:  team.html (team members, roles, picture of a lark for each person maybe)
 
 Worked on by: Helen
 
-Due by: Wednesday Week 12
+Due by: mid Week 12
 
 Completed: N
 
@@ -94,7 +94,7 @@ Desc:   media.html (include some fake newsclippings/articles where consulting gr
 
 Worked on by: Helen
 
-Due by: Wednesday Week 12
+Due by: mid Week 12
 
 Completed: N
 
@@ -127,7 +127,7 @@ Desc:  healthindustry.html (include a couple projects + summary + skills of each
 
 Worked on by: Helen
 
-Due by: Wed Week 12
+Due by: mid Week 12
 
 Completed: Y
 
@@ -168,6 +168,7 @@ Completed: N
 ## 16. Page10 (content) Contact Us
 
 Desc:  Craig
+
 Worked on by: contact.html (contact page with faq, email form)
 
 Due by: end Week 12
@@ -188,7 +189,7 @@ Completed: N
 
 ## 19. Nav Bar
 
-Desc:  Home, Team, Media, Services (with dropdown menu), Testimonials, Careers, Contact
+Desc:  Home, Team, In the Media, Industries (with dropdown menu), Client Testimonials, Careers, Contact
 
 Worked on by: Lori & Craig
 
@@ -298,20 +299,20 @@ Completed: Y
 
 ## 29. Group Initial Plan Markdown Doc Submission
 
-Desc: create SMART plan for assignment 3 and submit to dropbox after scheduled lab 
+Desc: copy, paste, submit group plan markdown doc to dropbox
 
 Worked on by: Helen
 
-Due by: end of day Week 11 Lab
+Due by: EOD Week 11 Lab
 
 Completed: Y
 
 
 ## 30. HTML/CSS Template Design Submission
 
-Desc:  submit to dropbox before scheduled lab
+Desc:  submit both files to dropbox before scheduled lab
 
-Worked on by: All
+Worked on by: Lori
 
 Due by: before Week 12 Lab
 
