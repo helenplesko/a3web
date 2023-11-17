@@ -57,7 +57,7 @@ Completed: In Progress
 
 ## 6. Create File Directory
 
-Desc:  create main a3web repository on GitHub with html files, folders for images, Javascript, CSS on GitHub
+Desc:  create main a3web repository on GitHub with html files, folders for images, JavaScript, CSS on GitHub
 
 Worked on by: Lori (repository) & Helen (folders & files)
 
@@ -90,7 +90,7 @@ Completed: In Progress
 
 ## 9. Page 3 (content) In the Media
 
-Desc:   media.html (include some fake newsclippings/articles where consulting group is mentioned)
+Desc:   media.html (include some fake news clippings/articles where consulting group is mentioned)
 
 Worked on by: Helen
 
@@ -110,7 +110,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 11. Page 5 (content) Enironmental Industry
+## 11. Page 5 (content) Environmental Industry
 
 Desc:  environmentalindustry.html (include a couple projects + summary + skills of each)
 
@@ -167,13 +167,13 @@ Completed: N
 
 ## 16. Page 10 (content) Contact Us
 
-Desc:  contact.html (contact page with faq, email form) 
+Desc:  contact.html (contact page with FAQ, email form, comment box) 
 
 Worked on by: Craig
 
 Due by: end Week 12
 
-Completed: N
+Completed: In Progress
 
 
 ## 17. Footer
@@ -209,7 +209,7 @@ Due by: beginning Week 13
 Completed: N
 
 
-## 21. Javascript for Contact Page
+## 21. JavaScript for Contact Page
 
 Desc:  create JavaScript code for comment box on Contact Us page
 
@@ -217,10 +217,10 @@ Worked on by: Craig
 
 Due by: end Week 11
 
-Completed: In progrses
+Completed: In progress
 
 
-## 22. Javascript for Nightmode/Daymode
+## 22. JavaScript for Nightmode/Daymode
 
 Desc:  create JS code to allow user to switch the site from Daymode to Nightmode
 
@@ -286,7 +286,7 @@ Due by: during Week 12 Lab
 Completed: N
 
 
-## 28. Create Group Plan on Github
+## 28. Create Group Plan on GitHub
 
 Desc:  group.md (breakdown of tasks, who's responsible, when they will be completed by)
 
@@ -319,7 +319,7 @@ Due by: before Week 12 Lab
 Completed: In Progress
 
 
-## 31. Cross Device and Browser Compatability Testing
+## 31. Cross Device and Browser Compatibility Testing
 
 Desc:  test the pages and responsiveness on different browsers and mobile devices.
 
