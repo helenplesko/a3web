@@ -1,0 +1,197 @@
+/* Customization of the site as a whole */
+body {
+	background-color: ;
+	font-family: ;
+}
+
+/*dropdown navbar inspiration: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp*/
+/* Customization of the navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: black;
+}
+
+/* Customization of the links in the navigation bar */
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Customization of the navigation bar dropdown*/
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+/* Customization of the dropdown button*/
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+/* Customization of the navigation bar links when mouse hovers over them */
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: blue;
+}
+
+/* Customization of the navigation bar dropdown content*/
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Customization of the links in the navigation bar dropdown*/
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Customization of the navigation bar dropdown text when mouse hovers over them */
+.dropdown-content a:hover{
+	background-color: rgb(142, 142, 143);
+}
+
+/* Shows the dropdown menu on hover*/
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/* Responsive Design for the navigation bar */
+/* Inspired by: ____________ */
+/* When the screen size is too small ____________. */
+@media screen and (max-width: 800px) {
+	/* position of navbar changes */
+	.navbar { 
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	/* position of navbar links change */
+	.navbar a { 
+		float: left;
+	}
+	/* margin is removed from the body */
+	body {
+		margin-left: 0px; 
+	}
+}
+
+/* Customization of Header 1 */
+/* This is the site banner text style */
+h1 {
+	color: ;
+	text-align: ;
+	font-weight: ;
+	font-size: ;
+	font-family: ;
+	margin-block-start: ;
+	margin-block-end: ;
+}
+
+/* Customization of Header 2 */
+/* This is the webpage heading text style */
+h2 {
+	color: ;
+	text-align: ;
+	font-weight: ;
+	font-size: ;
+	font-family: ;
+	margin-block-start: ;
+	margin-block-end: ;
+}
+
+/* Customization of Header 3 */
+/* This is the webpage subheading text style */
+h3 {
+	color: ;
+	text-align: ;
+	font-weight: ;
+	font-size: ;
+	font-family: ;
+	margin-block-start: ;
+	margin-block-end: ;
+}
+
+/* Customization of paragraph text */
+p {
+	color: ;
+	text-align: ;
+	font-weight: ;
+	font-size: ;
+	font-family: ;
+	margin-block-start: ;
+	margin-block-end: ;
+}
+
+/* inspiration for the comment box was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* styling the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* creating the columns that float beside each otehr */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+/* Customization of footer */
+footer {
+	
+}
