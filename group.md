@@ -1,4 +1,4 @@
-# Our Group Plan
+# Group Plan
 
 ## 1. Create consulting group name 
 
@@ -52,7 +52,7 @@ Worked on by: Craig
 
 Due by: end Week 11
 
-Completed: Y
+Completed: In Progress
 
 
 ## 6. Create File Directory
@@ -66,7 +66,7 @@ Due by: end Week 11
 Completed: Y
 
 
-## 7. Page1 (content) Home
+## 7. Page 1 (content) Home
 
 Desc:  index.html (about the consulting group, mission statement, values)
 
@@ -77,7 +77,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 8. Page2 (content) About the Team
+## 8. Page 2 (content) About the Team
 
 Desc:  team.html (team members, roles, picture of a lark for each person maybe) 
 
@@ -85,10 +85,10 @@ Worked on by: Helen
 
 Due by: mid Week 12
 
-Completed: N
+Completed: In Progress
 
 
-## 9. Page3 (content) In the Media
+## 9. Page 3 (content) In the Media
 
 Desc:   media.html (include some fake newsclippings/articles where consulting group is mentioned)
 
@@ -96,10 +96,10 @@ Worked on by: Helen
 
 Due by: mid Week 12
 
-Completed: N
+Completed: In Progress
 
 
-## 10. Page4 (content) Industries
+## 10. Page 4 (content) Industries
 
 Desc:  services.html (overview of services/industries + a link leading to each industry page)
 
@@ -110,7 +110,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 11. Page5 (content) Enironmental Industry
+## 11. Page 5 (content) Enironmental Industry
 
 Desc:  environmentalindustry.html (include a couple projects + summary + skills of each)
 
@@ -121,7 +121,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 12. Page6 (content) Health Industry
+## 12. Page 6 (content) Health Industry
 
 Desc:  healthindustry.html (include a couple projects + summary + skills of each)
 
@@ -132,7 +132,7 @@ Due by: mid Week 12
 Completed: Y
 
 
-## 13. Page7 (content) Remote Sensing Industry
+## 13. Page 7 (content) Remote Sensing Industry
 
 Desc:  remotesensingindustry.html (include a couple projects + summary + skills of each)
 
@@ -143,7 +143,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 14. Page8 (content) Client Testimonials
+## 14. Page 8 (content) Client Testimonials
 
 Desc:  clienttestimonials.html (list of reviews + the reviewer)
 
@@ -154,7 +154,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 15. Page9 (content) Careers
+## 15. Page 9 (content) Careers
 
 Desc:  careers.html (list of roles + their descriptions)
 
@@ -165,11 +165,11 @@ Due by: end Week 12
 Completed: N
 
 
-## 16. Page10 (content) Contact Us
+## 16. Page 10 (content) Contact Us
 
-Desc:  Craig
+Desc:  contact.html (contact page with faq, email form) 
 
-Worked on by: contact.html (contact page with faq, email form)
+Worked on by: Craig
 
 Due by: end Week 12
 
@@ -195,7 +195,7 @@ Worked on by: Lori & Craig
 
 Due by: end Week 12
 
-Completed: In progress
+Completed: In Progress
 
 
 ## 20. Responsive Design
@@ -217,7 +217,7 @@ Worked on by: Craig
 
 Due by: end Week 11
 
-Completed: in progrses
+Completed: In progrses
 
 
 ## 22. Javascript for Nightmode/Daymode
@@ -239,7 +239,7 @@ Worked on by: Helen
 
 Due by: mid Week 13
 
-Completed: N
+Completed: In Progress
 
 
 ## 24. Site Logo
@@ -253,9 +253,9 @@ Due by: mid Week 13
 Completed: In Progress
 
 
-## 25. Site Banner (to be displayed on each page)
+## 25. Site Banner
 
-Desc:  banner with Layer Larks + slogan, maybe logo if possible
+Desc:  banner with Layer Larks + slogan, maybe logo if possible, to be displayed on each page
 
 Worked on by: Ryan
 
@@ -272,7 +272,7 @@ Worked on by: Helen & Ryan
 
 Due by: mid Week 13
 
-Completed: N
+Completed: In Progress
 
 
 ## 27. Demo use of GIT
@@ -281,7 +281,7 @@ Desc:  submit to GitHub during scheduled lab, meeting w Shawn
 
 Worked on by: All (indiv. task)
 
-Due by: during Week 11/12 Lab
+Due by: during Week 12 Lab
 
 Completed: N
 
@@ -316,9 +316,10 @@ Worked on by: Lori
 
 Due by: before Week 12 Lab
 
-Completed: 
+Completed: In Progress
 
-## 31. Cross device and browser compatability testing:
+
+## 31. Cross Device and Browser Compatability Testing
 
 Desc:  test the pages and responsiveness on different browsers and mobile devices.
 
