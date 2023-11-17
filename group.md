@@ -46,9 +46,9 @@ Completed: In progress
 
 ## 5. Create JavaScript File
 
-Desc: java.js (includes JavaScript code for comment box)
+Desc: java.js (includes JavaScript code for comment box, day/night mode)
 
-Worked on by: Craig
+Worked on by: Craig & Ryan & Lilit
 
 Due by: end Week 11
 
@@ -59,7 +59,7 @@ Completed: In Progress
 
 Desc:  create main a3web repository on GitHub with html files, folders for images, Javascript, CSS on GitHub
 
-Worked on by: Lori & Helen
+Worked on by: Lori (repository) & Helen (folders & files)
 
 Due by: end Week 11
 
