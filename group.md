@@ -1,10 +1,15 @@
 # Our Group Plan
 
 ## 1. Create consulting group name 
+
 Desc: brainstorm in Teams meeting a name 
+
 Worked on by: All
+
 Due by: during Week 10 Lab
+
 Completed: Y
+
 
 ## 2. Create consulting group slogan
 Desc: brainstorm in Teams meeting a slogan ... Consulting across all latitudes
