@@ -250,6 +250,7 @@ background: aquamarine;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .wrapper .box{
@@ -263,11 +264,51 @@ background: aquamarine;
 	color: black;
 }
 .wrapper .box .content{
-	font-size: 20px;
-	 color:yellow
+	font-size: 10px;
+	 color:yellow;
+	 display: flex;
+	 align-items: center;
+	justify-content: space-between;
 }
 .wrapper .box .info .name{
 	font-size: 16px;
 	color:purple;
 	font-weight: 600;
+}
+.wrapper .box .info .stars{
+	margin-top:2px;
+}
+
+.box .info .stars i{
+
+	color: #262626;
+}
+.wrapper .box .content .image{
+height: 75px;
+width: 75px;
+padding: 3px;
+background:maroon
+
+}
+
+
+ .box .content .image img{
+	height: 100%;
+	width: 100;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid blueviolet
+}
+
+@media (max-width: 600px){
+.wrapper .box{
+width: calc(50% -10px);
+margin: 10px 0; 
+}
+}
+@media (max-width: 600px){
+	.wrapper .box{
+	width: 100%;
+	margin: 10px 0; 
+	}
 }
