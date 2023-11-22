@@ -284,7 +284,7 @@ background: aquamarine;
 
 	color: #262626;
 }
-.wrapper .box .content .image{
+.wrapper .box .content .clientimage{
 height: 75px;
 width: 75px;
 padding: 3px;
@@ -293,7 +293,7 @@ background:maroon;
 }
 
 
- .box .content .image img{
+ .box .content .clientimage img{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
