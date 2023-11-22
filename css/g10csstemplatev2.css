@@ -251,3 +251,10 @@ background: aquamarine;
 	align-items: center;
 	justify-content: center;
 }
+
+.wrapper .box{
+	background: greenyellow;
+	border-radius: 3px;
+	padding: 25px;
+	width: calc(33% - 10px)
+}
