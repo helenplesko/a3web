@@ -1,4 +1,4 @@
-# Our Group Plan
+# Group Plan
 
 ## 1. Create consulting group name 
 
@@ -46,27 +46,27 @@ Completed: In progress
 
 ## 5. Create JavaScript File
 
-Desc: java.js (includes JavaScript code for comment box)
+Desc: java.js (includes JavaScript code for comment box, day/night mode)
 
-Worked on by: Craig
+Worked on by: Craig & Ryan & Lilit
 
 Due by: end Week 11
 
-Completed: Y
+Completed: In Progress
 
 
 ## 6. Create File Directory
 
-Desc:  create main a3web repository on GitHub with html files, folders for images, Javascript, CSS on GitHub
+Desc:  create main a3web repository on GitHub with html files, folders for images, JavaScript, CSS on GitHub
 
-Worked on by: Lori & Helen
+Worked on by: Lori (repository) & Helen (folders & files)
 
 Due by: end Week 11
 
 Completed: Y
 
 
-## 7. Page1 (content) Home
+## 7. Page 1 (content) Home
 
 Desc:  index.html (about the consulting group, mission statement, values)
 
@@ -77,7 +77,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 8. Page2 (content) About the Team
+## 8. Page 2 (content) About the Team
 
 Desc:  team.html (team members, roles, picture of a lark for each person maybe) 
 
@@ -85,21 +85,21 @@ Worked on by: Helen
 
 Due by: mid Week 12
 
-Completed: N
+Completed: In Progress
 
 
-## 9. Page3 (content) In the Media
+## 9. Page 3 (content) In the Media
 
-Desc:   media.html (include some fake newsclippings/articles where consulting group is mentioned)
+Desc:   media.html (include some fake news clippings/articles where consulting group is mentioned)
 
 Worked on by: Helen
 
 Due by: mid Week 12
 
-Completed: N
+Completed: In Progress
 
 
-## 10. Page4 (content) Industries
+## 10. Page 4 (content) Industries
 
 Desc:  services.html (overview of services/industries + a link leading to each industry page)
 
@@ -110,7 +110,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 11. Page5 (content) Enironmental Industry
+## 11. Page 5 (content) Environmental Industry
 
 Desc:  environmentalindustry.html (include a couple projects + summary + skills of each)
 
@@ -121,7 +121,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 12. Page6 (content) Health Industry
+## 12. Page 6 (content) Health Industry
 
 Desc:  healthindustry.html (include a couple projects + summary + skills of each)
 
@@ -132,7 +132,7 @@ Due by: mid Week 12
 Completed: Y
 
 
-## 13. Page7 (content) Remote Sensing Industry
+## 13. Page 7 (content) Remote Sensing Industry
 
 Desc:  remotesensingindustry.html (include a couple projects + summary + skills of each)
 
@@ -143,7 +143,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 14. Page8 (content) Client Testimonials
+## 14. Page 8 (content) Client Testimonials
 
 Desc:  clienttestimonials.html (list of reviews + the reviewer)
 
@@ -154,7 +154,7 @@ Due by: end Week 12
 Completed: N
 
 
-## 15. Page9 (content) Careers
+## 15. Page 9 (content) Careers
 
 Desc:  careers.html (list of roles + their descriptions)
 
@@ -165,15 +165,15 @@ Due by: end Week 12
 Completed: N
 
 
-## 16. Page10 (content) Contact Us
+## 16. Page 10 (content) Contact Us
 
-Desc:  Craig
+Desc:  contact.html (contact page with FAQ, email form, comment box) 
 
-Worked on by: contact.html (contact page with faq, email form)
+Worked on by: Craig
 
 Due by: end Week 12
 
-Completed: N
+Completed: In Progress
 
 
 ## 17. Footer
@@ -195,7 +195,7 @@ Worked on by: Lori & Craig
 
 Due by: end Week 12
 
-Completed: In progress
+Completed: In Progress
 
 
 ## 20. Responsive Design
@@ -209,7 +209,7 @@ Due by: beginning Week 13
 Completed: N
 
 
-## 21. Javascript for Contact Page
+## 21. JavaScript for Contact Page
 
 Desc:  create JavaScript code for comment box on Contact Us page
 
@@ -217,10 +217,10 @@ Worked on by: Craig
 
 Due by: end Week 11
 
-Completed: in progrses
+Completed: In progress
 
 
-## 22. Javascript for Nightmode/Daymode
+## 22. JavaScript for Nightmode/Daymode
 
 Desc:  create JS code to allow user to switch the site from Daymode to Nightmode
 
@@ -239,7 +239,7 @@ Worked on by: Helen
 
 Due by: mid Week 13
 
-Completed: N
+Completed: In Progress
 
 
 ## 24. Site Logo
@@ -253,9 +253,9 @@ Due by: mid Week 13
 Completed: In Progress
 
 
-## 25. Site Banner (to be displayed on each page)
+## 25. Site Banner
 
-Desc:  banner with Layer Larks + slogan, maybe logo if possible
+Desc:  banner with Layer Larks + slogan, maybe logo if possible, to be displayed on each page
 
 Worked on by: Ryan
 
@@ -272,7 +272,7 @@ Worked on by: Helen & Ryan
 
 Due by: mid Week 13
 
-Completed: N
+Completed: In Progress
 
 
 ## 27. Demo use of GIT
@@ -281,12 +281,12 @@ Desc:  submit to GitHub during scheduled lab, meeting w Shawn
 
 Worked on by: All (indiv. task)
 
-Due by: during Week 11/12 Lab
+Due by: during Week 12 Lab
 
 Completed: N
 
 
-## 28. Create Group Plan on Github
+## 28. Create Group Plan on GitHub
 
 Desc:  group.md (breakdown of tasks, who's responsible, when they will be completed by)
 
@@ -316,9 +316,10 @@ Worked on by: Lori
 
 Due by: before Week 12 Lab
 
-Completed: 
+Completed: In Progress
 
-## 31. Cross device and browser compatability testing:
+
+## 31. Cross Device and Browser Compatibility Testing
 
 Desc:  test the pages and responsiveness on different browsers and mobile devices.
 
