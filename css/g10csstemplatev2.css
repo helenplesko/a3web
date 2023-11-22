@@ -249,7 +249,7 @@ background: aquamarine;
 	padding: 0 20px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .wrapper .box{
@@ -257,4 +257,17 @@ background: aquamarine;
 	border-radius: 3px;
 	padding: 25px;
 	width: calc(33% - 10px)
+}
+.wrapper .box i.quote{
+	font-size: 20px;
+	color: black;
+}
+.wrapper .box .content{
+	font-size: 20px;
+	 color:yellow
+}
+.wrapper .box .info .name{
+	font-size: 16px;
+	color:purple;
+	font-weight: 600;
 }
