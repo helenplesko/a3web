@@ -28,7 +28,7 @@ Desc:  g10htmltemplate.html (includes a layout of where sections of code are goi
 
 Worked on by: Skeleton -Helen; Contribution of details -All
 
-Due by: beginning Week 12
+Due by: before Week 12 Lab
 
 Completed: In progress
 
@@ -39,7 +39,7 @@ Desc: g10csstemplate.css (includes a layout of where sections of styles are goin
 
 Worked on by: Skeleton -Helen; Contribution of details -All
 
-Due by: beginning Week 12
+Due by: before Week 12 Lab
 
 Completed: In progress
 
@@ -72,7 +72,7 @@ Desc:  index.html (about the consulting group, mission statement, values)
 
 Worked on by: All
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: N
 
@@ -83,7 +83,7 @@ Desc:  team.html (team members, roles, picture of a lark for each person maybe)
 
 Worked on by: Helen
 
-Due by: mid Week 12
+Due by: mid Week 13
 
 Completed: In Progress
 
@@ -94,7 +94,7 @@ Desc:   media.html (include some fake news clippings/articles where consulting g
 
 Worked on by: Helen
 
-Due by: mid Week 12
+Due by: mid Week 13
 
 Completed: In Progress
 
@@ -105,7 +105,7 @@ Desc:  services.html (overview of services/industries + a link leading to each i
 
 Worked on by: Ryan
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: N
 
@@ -116,7 +116,7 @@ Desc:  environmentalindustry.html (include a couple projects + summary + skills 
 
 Worked on by: Lori
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: N
 
@@ -138,7 +138,7 @@ Desc:  remotesensingindustry.html (include a couple projects + summary + skills 
 
 Worked on by: Lilit 
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: N
 
@@ -149,7 +149,7 @@ Desc:  clienttestimonials.html (list of reviews + the reviewer)
 
 Worked on by: Craig
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: N
 
@@ -160,7 +160,7 @@ Desc:  careers.html (list of roles + their descriptions)
 
 Worked on by: Lilit
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: N
 
@@ -171,7 +171,7 @@ Desc:  contact.html (contact page with FAQ, email form, comment box)
 
 Worked on by: Craig
 
-Due by: end Week 12
+Due by: mid Week 13
 
 Completed: In Progress
 
@@ -182,7 +182,7 @@ Desc:  create a footer that appears at the bottom of every page
 
 Worked on by: Ryan
 
-Due by: mid Week 13
+Due by: before Week 12 Lab, include in template
 
 Completed: N
 
@@ -193,7 +193,7 @@ Desc:  Home, Team, In the Media, Industries (with dropdown menu), Client Testimo
 
 Worked on by: Lori & Craig
 
-Due by: end Week 12
+Due by: before Week 12 Lab, include in template
 
 Completed: In Progress
 
@@ -204,7 +204,7 @@ Desc:  webpage should change based on device screen size (mobile, desktop) nav b
 
 Worked on by: Lori & Craig
 
-Due by: beginning Week 13
+Due by: before Week 12 Lab, include in template
 
 Completed: N
 
@@ -215,7 +215,7 @@ Desc:  create JavaScript code for comment box on Contact Us page
 
 Worked on by: Craig
 
-Due by: end Week 11
+Due by: mid Week 13
 
 Completed: In progress
 
@@ -231,13 +231,13 @@ Due by: mid Week 13
 Completed: N
 
 
-## 23. Indiv. Industry Page Template
+## 23. Individual Industry Page Template
 
 Desc:  create template so each industry page is cohesive
 
 Worked on by: Helen
 
-Due by: mid Week 13
+Due by: beginning Week 13
 
 Completed: In Progress
 
@@ -248,7 +248,7 @@ Desc:  create a logo for our website (consulting group name + slogan)
 
 Worked on by: Lilit
 
-Due by: mid Week 13
+Due by: before Week 12 Lab, include in template
 
 Completed: In Progress
 
@@ -259,7 +259,7 @@ Desc:  banner with Layer Larks + slogan, maybe logo if possible, to be displayed
 
 Worked on by: Ryan
 
-Due by: mid Week 13
+Due by: before Week 12 Lab, include in template
 
 Completed: N
 
@@ -270,7 +270,7 @@ Desc:  within mystyle.css, create styles for header levels
 
 Worked on by: Helen & Ryan
 
-Due by: mid Week 13
+Due by: before Week 12 Lab, include in template
 
 Completed: In Progress
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+/*Java funciton that adds in the provinces/states tp the box when the user selects USA Canada or Australia */
+=======
 /*javascript funciton that adds in the provinces/states tp the box when the user selects USA Canada or Australia */
+>>>>>>> ea22b71bc44569510c114acdf123decccdfca837
 function showStateProvince() {
   /* Get the selected country */
   var selectedCountry = document.getElementById("country").value;
