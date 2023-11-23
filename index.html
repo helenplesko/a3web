@@ -16,27 +16,44 @@
 	<h1>LAYER LARKS LOGO WILL GO HERE</h1>
 </div>
 
-<!-- NAVIGATION BAR -->
+<!-- --------------------
+- Owner: 	Lori Lowy & Craig Jurkiewicz
+- Date:		November 23, 2023
+- Section:	NAVIGATION BAR
+-------------------- -->
+
 <!-- This NavBar will appear on every page of our website -->
 <!-- The NavBar will adjust itself using responsive design depending on the user's device -->
-<div class="navbar">
-	<a href="./index.html">Home</a>
-	<a href="./team.html">Meet the Team</a>
+<div class="navbar" id="myNav">
+	<div class="hamburger" onclick="myFunctions(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	  </div>
+	<a href="index.html" class="active">Home</a>
+	<a href="team.html">Meet the Team</a>
 	<div class="dropdown">                                                    <!-- dropdown menu inspiration source: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp-->
 		<button class="dropbtn">Industries
-			<i class="fa fa-caret-down"></i>
 		</button>
 		<div class="dropdown-content">
-			<a href="./environmentalindustry.html">Environmental Industries</a>
-			<a href="./healthindustry.html">Health Industries</a>
-			<a href="./remotesensingindustry.html">Remote Sensing Industries</a>
-		</div>
+			<a href="Industries.html">Industries Overview</a>
+			<a href="environmentalindustry.html">Environmental Industries</a>
+			<a href="healthindustry.html">Health Industries</a>
+			<a href="remotesensingindustry.html">Remote Sensing Industries</a>
+		</div> 
 	</div>
-	<a href="./media.html">In the Media</a>
-	<a href="./testimonials.html">Client Testimonials</a>
-	<a href="./careers.html">Careers</a>
-	<a href="./contact.html">Contact</a>
+	<a href="media.html">In the Media</a>
+	<a href="clienttestimonials.html">Client Testimonials</a>
+	<a href="careers.html">Careers</a>
+	<a href="contact.html">Contact</a>
 </div>
+
+<!-- JS script for hamburger menu animation and reponsive navbar -->
+<script src="javascript.js"></script>
+
+<!-- --------------------
+- Lori & Craig Navigation Bar Section End
+-------------------- -->
 
 <!-- -----------------------------------------
 CONTENT AND CODE SPECIFIC TO PAGE WILL GO HERE
