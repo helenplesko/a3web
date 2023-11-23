@@ -1,8 +1,15 @@
-<<<<<<< HEAD
+/* Responsive Navigation Bar by Lori & Craig */
+function myFunctions(y) {
+  y.classList.toggle("change");
+  let x = document.getElementById("myNav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
 /*Java funciton that adds in the provinces/states tp the box when the user selects USA Canada or Australia */
-=======
-/*javascript funciton that adds in the provinces/states tp the box when the user selects USA Canada or Australia */
->>>>>>> ea22b71bc44569510c114acdf123decccdfca837
 function showStateProvince() {
   /* Get the selected country */
   var selectedCountry = document.getElementById("country").value;
