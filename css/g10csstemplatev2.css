@@ -370,8 +370,41 @@ margin: 10px 0;
 }
 
 
+/* --------------------
+- Owner: 	Helen Plesko
+- Date:		November 23, 2023
+- Section:	FOOTER CSS 
+- Inspired By:	https://www.evarigisconsulting.com/
+		https://www.w3schools.com/html/html_layout.asp
+-------------------- */
 
 /* Customization of footer */
-footer {
-	
+.footer {
+	position: static;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #2b3634;
 }
+
+.footer p {
+	color: #cfcfcf;
+	text-align: center;
+	font-weight: normal;
+	font-size: 13px;
+	font-family: helvetica, arial, sans-serif;
+	padding-bottom: 10px;
+}
+
+.footer address {
+	color: #cfcfcf;
+	text-align: center;
+	font-weight: normal;
+	font-size: 13px;
+	font-family: helvetica, arial, sans-serif;
+	padding-top: 10px;
+}
+
+/* --------------------
+- Helen Footer Section End
+-------------------- */
