@@ -11,11 +11,19 @@ body {
 	font-family: helvetica, arial, sans-serif;
 }
 
-/*dropdown navbar inspiration: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp*/
+/* --------------------
+- Owner: 	Lori Lowy & Craig Jurkiewicz
+- Date:		November 23, 2023
+- Section:	NAVIGATION BAR CSS
+- Inspired By: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+               https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+			   https://www.w3schools.com/howto/howto_css_menu_icon.asp
+-------------------- */
 /* Customization of the navigation bar */
 .navbar {
 	overflow: hidden;
 	background-color: #2b3634;
+	transition: .3s ease-in-out;
 }
 
 /* Customization of the links in the navigation bar */
@@ -26,6 +34,13 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	display: block;
+}
+
+/* Selects active class for current page*/
+.active {
+	background-color: #637e77;
+	color: white;
 }
 
 /* Customization of the navigation bar dropdown*/
@@ -49,17 +64,18 @@ body {
 /* Customization of the navigation bar links when mouse hovers over them */
 .navbar a:hover, .dropdown:hover .dropbtn {
 	background-color: #7ea69c;
+	transition: 0.3s;
 }
 
-/* Customization of the navigation bar dropdown content and creating a transition feautre for dropdown mean to fade into the screen*/
+/* Customization of the navigation bar dropdown content*/
 .dropdown-content {
+	display: none;
 	position: absolute;
-	background-color: #fdfdfd;
+	background-color: #f9f9f9;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	opacity:0;
-	transition: opacity 0.3s ease;
+	transition: 0.3s;
 }
 
 /* Customization of the links in the navigation bar dropdown*/
@@ -70,6 +86,7 @@ body {
 	text-decoration: none;
 	display: block;
 	text-align: left;
+	transition: 0.8s;
 }
 
 /* Customization of the navigation bar dropdown text when mouse hovers over them */
@@ -77,31 +94,69 @@ body {
 	background-color: #e0e0e0;
 }
 
-/* Shows the dropdown menu on hover and changes the opacity of the dropdown menu to 1*/
+/* Shows the dropdown menu on hover*/
 .dropdown:hover .dropdown-content{
-	opacity:1;
 	display: block;
 }
 
 /* Responsive Design for the navigation bar */
-/* Inspired by: ____________ */
-/* When the screen size is too small ____________. */
-@media screen and (max-width: 800px) {
-	/* position of navbar changes */
-	.navbar { 
-		width: 100%;
-		height: auto;
+@media screen and (max-width: 600px) {
+	/* Selects navbar links an the drop btn class in dropdown class */
+	.navbar a, .dropdown .dropbtn {
+    	display: none;
+		transition: 0.3s;
+ 	}
+	
+	/* Selects all elements in the navbar and responsive class*/
+	.navbar.responsive {position: relative;}
+	
+	/* Selects links in both navbar and responsive class*/
+	.navbar.responsive a {
+		float: none;
+		display: block;
+	  	text-align: left;
+	  	transition: 0.3s;
+	}
+	
+	/* Selects dropdown in the navbar and responsive class*/
+	.navbar.responsive .dropdown {float: none;}
+	
+	/* Selects dropdown content in the navbar and responsive class*/
+	.navbar.responsive .dropdown-content {position: relative;}
+	
+	/* Selects dropdown button in the navbar and responsive class*/
+	.navbar.responsive .dropdown .dropbtn {
+	  display: block;
+	  width: 100%;
+	  text-align: left;
+	  transition: 0.3s;
+	}
+	
+	/* Selects hamburger class (menu icon)*/
+	.hamburger {
+		cursor: pointer;
+		float: right;
+		transition: 0.3s;
 		position: relative;
+		padding-right: 5px;
+		display: block;
 	}
-	/* position of navbar links change */
-	.navbar a { 
-		float: left;
+	/* CSS for the 3 bars, adding a transition effect as well so when the animation is run there is a smooth transition */
+	.bar1, .bar2, .bar3 {
+		width: 35px;
+		height: 5px;
+		background-color: white;
+		margin: 6px 0;
+		transition: 0.4s;
 	}
-	/* margin is removed from the body */
-	body {
-		margin-left: 0px; 
-	}
+	/* lines 155-157 represent the CSS for the animation, where bars 1 and 3 will move to a 45 degree angle and the middle bar will disappear */
+	.change .bar1 {transform: translate(0, 11px) rotate(-45deg);}
+	.change .bar2 {opacity: 0;}
+	.change .bar3 {transform: translate(0, -11px) rotate(45deg);}
 }
+/* --------------------
+- Lori & Craig Navigation Bar CSS Section End
+-------------------- */
 
 /* --------------------
 - Owner: 	Helen Plesko & Ryan Jeffery
