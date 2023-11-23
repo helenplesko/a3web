@@ -1,9 +1,13 @@
-
-
+:root {
+	--background-a: #fff;
+	--background-b:	#000;
+	--text-a: #637e77;
+	--text-b: #7ea69c;
+}
 
 /* Customization of the site as a whole */
 body {
-	background-color: ;
+	background-color: var(--background-a);
 	font-family: ;
 }
 
