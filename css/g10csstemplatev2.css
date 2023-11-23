@@ -241,6 +241,9 @@ input[type=submit]:hover {
 footer {
 	
 }
+/* from lines 244 to 319 the inspiration for these testimonials were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
+Added by Craig Jurkiewicz */
+
 .testibody{
 display:grid;
 place-items: center;
@@ -292,7 +295,7 @@ height: 75px;
 width: 75px;
 padding: 3px;
 background:maroon;
-
+border-radius: 50%;
 }
 
 
