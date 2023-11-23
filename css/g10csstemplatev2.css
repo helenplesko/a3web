@@ -7,15 +7,15 @@
 
 /* Customization of the site as a whole */
 body {
-	background-color: var(--background-a);
-	font-family: ;
+	background-color: var(--background-a)#f5f5f5;
+	font-family: helvetica, arial, sans-serif;
 }
 
 /*dropdown navbar inspiration: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp*/
 /* Customization of the navigation bar */
 .navbar {
 	overflow: hidden;
-	background-color: black;
+	background-color: #2b3634;
 }
 
 /* Customization of the links in the navigation bar */
@@ -48,13 +48,13 @@ body {
 
 /* Customization of the navigation bar links when mouse hovers over them */
 .navbar a:hover, .dropdown:hover .dropbtn {
-	background-color: blue;
+	background-color: #7ea69c;
 }
 
 /* Customization of the navigation bar dropdown content and creating a transition feautre for dropdown mean to fade into the screen*/
 .dropdown-content {
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: #fdfdfd;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -74,7 +74,7 @@ body {
 
 /* Customization of the navigation bar dropdown text when mouse hovers over them */
 .dropdown-content a:hover{
-	background-color: rgb(142, 142, 143);
+	background-color: #e0e0e0;
 }
 
 /* Shows the dropdown menu on hover and changes the opacity of the dropdown menu to 1*/
@@ -103,52 +103,63 @@ body {
 	}
 }
 
+/* --------------------
+- Owner: 	Helen Plesko & Ryan Jeffery
+- Date:		November 21, 2023
+- Section:	CSS Heading Styles 
+- Colour inspiration from: https://www.colorhexa.com/
+-------------------- */
+
 /* Customization of Header 1 */
-/* This is the site banner text style */
+/* This is the webpage heading text style, level 1 */
 h1 {
-	color: ;
-	text-align: ;
-	font-weight: ;
-	font-size: ;
-	font-family: ;
-	margin-block-start: ;
-	margin-block-end: ;
+	color: #41534f;
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Customization of Header 2 */
-/* This is the webpage heading text style */
+/* This is the webpage subheading text style, level 2 */
 h2 {
-	color: ;
-	text-align: ;
-	font-weight: ;
-	font-size: ;
-	font-family: ;
-	margin-block-start: ;
-	margin-block-end: ;
+	color: #637e77;
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Customization of Header 3 */
-/* This is the webpage subheading text style */
+/* This is another webpage subheading text style, level 3 */
 h3 {
-	color: ;
-	text-align: ;
-	font-weight: ;
-	font-size: ;
-	font-family: ;
-	margin-block-start: ;
-	margin-block-end: ;
+	color: #7ea69c;
+	text-align: left;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Customization of paragraph text */
 p {
-	color: ;
-	text-align: ;
-	font-weight: ;
-	font-size: ;
-	font-family: ;
-	margin-block-start: ;
-	margin-block-end: ;
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
 }
+
+/* --------------------
+- Helen & Ryan Heading Section End
+-------------------- */
 
 /* inspiration for the comment box was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp */
 input[type=text], select, textarea {
@@ -202,49 +213,16 @@ input[type=submit]:hover {
   }
 }
 
-  /* customization of testimonial containers, inspiration taken from w3 schools */
-
-  .testimonial {
-	border: 2px solid #ccc;
-	background-color: #eee;
-	border-radius: 5px;
-	padding: 16px;
-	margin: 16px 0
-  }
-  
-  .testimonial::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  
-  .testimonial img {
-	float: left;
-	margin-right: 20px;
-	border-radius: 50%;
-  }
-  
-  .testimonial span {
-	font-size: 20px;
-	margin-right: 15px;
-  }
-  
-  @media (max-width: 500px) {
-	.testimonial {
-		text-align: center;
-	}
-	.testimonial img {
-		margin: auto;
-		float: none;
-		display: block;
-	}
-}
+ 
   
   
 /* Customization of footer */
 footer {
 	
 }
+/* from lines 244 to 319 the inspiration for these testimonials were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
+Added by Craig Jurkiewicz */
+
 .testibody{
 display:grid;
 place-items: center;
@@ -294,15 +272,13 @@ background: aquamarine;
 .wrapper .box .content .clientimage{
 height: 75px;
 width: 75px;
-padding: 3px;
-background:maroon;
-
+ 
 }
 
 
  .box .content .clientimage img{
-	height: 600px;
-	width: 600px;
+	height: 100%;
+	width: 100%;
 	object-fit: cover;
 	border-radius: 50%;
 	border: 2px solid blueviolet;
