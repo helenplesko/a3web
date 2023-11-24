@@ -48,7 +48,7 @@ header {
 -------------------- */
 
 /* --------------------
-- Owner: 	Helen Plesko & Ryan Jeffery
+- Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
 - Section:	Body CSS 
 - Inspired By:	
@@ -59,16 +59,16 @@ body {
 	font-family: helvetica, arial, sans-serif;
 }
 /* --------------------
-- Helen & Ryan Body CSS Section End
+- Ryan Body CSS Section End
 -------------------- */
 
 /* --------------------
 - Owner: 	Lori Lowy & Craig Jurkiewicz
 - Date:		November 23, 2023
 - Section:	NAVIGATION BAR CSS
-- Inspired By: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
-               https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
-			   https://www.w3schools.com/howto/howto_css_menu_icon.asp
+- Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+               	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+		https://www.w3schools.com/howto/howto_css_menu_icon.asp
 -------------------- */
 /* Customization of the navigation bar */
 .navbar {
@@ -151,8 +151,8 @@ body {
 }
 
 /* Responsive Design for the navigation bar */
-@media screen and (max-width: 600px) {
-	/* Selects navbar links an the drop btn class in dropdown class */
+@media screen and (max-width: 925px) {
+	/* Selects navbar links and the drop btn class in dropdown class */
 	.navbar a, .dropdown .dropbtn {
     	display: none;
 		transition: 0.3s;
@@ -297,7 +297,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-/* Creating the columns that float beside each otehr */
+/* Creating the columns that float beside each other */
 .column {
   float: left;
   width: 50%;
@@ -323,9 +323,14 @@ input[type=submit]:hover {
  
   
   
-
-/* from lines 244 to 319 the inspiration for these testimonials were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
-Added by Craig Jurkiewicz */
+/* --------------------
+- Owner: 	Craig Jurkiewicz 
+- Date:		November 23, 2023
+- Section:	Testimonials
+- Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
+-------------------- */
+/*  creating divs to hold the content of the testimonials   were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
+  */
 
 .testibody{
 display:grid;
@@ -369,10 +374,7 @@ background: aquamarine;
 	margin-top:2px;
 }
 
-.box .info .stars i{
-
-	color: #262626;
-}
+/* Customizing the content in the boxes of the clients images*/ 
 .wrapper .box .content .clientimage{
 height: 75px;
 width: 75px;
@@ -387,7 +389,7 @@ width: 75px;
 	border-radius: 50%;
 	border: 2px solid blueviolet;
 }
-
+/* responsive design for the testimonial boxes to go from a row format to a column format when screen size is changed CJ */
 @media (max-width: 600px){
 .wrapper .box{
 width: calc(50% -10px);
@@ -407,20 +409,24 @@ margin: 10px 0;
 - Date:		November 23, 2023
 - Section:	FOOTER CSS 
 - Inspired By:	https://www.evarigisconsulting.com/
-		https://www.w3schools.com/html/html_layout.asp
+				https://www.w3schools.com/html/html_layout.asp
+				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+				https://programmersportal.com/how-to-center-social-media-icons-using-css/
 -------------------- */
 
-/* Customization of footer */
+/* Customization of footer background */
 .footer {
 	position: static;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background-color: #2b3634;
+	padding-bottom: 10px;
 }
 
+/* Customization of footer paragraph text */
 .footer p {
-	color: #cfcfcf;
+	color: #FFF;
 	text-align: center;
 	font-weight: normal;
 	font-size: 13px;
@@ -428,6 +434,7 @@ margin: 10px 0;
 	padding-bottom: 10px;
 }
 
+/* Customization of footer address info */
 .footer address {
 	color: #cfcfcf;
 	text-align: center;
@@ -435,6 +442,46 @@ margin: 10px 0;
 	font-size: 13px;
 	font-family: helvetica, arial, sans-serif;
 	padding-top: 10px;
+}
+
+/* Customization of all footer social media icons */
+.fa {
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	width: 15px;
+	transition: .3s ease-in-out;
+}
+
+/* Customization of footer social media icon hover - makes icon semi-transparent when user hovers over it */
+.fa:hover {
+    opacity: 0.5;
+}
+
+/* Customization of footer Facebook icon */
+.fa-facebook {
+	background: #3B5998;
+	color: #FFF;
+}
+
+/* Customization of footer Twitter icon */
+.fa-twitter {
+	background: #55ACEE;
+	color: #FFF;
+}
+
+/* Customization of footer Instagram icon */
+.fa-instagram {
+	background: #125688;
+	color: #FFF;
+}
+
+.centericon {
+	display: flex;
+    column-gap: 10px;
+    justify-content: center;
 }
 
 /* --------------------
