@@ -27,6 +27,11 @@
 	--dmode-button-background-dark: #0a0a0a;
 }
 
+/* Ryan testing global transition */
+* {
+    transition: background-color 5.3s ease, color 5.3s ease;
+}
+
 /* --------------------
 - Ryan Variable Section End
 -------------------- */
