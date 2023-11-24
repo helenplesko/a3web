@@ -6,10 +6,22 @@
 -------------------- */
 /* Variables for certain styles to assist JS nightmode function and make it easier to change the look of the site */
 :root {
-	--background-a: #fff;
-	--background-b:	#000;
-	--text-a: #637e77;
-	--text-b: #7ea69c;
+	/*color variables*/
+	--background-color-light: #ffffff;
+	--header-background: #f5f5f5;
+	--navbar-color: #2b3634;
+	--h1-color: #41534f;
+	--h2-color: #637e77;
+	--h3-color: #7ea69c;
+	--p-color: #000000;
+	/*color variables for dark mode*/
+	--background-color-dark: #39403d;
+	--header-background-dark: #14191a;
+	--navbar-color-dark: #1f2726;
+	--h1-color-dark: #7ea69c;
+	--h2-color-dark: #637e77;
+	--h3-color-dark: #667672;
+	--p-color-dark: #f5f5f5;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -22,7 +34,7 @@
 -------------------- */
 /* Customization of the header of the website */
 header {
-	background-color: white;
+	background-color: var(--header-background);
 	padding: 5px;
 	margin-bottom: 5px;
 	justify-content: space-between;
@@ -55,7 +67,7 @@ header {
 -------------------- */
 /* Customization of the site as a whole */
 body {
-	background-color: var(--background-a)#f5f5f5;
+	background-color: var(--background-color-light);
 	font-family: helvetica, arial, sans-serif;
 }
 /* --------------------
@@ -73,7 +85,7 @@ body {
 /* Customization of the navigation bar */
 .navbar {
 	overflow: hidden;
-	background-color: #2b3634;
+	background-color: var(--navbar-color);
 	transition: .3s ease-in-out;
 }
 
@@ -217,7 +229,7 @@ body {
 -------------------- */
 /* Customization of Header 1 */
 h1 {
-	color: #41534f;
+	color: var(--h1-color);
 	text-align: left;
 	font-weight: bold;
 	font-size: 30px;
@@ -228,7 +240,7 @@ h1 {
 
 /* Customization of Header 2 */
 h2 {
-	color: #637e77;
+	color: var(--h2-color);
 	text-align: left;
 	font-weight: bold;
 	font-size: 25px;
@@ -239,7 +251,7 @@ h2 {
 
 /* Customization of Header 3 */
 h3 {
-	color: #7ea69c;
+	color: var(--h3-color);
 	text-align: left;
 	font-weight: normal;
 	font-size: 20px;
@@ -250,7 +262,7 @@ h3 {
 
 /* Customization of paragraph text */
 p {
-	color: #000;
+	color: var(--p-color);
 	text-align: left;
 	font-weight: normal;
 	font-size: 15px;
@@ -293,7 +305,7 @@ input[type=submit]:hover {
 /* Styling the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: var(--background-color-light);
   padding: 10px;
 }
 
@@ -420,7 +432,7 @@ margin: 10px 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #2b3634;
+	background-color: var(--navbar-color);
 	padding-bottom: 10px;
 }
 
@@ -495,26 +507,40 @@ margin: 10px 0;
 -------------------- */
 /* Customization of Dark Mode */
 
+.DarkMode {
+	--background-color-light: var(--background-color-dark);
+	--header-background: var(--header-background-dark);
+	--navbar-color: var(--navbar-color-dark);
+	--h1-color: var(--h1-color-dark);
+	--h2-color: var(--h2-color-dark);
+	--h3-color: var(--h3-color-dark);
+	--p-color: var(--p-color-dark);
+}
+
+/*  REMOVE(when no longer needed as reference)
+	Previous .darkmode class:
 .DarkMode{
 	background-color:#39403d;
 	color: white;
 }
 
-.DarkMode h1{
+.DarkMode h1 {
 	color: #7ea69c;
 }
 
-.DarkMode h2{
+.DarkMode h2 {
 	color: #637e77;
 }
 
-.DarkMode h3{
+.DarkMode h3 {
 	color: #667672;
 }
 
 .DarkMode p{
 	color: white;
 }
+end of commented code to be removed*/
+
 /* --------------------
 - Ryan and Lilit Dark Mode Section End
 -------------------- */
