@@ -74,7 +74,7 @@ function showStateProvince() {
   }
 }
 
-function DarkMode() {
+function darkMode() {
   var element = document.body;
-  element.classList.toggle("DarkMode");
+  element.classList.toggle("dark-mode");
 }
