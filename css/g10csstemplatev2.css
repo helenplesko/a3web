@@ -14,6 +14,38 @@
 /* --------------------
 - Ryan Variable Section End
 -------------------- */
+/* --------------------
+- Owner: 	Lilit Markarian
+- Date:		November 23, 2023
+- Section:	Header
+- Inspired By:	
+-------------------- */
+/* Customization of the header of the website */
+header {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+	justify-content: space-between;
+	border-radius: 15px;
+}
+/* --------------------
+- Lilit header Section End
+-------------------- */
+/* --------------------
+- Owner: 	Lilit Markarian
+- Date:		November 23, 2023
+- Section:	Logo
+- Inspired By:	
+-------------------- */
+/* Customization of the banner (Logo) of the website */
+.logo{
+	width: 195px;
+	height: 111px;
+	margin: 0;
+}
+/* --------------------
+- Lilit Logo Section End
+-------------------- */
 
 /* --------------------
 - Owner: 	Ryan Jeffery
@@ -414,8 +446,9 @@ width: 75px;
 - Date:		November 23, 2023
 - Section:	FOOTER CSS 
 - Inspired By:	https://www.evarigisconsulting.com/
-		https://www.w3schools.com/html/html_layout.asp
-		https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+				https://www.w3schools.com/html/html_layout.asp
+				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+				https://programmersportal.com/how-to-center-social-media-icons-using-css/
 -------------------- */
 
 /* Customization of footer background */
@@ -425,6 +458,7 @@ width: 75px;
 	left: 0;
 	right: 0;
 	background-color: #2b3634;
+	padding-bottom: 10px;
 }
 
 /* Customization of footer paragraph text */
@@ -454,7 +488,7 @@ width: 75px;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
-	width: 18px;
+	width: 15px;
 	transition: .3s ease-in-out;
 }
 
@@ -481,6 +515,43 @@ width: 75px;
 	color: #FFF;
 }
 
+.centericon {
+	display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
 /* --------------------
 - Helen Footer Section End
+-------------------- */
+/* --------------------
+- Owner: 	Ryan and Lilit
+- Date:		November 23, 2023
+- Section:	Toggle Dark mode
+- Inspired By:	https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+-------------------- */
+/* Customization of Dark Mode */
+
+.DarkMode{
+	background-color:#39403d;
+	color: white;
+}
+
+.DarkMode h1{
+	color: #7ea69c;
+}
+
+.DarkMode h2{
+	color: #637e77;
+}
+
+.DarkMode h3{
+	color: #667672;
+}
+
+.DarkMode p{
+	color: white;
+}
+/* --------------------
+- Ryan and Lilit Dark Mode Section End
 -------------------- */
