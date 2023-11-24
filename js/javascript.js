@@ -1,5 +1,5 @@
 /* Responsive Navigation Bar by Lori & Craig */
-function myFunctions(y) {
+function responsiveNav(y) {
   y.classList.toggle("change");
   let x = document.getElementById("myNav");
   if (x.className === "navbar") {
