@@ -16,7 +16,7 @@
 -------------------- */
 
 /* --------------------
-- Owner: 	Helen Plesko & Ryan Jeffery
+- Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
 - Section:	Body CSS 
 - Inspired By:	
@@ -27,16 +27,16 @@ body {
 	font-family: helvetica, arial, sans-serif;
 }
 /* --------------------
-- Helen & Ryan Body CSS Section End
+- Ryan Body CSS Section End
 -------------------- */
 
 /* --------------------
 - Owner: 	Lori Lowy & Craig Jurkiewicz
 - Date:		November 23, 2023
 - Section:	NAVIGATION BAR CSS
-- Inspired By: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
-               https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
-			   https://www.w3schools.com/howto/howto_css_menu_icon.asp
+- Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+               	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+		https://www.w3schools.com/howto/howto_css_menu_icon.asp
 -------------------- */
 /* Customization of the navigation bar */
 .navbar {
@@ -120,7 +120,7 @@ body {
 
 /* Responsive Design for the navigation bar */
 @media screen and (max-width: 925px) {
-	/* Selects navbar links an the drop btn class in dropdown class */
+	/* Selects navbar links and the drop btn class in dropdown class */
 	.navbar a, .dropdown .dropbtn {
     	display: none;
 		transition: 0.3s;
@@ -265,7 +265,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-/* Creating the columns that float beside each otehr */
+/* Creating the columns that float beside each other */
 .column {
   float: left;
   width: 50%;
@@ -343,6 +343,7 @@ background: aquamarine;
   /* having the name div inside the info and box have a font weight and size */
   .box .info .name{
 	font-weight: 600;
+<<<<<<< HEAD
 	font-size: 17px;
   }
    /* having the font size of the job information inside the .info and .box divs */
@@ -369,6 +370,22 @@ background: aquamarine;
   }
   /* css for the image itself, having a smaller border around the image to create a layering effect */
   .content .clientimage img{
+=======
+}
+.wrapper .box .info .stars{
+	margin-top:2px;
+}
+
+/* Customizing the content in the boxes of the clients images*/ 
+.wrapper .box .content .clientimage{
+height: 75px;
+width: 75px;
+ 
+}
+
+
+ .box .content .clientimage img{
+>>>>>>> 92b68b45af4c20564cf558b6124e80864375f7fd
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
