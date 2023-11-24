@@ -101,6 +101,7 @@ body {
 	overflow: hidden;
 	background-color: var(--navbar-color);
 	transition: .3s ease-in-out;
+	border-radius: 15px;
 }
 
 /* Customization of the links in the navigation bar */
@@ -477,6 +478,7 @@ input[type=submit]:hover {
 	right: 0;
 	background-color: var(--navbar-color);
 	padding-bottom: 10px;
+	border-radius: 15px;
 }
 
 /* Customization of footer paragraph text */
