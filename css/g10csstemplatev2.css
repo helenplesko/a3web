@@ -14,6 +14,38 @@
 /* --------------------
 - Ryan Variable Section End
 -------------------- */
+/* --------------------
+- Owner: 	Lilit Markarian
+- Date:		November 23, 2023
+- Section:	Header
+- Inspired By:	
+-------------------- */
+/* Customization of the header of the website */
+header {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+	justify-content: space-between;
+	border-radius: 15px;
+}
+/* --------------------
+- Lilit header Section End
+-------------------- */
+/* --------------------
+- Owner: 	Lilit Markarian
+- Date:		November 23, 2023
+- Section:	Logo
+- Inspired By:	
+-------------------- */
+/* Customization of the banner (Logo) of the website */
+.logo{
+	width: 195px;
+	height: 111px;
+	margin: 0;
+}
+/* --------------------
+- Lilit Logo Section End
+-------------------- */
 
 /* --------------------
 - Owner: 	Helen Plesko & Ryan Jeffery
@@ -407,4 +439,35 @@ margin: 10px 0;
 
 /* --------------------
 - Helen Footer Section End
+-------------------- */
+/* --------------------
+- Owner: 	Ryan and Lilit
+- Date:		November 23, 2023
+- Section:	Toggle Dark mode
+- Inspired By:	https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+-------------------- */
+/* Customization of Dark Mode */
+
+.DarkMode{
+	background-color:#39403d;
+	color: white;
+}
+
+.DarkMode h1{
+	color: #7ea69c;
+}
+
+.DarkMode h2{
+	color: #637e77;
+}
+
+.DarkMode h3{
+	color: #667672;
+}
+
+.DarkMode p{
+	color: white;
+}
+/* --------------------
+- Ryan and Lilit Dark Mode Section End
 -------------------- */

@@ -73,3 +73,8 @@ function showStateProvince() {
     stateDropdown.style.display = "none";
   }
 }
+
+function DarkMode() {
+  var element = document.body;
+  element.classList.toggle("DarkMode");
+}
