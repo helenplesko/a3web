@@ -281,7 +281,7 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -291,9 +291,14 @@ input[type=submit]:hover {
  
   
   
-
-/* from lines 244 to 319 the inspiration for these testimonials were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
-Added by Craig Jurkiewicz */
+/* --------------------
+- Owner: 	Craig Jurkiewicz 
+- Date:		November 23, 2023
+- Section:	Testimonials
+- Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
+-------------------- */
+/*  creating divs to hold the content of the testimonials   were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
+  */
 
 .testibody{
 display:grid;
@@ -336,11 +341,7 @@ background: aquamarine;
 .wrapper .box .info .stars{
 	margin-top:2px;
 }
-
-.box .info .stars i{
-
-	color: #262626;
-}
+/* customizing the content in the boxes of the clients iamges*/ 
 .wrapper .box .content .clientimage{
 height: 75px;
 width: 75px;
@@ -355,7 +356,7 @@ width: 75px;
 	border-radius: 50%;
 	border: 2px solid blueviolet;
 }
-
+/* responsive design for the testimonial boxes to go from a row format to a column format when screen size is changed CJ */
 @media (max-width: 600px){
 .wrapper .box{
 width: calc(50% -10px);
