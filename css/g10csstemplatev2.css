@@ -2,7 +2,6 @@
 - Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
 - Section:	CSS Variables 
-- Inspired By:	
 -------------------- */
 /* Variables for certain styles to assist JS nightmode function and make it easier to change the look of the site */
 :root {
@@ -31,11 +30,11 @@
 /* --------------------
 - Ryan Variable Section End
 -------------------- */
+
 /* --------------------
 - Owner: 	Lilit Markarian
 - Date:		November 23, 2023
 - Section:	Header
-- Inspired By:	
 -------------------- */
 /* Customization of the header of the website */
 header {
@@ -46,15 +45,14 @@ header {
 	border-radius: 15px;
 }
 /* --------------------
-- Lilit header Section End
+- Lilit Header Section End
 -------------------- */
 /* --------------------
 - Owner: 	Lilit Markarian
 - Date:		November 23, 2023
 - Section:	Logo
-- Inspired By:	
 -------------------- */
-/* Customization of the banner (Logo) of the website */
+/* Customization of the logo of the website */
 .logo{
 	width: 195px;
 	height: 111px;
@@ -68,7 +66,6 @@ header {
 - Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
 - Section:	Body CSS 
-- Inspired By:	
 -------------------- */
 /* Customization of the site as a whole */
 body {
@@ -209,6 +206,7 @@ body {
 		padding-right: 5px;
 		display: block;
 	}
+	
 	/* CSS for the 3 bars, adding a transition effect as well so when the animation is run there is a smooth transition */
 	.bar1, .bar2, .bar3 {
 		width: 35px;
@@ -217,7 +215,8 @@ body {
 		margin: 6px 0;
 		transition: 0.4s;
 	}
-	/* lines 155-157 represent the CSS for the animation, where bars 1 and 3 will move to a 45 degree angle and the middle bar will disappear */
+	
+	/* Animation, where bars 1 and 3 will move to a 45 degree angle and the middle bar will disappear */
 	.change .bar1 {transform: translate(0, 11px) rotate(-45deg);}
 	.change .bar2 {opacity: 0;}
 	.change .bar3 {transform: translate(0, -11px) rotate(45deg);}
@@ -282,10 +281,10 @@ p {
 /* --------------------
 - Owner: 	Craig Jurkiewicz
 - Date:		November 23, 2023
-- Section:	Comment Box CSS
-- Inspired By: 
+- Section:	Comment Box CSS (in progress)
+- Inspired By: 	https://www.w3schools.com/howto/howto_css_contact_section.asp
 -------------------- */
-/* inspiration for the comment box was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp, comment box not finished, still making adjustments as of November 23rd 2023 */
+/* Customization of comment box (in progress) */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -295,6 +294,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+/* Customization submit button and cursor when hovered over the button */
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -303,6 +303,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
+/* Customization of hover over submit link */
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -336,9 +337,8 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
-
  /* --------------------
-- Craig comment box  Styles Section End
+- Craig Comment Box Section End
 -------------------- */
   
   
@@ -351,7 +351,7 @@ input[type=submit]:hover {
 /*  creating divs to hold the content of the testimonials   were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
   */
  
-/* insipiration for the industiries page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
+/* insipiration for the testimonials page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
 /* first div that encompasses all the boxes */ 
 /* insipiration for the industiries page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
 /* first div that encompasses all the boxes */ 
@@ -364,6 +364,7 @@ input[type=submit]:hover {
 	align-items: center;
 	justify-content: space-between;
   }
+
   /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
   .wrapper .box{
 	background: #fff;
@@ -372,11 +373,13 @@ input[type=submit]:hover {
 	border-radius: 3px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
   }
+
   /* adjusting the size of the quotes that are stacked inside the two div's */ 
   .wrapper .box i.quote{
 	font-size: 15px;
 	color: black;
   }
+
   /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
   .wrapper .box .content{
 	display: flex;
@@ -385,25 +388,30 @@ input[type=submit]:hover {
 	justify-content: space-between;
 	padding-top: 10px;
   }
+
   /* having the name div inside the info and box have a font weight and size */
   .box .info .name{
 	font-weight: 600;
 	font-size: 17px;
   }
+
    /* having the font size of the job information inside the .info and .box divs */
   .box .info .job{
 	font-size: 16px;
 	font-weight: 500;
 	color: green;
   }
+
   /* creaing a margin for the .stars class inside the .box .info */
   .box .info .stars{
 	margin-top: 2px;
   }
+
   /* color for the stars inside the div's */
   .box .info .stars i{
 	color: #4fb817;
   }
+
   /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
   .box .content .clientimage{
 	height: 75px;
@@ -412,6 +420,7 @@ input[type=submit]:hover {
 	background: #5de143;
 	border-radius: 86%;
   }
+
   /* css for the image itself, having a smaller border around the image to create a layering effect */
   .content .clientimage img{
 	height: 100%;
@@ -420,6 +429,7 @@ input[type=submit]:hover {
 	border-radius: 75%;
 	border: 2px solid rgb(48, 98, 3);
   }
+
    /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
   @media (max-width: 600px) {
 	.wrapper .box{
@@ -427,16 +437,17 @@ input[type=submit]:hover {
 	  margin: 10px 0;
 	}
   }
+
    /* changes the width to 100% when the width of 702 pixels is met*/
   @media (max-width: 702px) {
 	.wrapper .box{
 	  width: 100%;
 	}
   }
-
 /* --------------------
 - Craig Testimonials Styles Section End
 -------------------- */
+
 /* --------------------
 - Owner: 	Helen Plesko
 - Date:		November 23, 2023
@@ -446,7 +457,6 @@ input[type=submit]:hover {
 				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
 				https://programmersportal.com/how-to-center-social-media-icons-using-css/
 -------------------- */
-
 /* Customization of footer background */
 .footer {
 	position: static;
@@ -511,23 +521,23 @@ input[type=submit]:hover {
 	color: #FFF;
 }
 
+/* Centers the icon on the webpage */
 .centericon {
 	display: flex;
-    column-gap: 10px;
-    justify-content: center;
+    	column-gap: 10px;
+    	justify-content: center;
 }
-
 /* --------------------
 - Helen Footer Section End
 -------------------- */
+
 /* --------------------
 - Owner: 	Ryan and Lilit
 - Date:		November 23, 2023
-- Section:	Toggle Dark mode
+- Section:	Toggle Dark Mode
 - Inspired By:	https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
 -------------------- */
 /* Customization of Dark Mode */
-
 .dark-mode {
 	--background-color-light: var(--background-color-dark);
 	--header-background: var(--header-background-dark);
