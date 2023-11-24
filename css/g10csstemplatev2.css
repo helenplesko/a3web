@@ -101,6 +101,7 @@ body {
 	overflow: hidden;
 	background-color: var(--navbar-color);
 	transition: .3s ease-in-out;
+	border-radius: 15px;
 }
 
 /* Customization of the links in the navigation bar */
