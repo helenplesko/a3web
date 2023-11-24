@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<!-- Title of our website, to appear in page tab -->
+	<title>Layer Larks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- External link to stylesheet -->
+	<link rel="stylesheet" href="./css/g10csstemplatev2.css">
+	<!-- External link to social media button library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
+<!-- --------------------
+- Owner: 	Lilit 
+- Date:		November 23, 2023
+- Section:	Header Logo
+- Inspired By: 
+- Created on: Canva
+-------------------- -->
+<!-- SITE BANNER -->
+<!-- This banner will appear on every page of our website -->
+<header>
+	<a href = "index.html">
+		<div class="logo">
+			<img src= "images/LogoLayerLarks.png" alt="logo">
+		</div>
+	</a>
+<!-- This is the Toggle button for Dark Mode-->
+	<button onclick="DarkMode()">Dark Mode</button>
+</header>
+<!-- --------------------
+- Lilit Header Logo Section End
+-------------------- -->
+
+<!-- --------------------
+- Owner: 	Lori Lowy & Craig Jurkiewicz
+- Date:		November 23, 2023
+- Section:	NAVIGATION BAR
+- Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+               	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+		https://www.w3schools.com/howto/howto_css_menu_icon.asp
+-------------------- -->
+<body>
+<!-- This NavBar will appear on every page of our website -->
+<!-- The NavBar will adjust itself using responsive design depending on the user's device -->
+<div class="navbar" id="myNav">
+	<!-- creating a div to store the hamburger menu icon with a function that run when the user clicks the icon CJ-->
+	<div class="hamburger" onclick="myFunctions(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	  </div>
+	<a href="index.html" class="active">Home</a>  <!--indicates currently active page-->
+	<a href="team.html">Meet the Team</a>
+	<div class="dropdown">
+		<button class="dropbtn">Industries
+		</button>
+		<div class="dropdown-content">
+			<a href="Industries.html">Industries Overview</a>
+			<a href="environmentalindustry.html">Environmental Industries</a>
+			<a href="healthindustry.html">Health Industries</a>
+			<a href="remotesensingindustry.html">Remote Sensing Industries</a>
+		</div> 
+	</div>
+	<a href="media.html">In the Media</a>
+	<a href="clienttestimonials.html">Client Testimonials</a>
+	<a href="careers.html">Careers</a>
+	<a href="contact.html">Contact</a>
+</div>
+
+<!-- JS script for hamburger menu animation and responsive navbar -->
+<script src="js/javascript.js"></script>
+
+<!-- --------------------
+- Lori & Craig Navigation Bar Section End
+-------------------- -->
+<!--creating several divs to hold each of the testimonial information, statements, pictures etc-->
+<div class="wrapper">
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>LayerLarks were an amazing addition to our project!  They were fast, efficient and had amazing customer support.  Whenever one of our team members had a question about their process they would explain their workflow in detail until we were all on the same page.  I will definitly be hiring them again for any future projects! </p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Forrest Gump</div>
+          <div class="job">Project Manager | Bubba Gump Industries</div>
+          <!--div to hold the stars taken from the CDN and font awesome -->
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="clientimage">
+          <img src="images/client1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <!-- class to hold the left quotation taken from the CDN referenced above and font awesome library-->
+      <i class="fas fa-quote-left quote"></i>
+      <p>Our team here at Earth Middle enterprises had an amazing experiencing hiring out LayerLarks to work on our projects.  The team was knowledgable, experienced and overall very well rounded.  If a problem came up they didn't know how to solve off hand, you can be certain they'll have an answer with seveeral examples at the ready within 24 hours.  Will definitly be hiring them out again for any future GIS work our company needs</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Fangorn of the Ents</div>
+          <div class="job">Supervisor at Earth Middle Insustries</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="clientimage">
+          <img src="images/client2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  
+    <div class="box">
+      <i class="fas fa-quote-left  quote"></i>
+      <p> Working with LayerLarks was just a pleasure in terms of management and workload.  They were clear on setting boundries on what could and could not be completed with our alotted time frame, kept meticilous up to date records on all of their work (including glorious metadata on their datafiles).  An all around pleasent expereince and I would be more than happy to reccomend them to any other companies looking to get som eGIS work done for them.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Pamela Isley</div>
+          <div class="job">Project Team Lead at Gotham Botanical</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="clientimage">
+          <img src="images/client4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+       <!--need to add/create info for this last box-->
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>LayerLarks were an amazing addition to our project!  They were fast, efficient and had amazing customer support.  Whenever one of our team members had a question about their process they would explain their workflow in detail until we were all on the same page.  I will definitly be hiring them again for any future projects! </p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Forrest Gump</div>
+          <div class="job">Project Manager | Lead Supervisor</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="clientimage">
+          <img src="images/client3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+ 
+</body>
+ 

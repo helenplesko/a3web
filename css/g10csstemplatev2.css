@@ -280,7 +280,7 @@ p {
 - Section:	Comment Box CSS
 - Inspired By: 
 -------------------- */
-/* inspiration for the comment box was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp */
+/* inspiration for the comment box was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp, comment box not finished, still making adjustments as of November 23rd 2023 */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -332,7 +332,9 @@ input[type=submit]:hover {
   }
 }
 
- 
+ /* --------------------
+- Craig comment box  Styles Section End
+-------------------- */
   
   
 /* --------------------
@@ -343,79 +345,93 @@ input[type=submit]:hover {
 -------------------- */
 /*  creating divs to hold the content of the testimonials   were taken from https://www.youtube.com/watch?v=-XX6MgbzQa8 
   */
-
-.testibody{
-display:grid;
-place-items: center;
-height:100%;
-background: aquamarine;
-}
+ 
+/* insipiration for the industiries page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
+/* first div that encompasses all the boxes */ 
+/* insipiration for the industiries page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
+/* first div that encompasses all the boxes */ 
 .wrapper{
-	max-width: 120px;
+	max-width: 1200px;
+	margin: auto;
 	padding: 0 20px;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.wrapper .box{
-	background: greenyellow;
-	border-radius: 3px;
+  }
+  /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
+  .wrapper .box{
+	background: #fff;
+	width: calc(33% - 10px);
 	padding: 25px;
-	width: calc(33% - 10px)
-}
-.wrapper .box i.quote{
-	font-size: 20px;
+	border-radius: 3px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  }
+  /* adjusting the size of the quotes that are stacked inside the two div's */ 
+  .wrapper .box i.quote{
+	font-size: 15px;
 	color: black;
-}
-.wrapper .box .content{
-	font-size: 10px;
-	 color:yellow;
-	 display: flex;
-	 align-items: center;
+  }
+  /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
+  .wrapper .box .content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 	justify-content: space-between;
 	padding-top: 10px;
-}
-.box .info .name{
-	font-size: 16px;
-	color:purple;
+  }
+  /* having the name div inside the info and box have a font weight and size */
+  .box .info .name{
 	font-weight: 600;
-}
-.wrapper .box .info .stars{
-	margin-top:2px;
-}
-
-/* Customizing the content in the boxes of the clients images*/ 
-.wrapper .box .content .clientimage{
-height: 75px;
-width: 75px;
- 
-}
-
-
- .box .content .clientimage img{
+	font-size: 17px;
+  }
+   /* having the font size of the job information inside the .info and .box divs */
+  .box .info .job{
+	font-size: 16px;
+	font-weight: 500;
+	color: green;
+  }
+  /* creaing a margin for the .stars class inside the .box .info */
+  .box .info .stars{
+	margin-top: 2px;
+  }
+  /* color for the stars inside the div's */
+  .box .info .stars i{
+	color: #4fb817;
+  }
+  /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
+  .box .content .clientimage{
+	height: 75px;
+	width: 75px;
+	padding: 3px;
+	background: #5de143;
+	border-radius: 86%;
+  }
+  /* css for the image itself, having a smaller border around the image to create a layering effect */
+  .content .clientimage img{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 50%;
-	border: 2px solid blueviolet;
-}
-/* responsive design for the testimonial boxes to go from a row format to a column format when screen size is changed CJ */
-@media (max-width: 600px){
-.wrapper .box{
-width: calc(50% -10px);
-margin: 10px 0; 
-}
-}
-@media (max-width: 600px){
+	border-radius: 75%;
+	border: 2px solid rgb(48, 98, 3);
+  }
+   /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
+  @media (max-width: 600px) {
 	.wrapper .box{
-	width: 100%;
-	margin: 10px 0; 
+	  width: calc(50% - 10px);
+	  margin: 10px 0;
 	}
-}
+  }
+   /* changes the width to 100% when the width of 702 pixels is met*/
+  @media (max-width: 702px) {
+	.wrapper .box{
+	  width: 100%;
+	}
+  }
 
-
+/* --------------------
+- Craig Testimonials Styles Section End
+-------------------- */
 /* --------------------
 - Owner: 	Helen Plesko
 - Date:		November 23, 2023
