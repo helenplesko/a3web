@@ -8,8 +8,6 @@ function myFunctions(y) {
     x.className = "navbar";
   }
 }
-<<<<<<< HEAD
-=======
 
 /*Java funciton that adds in the provinces/states tp the box when the user selects USA Canada or Australia */
 function showStateProvince() {
@@ -80,4 +78,3 @@ function DarkMode() {
   var element = document.body;
   element.classList.toggle("DarkMode");
 }
->>>>>>> 70d95e5633f5946de557c3a9e7c85c213a4b75f7
