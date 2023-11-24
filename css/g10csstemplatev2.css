@@ -377,9 +377,10 @@ margin: 10px 0;
 - Section:	FOOTER CSS 
 - Inspired By:	https://www.evarigisconsulting.com/
 		https://www.w3schools.com/html/html_layout.asp
+		https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
 -------------------- */
 
-/* Customization of footer */
+/* Customization of footer background */
 .footer {
 	position: static;
 	bottom: 0;
@@ -388,8 +389,9 @@ margin: 10px 0;
 	background-color: #2b3634;
 }
 
+/* Customization of footer paragraph text */
 .footer p {
-	color: #cfcfcf;
+	color: #FFF;
 	text-align: center;
 	font-weight: normal;
 	font-size: 13px;
@@ -397,6 +399,7 @@ margin: 10px 0;
 	padding-bottom: 10px;
 }
 
+/* Customization of footer address info */
 .footer address {
 	color: #cfcfcf;
 	text-align: center;
@@ -404,6 +407,40 @@ margin: 10px 0;
 	font-size: 13px;
 	font-family: helvetica, arial, sans-serif;
 	padding-top: 10px;
+}
+
+/* Customization of all footer social media icons */
+.fa {
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	width: 18px;
+	transition: .3s ease-in-out;
+}
+
+/* Customization of footer social media icon hover - makes icon semi-transparent when user hovers over it */
+.fa:hover {
+    opacity: 0.5;
+}
+
+/* Customization of footer Facebook icon */
+.fa-facebook {
+	background: #3B5998;
+	color: #FFF;
+}
+
+/* Customization of footer Twitter icon */
+.fa-twitter {
+	background: #55ACEE;
+	color: #FFF;
+}
+
+/* Customization of footer Instagram icon */
+.fa-instagram {
+	background: #125688;
+	color: #FFF;
 }
 
 /* --------------------
