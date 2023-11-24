@@ -14,6 +14,8 @@
 	--h2-color: #637e77;
 	--h3-color: #7ea69c;
 	--p-color: #000000;
+	--dmode-button-text-color: #fff;
+	--dmode-button-background: #2b3634;
 	/*color variables for dark mode*/
 	--background-color-dark: #39403d;
 	--header-background-dark: #14191a;
@@ -22,6 +24,21 @@
 	--h2-color-dark: #637e77;
 	--h3-color-dark: #667672;
 	--p-color-dark: #f5f5f5;
+	--dmode-button-text-color-dark: #ebee22;
+	--dmode-button-background-dark: #0a0a0a;
+}
+
+#dark-mode-button {
+	border: none;
+	border-radius: 4px;
+	height: 38px;
+	width: 100px;
+	background: var(--dmode-button-background);
+	color: var(--dmode-button-text-color);
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-weight: 600;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -531,6 +548,8 @@ input[type=submit]:hover {
 	--h2-color: var(--h2-color-dark);
 	--h3-color: var(--h3-color-dark);
 	--p-color: var(--p-color-dark);
+	--dmode-button-text-color: var(--dmode-button-text-color-dark);
+	--dmode-button-background: var(--dmode-button-background-dark)
 }
 
 /* --------------------
