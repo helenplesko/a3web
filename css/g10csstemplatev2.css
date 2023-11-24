@@ -342,6 +342,8 @@ background: aquamarine;
 }
 /* insipiration for the industiries page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
 /* first div that encompasses all the boxes */ 
+/* insipiration for the industiries page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
+/* first div that encompasses all the boxes */ 
 .wrapper{
 	max-width: 1200px;
 	margin: auto;
@@ -375,7 +377,6 @@ background: aquamarine;
   /* having the name div inside the info and box have a font weight and size */
   .box .info .name{
 	font-weight: 600;
-<<<<<<< HEAD
 	font-size: 17px;
   }
    /* having the font size of the job information inside the .info and .box divs */
@@ -402,22 +403,6 @@ background: aquamarine;
   }
   /* css for the image itself, having a smaller border around the image to create a layering effect */
   .content .clientimage img{
-=======
-}
-.wrapper .box .info .stars{
-	margin-top:2px;
-}
-
-/* Customizing the content in the boxes of the clients images*/ 
-.wrapper .box .content .clientimage{
-height: 75px;
-width: 75px;
- 
-}
-
-
- .box .content .clientimage img{
->>>>>>> 92b68b45af4c20564cf558b6124e80864375f7fd
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
