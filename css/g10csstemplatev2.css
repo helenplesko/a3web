@@ -1,11 +1,11 @@
 /* --------------------
 - Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
-- Section:	CSS Variables 
+- Section:	CSS COLOUR VARIABLES
 -------------------- */
-/* Variables for certain styles to assist JS nightmode function and make it easier to change the look of the site */
+/* Colour variables to assist JS light/dark mode function */
 :root {
-	/*color variables*/
+	/* Color Variables */
 	--background-color-light: #ffffff;
 	--header-background: #f5f5f5;
 	--navbar-color: #2b3634;
@@ -15,7 +15,7 @@
 	--p-color: #000000;
 	--dmode-button-text-color: #fff;
 	--dmode-button-background: #2b3634;
-	/*color variables for dark mode*/
+	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #14191a;
 	--navbar-color-dark: #1f2726;
@@ -26,7 +26,6 @@
 	--dmode-button-text-color-dark: #ebee22;
 	--dmode-button-background-dark: #0a0a0a;
 }
-
 /* --------------------
 - Ryan Variable Section End
 -------------------- */
@@ -34,7 +33,7 @@
 /* --------------------
 - Owner: 	Lilit Markarian
 - Date:		November 23, 2023
-- Section:	Header
+- Section:	HEADER
 -------------------- */
 /* Customization of the header of the website */
 header {
@@ -44,22 +43,15 @@ header {
 	justify-content: space-between;
 	border-radius: 6px;
 }
-/* --------------------
-- Lilit Header Section End
--------------------- */
-/* --------------------
-- Owner: 	Lilit Markarian
-- Date:		November 23, 2023
-- Section:	Logo
--------------------- */
-/* Customization of the logo of the website */
+
+/* Customization of the logo of the website, which appears in the header */
 .logo{
 	width: 195px;
 	height: 111px;
 	margin: 0;
 }
 /* --------------------
-- Lilit Logo Section End
+- Lilit Header Section End
 -------------------- */
 
 /* --------------------
@@ -467,7 +459,7 @@ input[type=submit]:hover {
 	right: 0;
 	background-color: var(--navbar-color);
 	padding-bottom: 10px;
-	border-radius: 15px;
+	border-radius: 6px;
 }
 
 /* Customization of footer paragraph text */
