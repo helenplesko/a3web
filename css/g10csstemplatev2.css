@@ -657,7 +657,7 @@ input[type=submit]:hover {
 /* Customization of text about the project that appears when hovered over the image */
 .projecttext p {
 	background-color: var(--h3-color);
-	color: var(--background-color-light);
+	color: #FFF;
 	font-weight: normal;
 	font-size: 16px;
 	font-family: helvetica, arial, sans-serif;
