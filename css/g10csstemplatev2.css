@@ -83,7 +83,7 @@ body {
 - Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
                	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
 		https://www.w3schools.com/howto/howto_css_menu_icon.asp
-		https://stackoverflow.com/questions/10285375/can-css3-drop-down-menu-fade-in-and-fade-out
+		 
 -------------------- */
 /* Customization of the navigation bar */
 .navbar {
@@ -161,7 +161,7 @@ body {
 	background-color: #e0e0e0;
 }
 
-/* Shows the dropdown menu on hover with a transition*/
+/* Shows the dropdown menu on hover*/
 .dropdown:hover .dropdown-content{
 	display: block;
 	opacity: 1;
