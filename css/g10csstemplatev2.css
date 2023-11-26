@@ -489,7 +489,7 @@ input[type=submit]:hover {
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
-	width: 15px;
+	width: 55px;
 	transition: .3s ease-in-out;
 }
 
