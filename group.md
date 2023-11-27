@@ -180,11 +180,11 @@ Completed: In Progress
 
 Desc:  create a footer that appears at the bottom of every page
 
-Worked on by: Ryan
+Worked on by: Helen
 
 Due by: before Week 12 Lab, include in template
 
-Completed: N
+Completed: Y
 
 
 ## 19. Nav Bar
@@ -206,7 +206,7 @@ Worked on by: Lori & Craig
 
 Due by: before Week 12 Lab, include in template
 
-Completed: N
+Completed: In Progress
 
 
 ## 21. JavaScript for Contact Page
@@ -217,18 +217,18 @@ Worked on by: Craig
 
 Due by: mid Week 13
 
-Completed: In progress
+Completed: In Progress
 
 
-## 22. JavaScript for Nightmode/Daymode
+## 22. JavaScript for Light/Dark Modes
 
-Desc:  create JS code to allow user to switch the site from Daymode to Nightmode
+Desc:  create JS code to allow user to switch the site from light mode to dark mode
 
 Worked on by: Ryan & Lilit
 
 Due by: mid Week 13
 
-Completed: N
+Completed: In Progress
 
 
 ## 23. Individual Industry Page Template
@@ -250,7 +250,7 @@ Worked on by: Lilit
 
 Due by: before Week 12 Lab, include in template
 
-Completed: In Progress
+Completed: Y
 
 
 ## 25. Site Banner
@@ -261,7 +261,7 @@ Worked on by: Ryan
 
 Due by: before Week 12 Lab, include in template
 
-Completed: N
+Completed: Y
 
 
 ## 26. Header <h></h> styles
@@ -283,7 +283,7 @@ Worked on by: All (indiv. task)
 
 Due by: during Week 12 Lab
 
-Completed: N
+Completed: Y
 
 
 ## 28. Create Group Plan on GitHub
@@ -312,11 +312,11 @@ Completed: Y
 
 Desc:  submit both files to dropbox before scheduled lab
 
-Worked on by: Lori
+Worked on by: Helen
 
 Due by: before Week 12 Lab
 
-Completed: In Progress
+Completed: Y
 
 
 ## 31. Cross Device and Browser Compatibility Testing
