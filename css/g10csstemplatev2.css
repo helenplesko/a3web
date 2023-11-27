@@ -370,7 +370,7 @@ input[type=submit]:hover {
   /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
   .wrapper .box{
  
-	width: calc(33% - 10px);
+	width: 300px;
 	padding: 25px;
 	border-radius: 3px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
