@@ -374,6 +374,7 @@ input[type=submit]:hover {
 	padding: 25px;
 	border-radius: 3px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+	background-color:#637e77 ;
   }
 
   /* adjusting the size of the quotes that are stacked inside the two div's */ 
@@ -389,6 +390,7 @@ input[type=submit]:hover {
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 10px;
+	background-color: #65875e;
   }
 
   /* having the name div inside the info and box have a font weight and size */
