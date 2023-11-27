@@ -435,19 +435,7 @@ input[type=submit]:hover {
   }
 
    /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
-  @media (max-width: 600px) {
-	.wrapper .box{
-	  width: calc(50% - 10px);
-	  margin: 10px 0;
-	}
-  }
-
-   /* changes the width to 100% when the width of 702 pixels is met*/
-  @media (max-width: 702px) {
-	.wrapper .box{
-	  width: 100%;
-	}
-  }
+ 
 /* --------------------
 - Craig Testimonials Styles Section End
 -------------------- */
