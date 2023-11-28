@@ -3,9 +3,9 @@
 - Date:		November 23, 2023
 - Section:	CSS Variables 
 -------------------- */
-/* Variables for certain styles to assist JS nightmode function and make it easier to change the look of the site */
+/* Variables colors to assist JS light/dark mode function */
 :root {
-	/*color variables*/
+	/* Color variables */
 	--background-color-light: #ffffff;
 	--header-background: #f5f5f5;
 	--navbar-color: #2b3634;
@@ -15,7 +15,7 @@
 	--p-color: #000000;
 	--dmode-button-text-color: #fff;
 	--dmode-button-background: #2b3634;
-	/*color variables for dark mode*/
+	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #14191a;
 	--navbar-color-dark: #1f2726;
@@ -34,9 +34,9 @@
 /* --------------------
 - Owner: 	Lilit Markarian
 - Date:		November 23, 2023
-- Section:	Header
+- Section:	Header and Logo
 -------------------- */
-/* Customization of the header of the website */
+/* Customization of the header at the top of the website */
 header {
 	background-color: var(--header-background);
 	padding: 5px;
@@ -44,14 +44,7 @@ header {
 	justify-content: space-between;
 	border-radius: 6px;
 }
-/* --------------------
-- Lilit Header Section End
--------------------- */
-/* --------------------
-- Owner: 	Lilit Markarian
-- Date:		November 23, 2023
-- Section:	Logo
--------------------- */
+
 /* Customization of the logo of the website */
 .logo{
 	width: 195px;
@@ -59,7 +52,7 @@ header {
 	margin: 0;
 }
 /* --------------------
-- Lilit Logo Section End
+- Lilit Header and Logo Section End
 -------------------- */
 
 /* --------------------
@@ -104,19 +97,19 @@ body {
 	display: block;
 }
 
-/* Selects active class for current page*/
+/* Selects active class for current page */
 .active {
 	background-color: #637e77;
 	color: white;
 }
 
-/* Customization of the navigation bar dropdown*/
+/* Customization of the navigation bar dropdown */
 .dropdown {
 	float: left;
 	overflow: hidden;
 }
 
-/* Customization of the dropdown button*/
+/* Customization of the dropdown button */
 .dropdown .dropbtn {
 	font-size: 16px;  
 	border: none;
@@ -134,7 +127,7 @@ body {
 	transition: 0.3s;
 }
 
-/* Customization of the navigation bar dropdown content*/
+/* Customization of the navigation bar dropdown content */
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -145,7 +138,7 @@ body {
 	transition: 0.3s;
 }
 
-/* Customization of the links in the navigation bar dropdown*/
+/* Customization of the links in the navigation bar dropdown */
 .dropdown-content a {
 	float: none;
 	color: black;
@@ -161,7 +154,7 @@ body {
 	background-color: #e0e0e0;
 }
 
-/* Shows the dropdown menu on hover*/
+/* Shows the dropdown menu on hover */
 .dropdown:hover .dropdown-content{
 	display: block;
 	opacity: 1;
@@ -177,10 +170,10 @@ body {
 		transition: 0.3s;
  	}
 	
-	/* Selects all elements in the navbar and responsive class*/
+	/* Selects all elements in the navbar and responsive class */
 	.navbar.responsive {position: relative;}
 	
-	/* Selects links in both navbar and responsive class*/
+	/* Selects links in both navbar and responsive class */
 	.navbar.responsive a {
 		float: none;
 		display: block;
@@ -188,13 +181,13 @@ body {
 	  	transition: 0.3s;
 	}
 	
-	/* Selects dropdown in the navbar and responsive class*/
+	/* Selects dropdown in the navbar and responsive class */
 	.navbar.responsive .dropdown {float: none;}
 	
-	/* Selects dropdown content in the navbar and responsive class*/
+	/* Selects dropdown content in the navbar and responsive class */
 	.navbar.responsive .dropdown-content {position: relative;}
 	
-	/* Selects dropdown button in the navbar and responsive class*/
+	/* Selects dropdown button in the navbar and responsive class */
 	.navbar.responsive .dropdown .dropbtn {
 	  display: block;
 	  width: 100%;
@@ -202,7 +195,7 @@ body {
 	  transition: 0.3s;
 	}
 	
-	/* Selects hamburger class (menu icon)*/
+	/* Selects hamburger class (menu icon) */
 	.hamburger {
 		cursor: pointer;
 		float: right;
@@ -352,14 +345,8 @@ input[type=submit]:hover {
 - Date:		November 23, 2023
 - Section:	Testimonials
 - Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
--------------------- */
- 
- 
-/* insipiration for the testimonials page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
-/* first div that encompasses all the boxes */ 
-
-/* insipiration for the testimonials page was taken from https://www.youtube.com/watch?v=-XX6MgbzQa8, changes are sitll ongoing as of Nov 24 2023 Craig Jurkiewicz  */ 
-/* first div that encompasses all the boxes */ 
+-------------------- */ 
+/* First div that encompasses all the boxes on testimonial page */ 
 .wrapper{
 	max-width: 1200px;
 	margin: auto;
@@ -482,44 +469,39 @@ input[type=submit]:hover {
 				https://programmersportal.com/how-to-center-social-media-icons-using-css/
 -------------------- */
 /* Customization of footer background */
-.footer {
+footer {
 	position: static;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	background-color: var(--navbar-color);
-	padding-bottom: 10px;
-	border-radius: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 6px;
 }
 
-/* Customization of footer paragraph text */
-.footer p {
+.footertext p {
 	color: #FFF;
 	text-align: center;
 	font-weight: normal;
 	font-size: 13px;
 	font-family: helvetica, arial, sans-serif;
-	padding-bottom: 10px;
 }
 
 /* Customization of footer address info */
-.footer address {
+address {
 	color: #cfcfcf;
 	text-align: center;
 	font-weight: normal;
 	font-size: 13px;
 	font-family: helvetica, arial, sans-serif;
-	padding-top: 10px;
 }
 
 /* Customization of all footer social media icons */
 .fa {
-	padding: 20px;
+	padding: 15px;
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
-	width: 15px;
+	width: 45px;
 	transition: .3s ease-in-out;
 }
 
@@ -575,6 +557,7 @@ input[type=submit]:hover {
 	--dmode-button-background: var(--dmode-button-background-dark)
 }
 
+/* Customization of Dark Mode button */
 #dark-mode-button {
 	border: none;
 	border-radius: 6px;
@@ -590,5 +573,143 @@ input[type=submit]:hover {
 - Ryan and Lilit Dark Mode Section End
 -------------------- */
 
+/* --------------------
+- Owner: 	Helen Plesko
+- Date:		November 21, 2023
+- Section:	MAIN DIV CSS 
+- Inspired by:	
+-------------------- */
 
-/* ---- testing !!!! ---- */
+/* Customization of content page */
+/* MIGHT BE ABLE TO TAKE THIS OUT - move up IF APPLIED TO ALL PAGES */
+.content {
+	background: var(--header-background);
+	border-radius: 6px;
+}
+
+/* Customization of heading 1 within content page */
+/* MIGHT BE ABLE TO TAKE THIS OUT - move to h1 heading IF APPLIED TO ALL PAGES */
+.content h1 {
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 20px;
+}
+
+/* Customization of heading 2 within content page */
+/* MIGHT BE ABLE TO TAKE THIS OUT - move to h2 heading IF APPLIED TO ALL PAGES */
+.content h2 {
+	text-align: center;
+}
+
+/* --------------------
+- Helen Content Div Section End
+-------------------- */
+
+/* --------------------
+- Owner: 	Helen Plesko
+- Date:		November 21, 2023
+- Section:	INDUSTRY PAGE CSS
+- Inspired by:	Shawn Morgan, https://fleming.desire2learn.com/d2l/home
+				https://www.w3schools.com/howto/howto_css_image_overlay.asp
+				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive
+				https://www.w3schools.com/howto/howto_css_image_center.asp
+-------------------- */
+
+/* Customization of paragraph text within content page, introduces the current industry page */
+.pageintro p {
+	color: var(--p-color);
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: helvetica, arial, sans-serif;
+	padding: 10px;
+	border-radius: 6px;
+	border: 2px solid var(--h1-color);
+	background: var(--background-color-light);
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+/* Container to hold projects */
+.projectcontainer {
+	position: relative;
+	width: 100%;
+}
+
+/* Customization of project image, center to column, change opacity when user hovers over it */
+.projectimage {
+	opacity: 1;
+	display: block;
+	transition: .6s ease-in-out;
+	backface-visibility: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Customization project image text box that displays text in the middle of the project image */
+.projectmiddle {
+	transition: .6s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+/* Customization of project image opacity when hovered over it */
+.projectcontainer:hover .projectimage {
+	opacity: 0.4;
+}
+
+/* Customization of project text box opacity when hovered over the project image */
+.projectcontainer:hover .projectmiddle {
+	opacity: 1;
+}
+
+/* Customization of text about the project that appears when hovered over the image */
+.projecttext p {
+	background-color: var(--h3-color);
+	color: #FFF;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+	padding: 16px 32px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+/* Responsive Two Column Layout for Projects Page Begin */
+/* Projects Section */
+* {
+	box-sizing: border-box;
+	
+}
+/* Create two even columns */
+.columnprojects {
+	float: left;
+	width: 50%; /* two columns */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Clear floats after columns to allow page to continue flow of other content */
+.rowprojects:after {
+	content: "";
+	display: table;
+	clear: both;
+	padding-bottom: 25px;
+	margin-bottom: 6px;
+}
+/* Display projects in one column if page size is too small */
+@media screen and (max-width: 1500px) {
+	.columnprojects {
+		width: 100%;
+	}
+}
+/* Responsive Two Column Layout for Projects Page End */
+
+/* --------------------
+- Helen Industry Page CSS End
+-------------------- */
+
