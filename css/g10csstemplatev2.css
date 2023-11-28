@@ -463,9 +463,9 @@ input[type=submit]:hover {
 		margin: 0 auto;
   width: 100%;
   margin-right: 22px;
-   
-
 }
+   }
+
    /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
  
 /* --------------------
