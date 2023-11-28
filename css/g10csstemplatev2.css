@@ -369,7 +369,7 @@ input[type=submit]:hover {
 	align-items: center;
 	justify-content: space-between;
   }
-
+/* adding changes to test for pullign */ 
   /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
   .wrapper .box{
 	background: #fff;
@@ -380,6 +380,7 @@ input[type=submit]:hover {
 	background-color: #637e77;
   }
 
+  /* adjusting changes and comments */
   /* adjusting the size of the quotes that are stacked inside the two div's */ 
   .wrapper .box i.quote{
 	font-size: 15px;
