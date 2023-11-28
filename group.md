@@ -30,7 +30,7 @@ Worked on by: Skeleton -Helen; Contribution of details -All
 
 Due by: before Week 12 Lab
 
-Completed: In Progress
+Completed: In progress
 
 
 ## 4. Create CSS Template
@@ -41,7 +41,7 @@ Worked on by: Skeleton -Helen; Contribution of details -All
 
 Due by: before Week 12 Lab
 
-Completed: In Progress
+Completed: In progress
 
 
 ## 5. Create JavaScript File
@@ -151,7 +151,7 @@ Worked on by: Craig
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: N
 
 
 ## 15. Page 9 (content) Careers
@@ -257,7 +257,7 @@ Completed: Y
 
 Desc:  banner with Layer Larks + slogan, maybe logo if possible, to be displayed on each page
 
-Worked on by: Lilit & Ryan
+Worked on by: Ryan
 
 Due by: before Week 12 Lab, include in template
 
@@ -268,7 +268,7 @@ Completed: Y
 
 Desc:  within mystyle.css, create styles for header levels
 
-Worked on by: Helen
+Worked on by: Helen & Ryan
 
 Due by: before Week 12 Lab, include in template
 
@@ -277,9 +277,9 @@ Completed: In Progress
 
 ## 27. Demo use of GIT
 
-Desc:  submit to GitHub during scheduled lab, meeting with Shawn
+Desc:  submit to GitHub during scheduled lab, meeting w Shawn
 
-Worked on by: All (individual task)
+Worked on by: All (indiv. task)
 
 Due by: during Week 12 Lab
 
@@ -310,11 +310,11 @@ Completed: Y
 
 ## 30. HTML/CSS Template Design Submission
 
-Desc:  submit both files to dropbox on D2L before end of scheduled lab
+Desc:  submit both files to dropbox before scheduled lab
 
 Worked on by: Helen
 
-Due by: end of Week 12 Lab
+Due by: before Week 12 Lab
 
 Completed: Y
 
