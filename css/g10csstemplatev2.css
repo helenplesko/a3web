@@ -135,7 +135,7 @@ body {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	transition: 0.3s;
+	 
 }
 
 /* Customization of the links in the navigation bar dropdown */
@@ -146,7 +146,56 @@ body {
 	text-decoration: none;
 	display: block;
 	text-align: left;
-	transition: ease-in-out 0.3s;
+	animation-duration: 0.5s;
+    animation-name: fadeInFromNone;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-name: fadeInFromNone;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-duration: 0.5s;
+    -ms-animation-name: fadeInFromNoneIE;
+    -ms-animation-fill-mode: forwards;
+}
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        opacity: 0
+    }
+
+    1% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeInFromNoneIE {
+    0% {
+        opacity: 0
+    }
+
+    1% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        opacity: 0
+    }
+
+    1% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
 }
 
 /* Customization of the navigation bar dropdown text when mouse hovers over them */
@@ -159,7 +208,7 @@ body {
 	display: block;
 	opacity: 1;
 	visibility: visible;
-	transition-delay: 0s, 0s;
+	 
 }
 
 /* Responsive Design for the navigation bar */
@@ -167,7 +216,7 @@ body {
 	/* Selects navbar links and the drop btn class in dropdown class */
 	.navbar a, .dropdown .dropbtn {
     	display: none;
-		transition: 0.3s;
+		 
  	}
 	
 	/* Selects all elements in the navbar and responsive class */
@@ -178,7 +227,7 @@ body {
 		float: none;
 		display: block;
 	  	text-align: left;
-	  	transition: 0.3s;
+	  	 
 	}
 	
 	/* Selects dropdown in the navbar and responsive class */
@@ -192,7 +241,7 @@ body {
 	  display: block;
 	  width: 100%;
 	  text-align: left;
-	  transition: 0.3s;
+	   
 	}
 	
 	/* Selects hamburger class (menu icon) */
