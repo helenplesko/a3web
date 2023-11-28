@@ -372,9 +372,9 @@ input[type=submit]:hover {
 /* adding changes to test for pullign */ 
   /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
   .wrapper .box{
-	background: #fff;
 	width: calc(33% - 10px);
 	padding: 25px;
+	margin: 10px;
 	border-radius: 3px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
 	background-color: #637e77;
@@ -386,21 +386,30 @@ input[type=submit]:hover {
 	font-size: 15px;
 	color: black;
   }
+  .wrapper .box r.quote{
+	font-size: 15px;
+	color: black;
+	text-align: right;
+  }
 
   /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
   .wrapper .box .content{
-	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 10px;
-	background-color: #65875e;
+	margin: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 25px;
+	width: 50%;
+	padding: 50px;
   }
 
   /* having the name div inside the info and box have a font weight and size */
   .box .info .name{
 	font-weight: 600;
 	font-size: 17px;
+	text-align: center;
   }
 
    /* having the font size of the job information inside the .info and .box divs */
@@ -408,23 +417,28 @@ input[type=submit]:hover {
 	font-size: 16px;
 	font-weight: 500;
 	color: green;
+	text-align: center;
   }
 
   /* creaing a margin for the .stars class inside the .box .info */
   .box .info .stars{
 	margin-top: 2px;
+	text-align: center;
   }
 
   /* color for the stars inside the div's */
   .box .info .stars i{
 	color: #4fb817;
+	text-align: center;
   }
 
   /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
   .box .content .clientimage{
-	height: 75px;
-	width: 75px;
-	padding: 3px;
+	position: relative;
+	display: center;
+	height: 150px;
+	width: 150px;
+	padding: 6px;
 	background: #5de143;
 	border-radius: 86%;
   }
@@ -435,23 +449,23 @@ input[type=submit]:hover {
 	width: 100%;
 	object-fit: cover;
 	border-radius: 75%;
-	border: 2px solid rgb(48, 98, 3);
+	border: 4px solid rgb(48, 98, 3);
   }
 
    /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
-  @media (max-width: 600px) {
+   @media screen and (max-width: 800px) {
 	.wrapper .box{
-	  width: calc(50% - 10px);
-	  margin: 10px 0;
+		width: 50%;
+		align-items: center;
+		margin:70px;
 	}
-  }
+	.box .content .clientimage{
+		margin: 0 auto;
+  width: 100%;
+  margin-right: 22px;
+   
 
-   /* changes the width to 100% when the width of 702 pixels is met*/
-  @media (max-width: 702px) {
-	.wrapper .box{
-	  width: 100%;
-	}
-  }
+}
    /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
  
 /* --------------------
