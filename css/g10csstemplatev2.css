@@ -380,7 +380,7 @@ input[type=submit]:hover {
   }
 
   /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
-  .wrapper .box .content{
+  .wrapper .box .testicontent{
 	align-items: center;
 	justify-content: space-between;
 	margin: 15px;
@@ -420,7 +420,7 @@ input[type=submit]:hover {
   }
 
   /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
-  .box .content .clientimage{
+  .box .testicontent .clientimage{
 	position: relative;
 	display: center;
 	height: 150px;
@@ -431,7 +431,7 @@ input[type=submit]:hover {
   }
 
   /* css for the image itself, having a smaller border around the image to create a layering effect */
-  .content .clientimage img{
+  .testicontent .clientimage img{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
@@ -446,7 +446,7 @@ input[type=submit]:hover {
 		align-items: center;
 		margin:70px;
 	}
-	.box .content .clientimage{
+	.box .testicontent .clientimage{
 		margin: 0 auto;
   width: 100%;
   margin-right: 22px;
