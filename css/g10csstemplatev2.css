@@ -474,7 +474,7 @@ input[type=submit]:hover {
 	height: 150px;
 	width: 150px;
 	padding: 6px;
-	background: #5de143;
+	background: #2b3634;
 	border-radius: 86%;
   }
 
@@ -484,11 +484,11 @@ input[type=submit]:hover {
 	width: 100%;
 	object-fit: cover;
 	border-radius: 75%;
-	border: 4px solid rgb(48, 98, 3);
+	border: 4px solid #362f2b
   }
 
    /* changes the webpage to stack the boxes on top of each other when the screen size is 950pixels wide*/
-   @media screen and (max-width: 950px) {
+   @media screen and (max-width: 925px) {
 	.wrapper .box{
 		width: 50%;
 		align-items: center;
