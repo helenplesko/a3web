@@ -402,7 +402,7 @@ input[type=submit]:hover {
 	padding: 0 20px;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-content: center;
 	justify-content: space-around;
   }
 /* adding changes to test for pullign */ 
@@ -413,7 +413,8 @@ input[type=submit]:hover {
 	margin: 10px;
 	border-radius: 3px;
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
-	background-color: #637e77;
+	background-color: #65725a;
+	 
   }
 
   /* adjusting changes and comments */
@@ -451,7 +452,7 @@ input[type=submit]:hover {
   .box .info .job{
 	font-size: 16px;
 	font-weight: 500;
-	color: green;
+	color: black;;
 	text-align: center;
   }
 
@@ -463,7 +464,7 @@ input[type=submit]:hover {
 
   /* color for the stars inside the div's */
   .box .info .stars i{
-	color: #4fb817;
+	color: white;
 	text-align: center;
   }
 
@@ -486,9 +487,9 @@ input[type=submit]:hover {
 	border-radius: 75%;
 	border: 4px solid #362f2b
   }
-
+ 
    /* changes the webpage to stack the boxes on top of each other when the screen size is 950pixels wide*/
-   @media screen and (max-width: 925px) {
+   @media screen and (max-width: 950px) {
 	.wrapper .box{
 		width: 50%;
 		align-items: center;
@@ -496,12 +497,12 @@ input[type=submit]:hover {
 	}
 	.box .testicontent .clientimage{
 		margin: 0 auto;
-  width: 100%;
-  margin-right: 22px;
+ 		 width: 100%;
+  		margin-right: 22px;
 }
    }
+ 
 
-   /* changes the box insdie the wrapper to have a width of 10pixels subratracted from 50% of the original width and a margin on the top and bottom of 10 pixels*/
  
 /* --------------------
 - Craig Testimonials Styles Section End
