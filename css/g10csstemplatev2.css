@@ -403,7 +403,7 @@ input[type=submit]:hover {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
   }
 /* adding changes to test for pullign */ 
   /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
@@ -431,14 +431,13 @@ input[type=submit]:hover {
   /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
   .wrapper .box .testicontent{
 	align-items: center;
-	justify-content: space-between;
-	margin: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: 25px;
 	width: 50%;
 	padding: 50px;
+	overflow: hidden;
   }
 
   /* having the name div inside the info and box have a font weight and size */
