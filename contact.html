@@ -79,43 +79,31 @@
 <h2>Responsive Contact Section</h2>
 <p>Resize the browser window to see the effect.</p>
 
+<h3>Contact Form</h3>
+
 <div class="container">
-  <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>Please let us know if There is anything we can help you with:</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="/w3images/map.jpg" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Country</label>
-        <select id="country" name="country" onchange="showStateProvince()">
-		  <option value="india">India</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-           
-        </select>
-        
-        <!-- Initially hide the state/province label and dropdown -->
-        <label for="state" id="stateLabel" style="display: none;">State or Province</label>
-        <select id="state" name="state" style="display: none;">
-          <!-- Options will be dynamically populated based on the selected country -->
-        </select>
-        
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Please Enter your first name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Please Enter Your Last Name">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="Reason for Reaching out" name="subject" placeholder="Please be descriptive as possible for any requests and we will get back to you within 48 hours." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
+
+</body>
 <!-- --------------------
 - Owner: 	Helen Plesko
 - Date:		November 23, 2023
