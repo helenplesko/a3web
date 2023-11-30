@@ -762,13 +762,17 @@ address {
 - Helen Industry Page CSS End
 -------------------- */
 
-
-
+/* --------------------
+- Owner: 	Lori Lowy
+- Date:		November 29, 2023
+- Section:	INDEX PAGE CSS
+- Inspired by:	https://blog.hubspot.com/website/video-background-css
+-------------------- */
 
 .banner {
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 450px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
