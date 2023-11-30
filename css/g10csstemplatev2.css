@@ -782,3 +782,10 @@ address {
 	padding: 20px;
 	margin: 15px;
 }
+
+.vidcontainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
