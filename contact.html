@@ -1,70 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	
 <head>
-<!-- inspiration for the contact menu was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* inspiration for the comment box was taken from w3 schools https://www.w3schools.com/howto/howto_css_contact_section.asp */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* styling the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-/* creating the columns that float beside each otehr */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-</style>
+	<!-- Title of our website, to appear in page tab -->
+	<title>Layer Larks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- External link to stylesheet -->
+	<link rel="stylesheet" href="./css/g10csstemplatev2.css">
+	<!-- External link to social media button library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+ 
+  
+<!-- --------------------
+- Owner: 	Lilit Markarian
+- Date:		November 23, 2023
+- Section:	Header Logo
+- Created on: Canva
+-------------------- -->
+<header>
+	<!-- This is the Toggle button for Dark Mode-->
+	<button id="dark-mode-button" onclick="darkMode()">Dark Mode</button>
+	<a href = "index.html">
+		<!-- This logo will appear on every page of our website -->
+		<div class="logo">
+			<img src= "images/LogoLayerLarks.png" alt="logo">
+		</div>
+	</a>
+
+</header>
+ 
+<!-- --------------------
+- Lilit Header Logo Section End
+-------------------- -->
+
+<!-- --------------------
+- Owner: 	Lori Lowy & Craig Jurkiewicz
+- Date:		November 23, 2023
+- Section:	NAVIGATION BAR
+- Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+               	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+		https://www.w3schools.com/howto/howto_css_menu_icon.asp
+    https://stackoverflow.com/questions/17510658/css3-transition-fadein-with-displaynone
+-------------------- -->
+<body>
+<!-- This NavBar will appear on every page of our website -->
+<!-- The NavBar will adjust itself using responsive design depending on the user's device -->
+<div class="navbar" id="myNav">
+	<!-- creating a div to store the hamburger menu icon with a function that run when the user clicks the icon CJ-->
+	<div class="hamburger" onclick="responsiveNav(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	  </div>
+	<a href="index.html" class="active">Home</a>  <!--indicates currently active page-->
+	<a href="team.html">Meet the Team</a>
+	<div class="dropdown">
+		<button class="dropbtn">Industries
+		</button>
+		<div class="dropdown-content">
+			<a href="Industries.html">Industries Overview</a>
+			<a href="environmentalindustry.html">Environmental Industries</a>
+			<a href="healthindustry.html">Health Industries</a>
+			<a href="remotesensingindustry.html">Remote Sensing Industries</a>
+		</div> 
+	</div>
+	<a href="media.html">In the Media</a>
+	<a href="clienttestimonials.html">Client Testimonials</a>
+	<a href="careers.html">Careers</a>
+	<a href="contact.html">Contact</a>
+</div>
+
+<!-- JS script for hamburger menu animation and responsive navbar -->
+<script src="js/javascript.js"></script>
+
 <body>
 
 <h2>Responsive Contact Section</h2>
@@ -107,10 +116,33 @@ input[type=submit]:hover {
     </div>
   </div>
 </div>
-<script src="java.js"></script> 
-</body>
-</html>
- 
+<!-- --------------------
+- Owner: 	Helen Plesko
+- Date:		November 23, 2023
+- Section:	FOOTER
+- Inspired By: 	https://www.evarigisconsulting.com/
+		https://www.w3schools.com/html/html_layout.asp
+-------------------- -->
+<!-- This footer will appear at the bottom of every page of our website -->
+<footer>
+	<address>Layer Larks Consulting Group, 101 Fleming Nest, Lindsay ON, K9V 5E6</address>
+	<!-- Clicking on the social media icons leads the user to their main pages; link to profile if the consulting group legitimate -->
+	<div class="footertext">
+		<p>Follow Us On Social Media!</p>
+	</div>
+	<div class="centericon">
+		<a href="https://www.facebook.com/" class="fa fa-facebook" title="Link to Facebook page" target="_blank"></a>
+		<a href="https://twitter.com/" class="fa fa-twitter" title="Link to Twitter page" target="_blank"></a>
+		<a href="https://www.instagram.com/" class="fa fa-instagram" title="Link to Instagram page" target="_blank"></a>
+	</div>
+</footer>
+<!-- --------------------
+- Helen Footer Section End
+-------------------- -->
+
+  </body>
+  </html>
+  
  
 </body>
 </html>
