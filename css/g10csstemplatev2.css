@@ -775,7 +775,7 @@ address {
 	overflow: hidden;
 }
 
-h1.banner{
+.banner h1{
 	text-align: center;
 	font-size: 6rem;
 	z-index: 1;
