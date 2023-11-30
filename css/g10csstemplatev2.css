@@ -395,112 +395,139 @@ input[type=submit]:hover {
 - Section:	Testimonials
 - Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
 -------------------- */ 
-/* First div that encompasses all the boxes on testimonial page */ 
-.wrapper{
-	max-width: 1200px;
-	margin: auto;
-	padding: 0 20px;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: space-around;
-  }
-/* adding changes to test for pullign */ 
-  /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
-  .wrapper .box{
-	width: calc(33% - 10px);
-	padding: 25px;
-	margin: 10px;
-	border-radius: 3px;
-	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
-	background-color: #65725a;
-	 
-  }
-
-  /* adjusting changes and comments */
-  /* adjusting the size of the quotes that are stacked inside the two div's */ 
-  .wrapper .box i.quote{
-	font-size: 15px;
-	color: black;
-  }
-  .wrapper .box r.quote{
-	font-size: 15px;
-	color: black;
-	text-align: right;
-  }
-
-  /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
-  .wrapper .box .testicontent{
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: 25px;
-	width: 50%;
-	padding: 50px;
-	overflow: hidden;
-  }
-
-  /* having the name div inside the info and box have a font weight and size */
-  .box .info .name{
-	font-weight: 600;
-	font-size: 17px;
-	text-align: center;
-  }
-
-   /* having the font size of the job information inside the .info and .box divs */
-  .box .info .job{
-	font-size: 16px;
-	font-weight: 500;
-	color: black;;
-	text-align: center;
-  }
-
-  /* creaing a margin for the .stars class inside the .box .info */
-  .box .info .stars{
-	margin-top: 2px;
-	text-align: center;
-  }
-
-  /* color for the stars inside the div's */
-  .box .info .stars i{
-	color: white;
-	text-align: center;
-  }
-
-  /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
-  .box .testicontent .clientimage{
+ /* classes for the banner adn header */ 
+.testibanner{
 	position: relative;
-	display: center;
-	height: 150px;
-	width: 150px;
-	padding: 6px;
-	background: #2b3634;
-	border-radius: 86%;
-  }
-
-  /* css for the image itself, having a smaller border around the image to create a layering effect */
-  .testicontent .clientimage img{
-	height: 100%;
 	width: 100%;
-	object-fit: cover;
-	border-radius: 75%;
-	border: 4px solid #362f2b
-  }
- 
-   /* changes the webpage to stack the boxes on top of each other when the screen size is 950pixels wide*/
-   @media screen and (max-width: 950px) {
-	.wrapper .box{
-		width: 50%;
-		align-items: center;
-		margin:70px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	 
 	}
-	.box .testicontent .clientimage{
-		margin: 0 auto;
- 		 width: 100%;
-  		margin-right: 22px;
-}
-   }
+	.testibanner h1{
+	
+		text-align: center;
+		font-size: 40px;
+		border-radius: 26px;
+		padding: 20px;
+		margin: 15px;
+		background-color: rgb(233, 233, 233);
+		opacity: 0.7;
+	}
+	/* First div that encompasses all the boxes on testimonial page */ 
+	.wrapper{
+		max-width: 1200px;
+		margin: auto;
+		padding: 0 20px;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: space-around;
+	  }
+	/* adding changes to test for pullign */ 
+	  /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
+	  .wrapper .box{
+		width: calc(33% - 10px);
+		padding: 25px;
+		margin: 10px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+		background-color: #57595d;
+		background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+		 
+	  }
+	
+	  /* adjusting changes and comments */
+	  /* adjusting the size of the quotes that are stacked inside the two div's */ 
+	  .wrapper .box i.quote{
+		font-size: 15px;
+		color: black;
+	  }
+	  .wrapper .box r.quote{
+		font-size: 15px;
+		color: black;
+		text-align: right;
+	  }
+	
+	  /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
+	  .wrapper .box .testicontent{
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		width: 50%;
+		padding: 50px;
+		overflow: hidden;
+		background-color: #a6a6a6;;
+		border-radius: 20px;
+	  }
+	
+	  /* having the name div inside the info and box have a font weight and size */
+	  .box .info .name{
+		font-weight: 600;
+		font-size: 17px;
+		text-align: center;
+	  }
+	
+	   /* having the font size of the job information inside the .info and .box divs */
+	  .box .info .job{
+		font-size: 16px;
+		font-weight: 500;
+		color: black;;
+		text-align: center;
+	  }
+	
+	  /* creaing a margin for the .stars class inside the .box .info */
+	  .box .info .stars{
+		margin-top: 2px;
+		text-align: center;
+	  }
+	
+	  /* color for the stars inside the div's */
+	  .box .info .stars i{
+		color: white;
+		text-align: center;
+	  }
+	
+	  /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
+	  .box .testicontent .clientimage{
+		position: relative;
+		display: center;
+		height: 150px;
+		width: 150px;
+		padding: 4px;
+		background: #2b3634;
+		border-radius: 100%;
+	  }
+	
+	  /* css for the image itself, having a smaller border around the image to create a layering effect */
+	  .testicontent .clientimage img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 75%;
+		border: 4px solid #362f2b;
+		margin-left: 4px;
+	  }
+	 
+	   /* changes the webpage to stack the boxes on top of each other when the screen size is 950pixels wide*/
+	   @media screen and (max-width: 950px) {
+		.wrapper .box{
+			width: 100%;
+			align-items: center;
+			margin:70px;
+		}
+		.box .testicontent .clientimage{
+			margin: 0 auto;
+			  
+			  margin-right: 22px;
+	}
+	   }
+	 
+	
+	 
  
 
  
