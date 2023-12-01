@@ -811,7 +811,7 @@ address {
 
 /* Responsive Two Column Layout for Projects Page Begin */
 /* Projects Section */
-* {
+.industrypage {
 	box-sizing: border-box;
 	
 }
@@ -879,4 +879,10 @@ address {
 	left: 0;
 	z-index: -1;
 	width: 100%;
+}
+
+.rounded hr {
+	border-radius: 6px;
+	border-top: 3px solid var(--h1-color);
+	padding: 5px;
 }
