@@ -881,7 +881,7 @@ address {
 	width: 100%;
 }
 
-hr.rounded {
+.rounded hr {
 	border-radius: 6px;
 	border-top: 6px solid var(--h1-color);
 }
