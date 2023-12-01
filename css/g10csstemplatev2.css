@@ -42,7 +42,6 @@ header {
 	padding: 5px;
 	margin-bottom: 5px;
 	justify-content: space-between;
-	border-radius: 6px;
 }
 
 /* Customization of the logo of the website */
@@ -84,7 +83,6 @@ body {
 	overflow: hidden;
 	background-color: var(--navbar-color);
 	transition: .3s ease-in-out;
-	border-radius: 6px;
 }
 
 /* Customization of the links in the navigation bar */
@@ -607,7 +605,6 @@ footer {
 	background-color: var(--navbar-color);
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-radius: 6px;
 }
 
 .footertext p {
@@ -717,7 +714,6 @@ address {
 /* MIGHT BE ABLE TO TAKE THIS OUT - move up IF APPLIED TO ALL PAGES */
 .content {
 	background: var(--header-background);
-	border-radius: 6px;
 }
 
 /* Customization of heading 1 within content page */
@@ -884,7 +880,7 @@ address {
 	width: 100%;
 }
 
-.rounded hr {
+hr.rounded {
 	border-radius: 6px;
 	border-top: 3px solid var(--h1-color);
 	padding: 5px;
