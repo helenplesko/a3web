@@ -331,59 +331,113 @@ p {
 - Section:	Comment Box CSS (in progress)
 - Inspired By: 	https://www.w3schools.com/howto/howto_css_contact_section.asp
 -------------------- */
-/* Customization of comment box (in progress) */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+/* --------------------
+- Owner: 	Craig Jurkiewicz
+- Date:		November 23, 2023
+- Section:	Comment Box CSS (in progress)
+- Inspired By: 	https://www.w3schools.com/howto/howto_css_contact_section.asp
+-------------------- */
+ 
+
+.flex-container{
+	min-height: 100vh;
+	width: 100%;
+	background: #c8e8e9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ }
+ .contactcontainer{
+	width: 85%;
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px 60px 30px 40px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contactcontainer .contactcontent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.contactcontainer .contactcontent .left-side{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+	position: relative;
 }
 
-/* Customization submit button and cursor when hovered over the button */
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+.contactcontent .left-side::before{
+content: '';
+position:  absolute;
+height: 70%;
+width: 2px;
+background: black;
+ transform: translateY(-50%);
+right: -15px;
+top: 50%;
 }
 
-/* Customization of hover over submit link */
-input[type=submit]:hover {
-  background-color: #45a049;
+.contactcontent .left-side .details .text-one,
+.contactcontent .left-side .details .text-two{
+font-size: 14px;
+color: blue;
 }
 
-/* Styling the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: var(--background-color-light);
-  padding: 10px;
+.contactcontent .left-side .details{
+	margin: 14px;
+	text-align: center;	
 }
 
-/* Creating the columns that float beside each other */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+.contactcontent .left-side .details i{
+font-size: 30px;
+color: brown;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.contactcontent .left-side .details .topic{
+font-size: 18px;
+font-weight:500;
+margin-bottom: 40px;
+
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+.contactcontainer .contactcontent .right-side{
+width: 75%;
+margin-left: 75px;
 }
+  
+.contactcontent .right-side .topic-text{
+font-size: 23px;
+font-weight: 600;
+color: green
+}
+ .right-side .topic-text .input-box{
+height: 100%;
+width: 100%;
+margin: 12px 0
+ }
+.right-side .input-box input{
+height: 100%;
+width: 100%;
+border: none;
+background: purple;
+border-radius: 6px;
+font-weight: 600;
+padding: 0 15px;
+
+
+}
+
+
+
+
+ /* --------------------
+- Craig Comment Box Section End
+-------------------- */
+  
  /* --------------------
 - Craig Comment Box Section End
 -------------------- */
