@@ -811,7 +811,7 @@ address {
 
 /* Responsive Two Column Layout for Projects Page Begin */
 /* Projects Section */
-* {
+.industrypage {
 	box-sizing: border-box;
 	
 }
