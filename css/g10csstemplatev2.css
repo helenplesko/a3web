@@ -885,3 +885,7 @@ hr.rounded {
 	border-top: 3px solid var(--h1-color);
 	padding: 5px;
 }
+
+.industries {
+	text-align: center;
+}
