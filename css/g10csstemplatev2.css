@@ -64,6 +64,7 @@ header {
 body {
 	background-color: var(--background-color-light);
 	font-family: helvetica, arial, sans-serif;
+	margin: 0;
 }
 /* --------------------
 - Ryan Body CSS Section End
@@ -281,18 +282,20 @@ body {
 /* Customization of Header 1 */
 h1 {
 	color: var(--h1-color);
-	text-align: left;
+	text-align: center;
 	font-weight: bold;
 	font-size: 30px;
 	font-family: helvetica, arial, sans-serif;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-top: 5px;
+	padding-top: 20px;
 }
 
 /* Customization of Header 2 */
 h2 {
 	color: var(--h2-color);
-	text-align: left;
+	text-align: center;
 	font-weight: bold;
 	font-size: 25px;
 	font-family: helvetica, arial, sans-serif;
