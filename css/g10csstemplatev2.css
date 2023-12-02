@@ -65,6 +65,10 @@ body {
 	font-family: helvetica, arial, sans-serif;
 	margin: 0;
 }
+
+* {
+	box-sizing: border-box;
+}
 /* --------------------
 - Ryan Body CSS Section End
 -------------------- */
@@ -812,11 +816,11 @@ address {
 }
 
 /* Responsive Two Column Layout for Projects Page Begin */
-/* Projects Section */
+/* Projects Section 
 .industrypage {
 	box-sizing: border-box;
 	
-}
+}*/
 /* Create two even columns */
 .columnprojects {
 	float: left;
