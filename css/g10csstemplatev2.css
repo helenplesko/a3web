@@ -450,18 +450,20 @@ padding: 0 15px;
 - Section:	Testimonials
 - Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
 -------------------- */ 
- /* classes for the banner adn header */ 
-.testibanner{
+ /* classes for the banner adn header having a slightly opaque  background for the header and ensuring no items overlap */ 
+ .testibanner{
 	position: relative;
 	width: 100%;
-	height: 200px;
-	display: flex;
+	height: 175px;
+	display: inline-block;
 	align-items: center;
 	justify-content: center;
-	 
-	}
-	.testibanner h1{
 	
+}
+	 
+	
+	.testibanner h1{
+		position: relative;
 		text-align: center;
 		font-size: 40px;
 		border-radius: 26px;
@@ -469,6 +471,7 @@ padding: 0 15px;
 		margin: 15px;
 		background-color: rgb(233, 233, 233);
 		opacity: 0.7;
+		 
 	}
 	/* First div that encompasses all the boxes on testimonial page */ 
 	.wrapper{
