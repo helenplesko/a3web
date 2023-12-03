@@ -892,7 +892,7 @@ address {
 hr.rounded {
 	border-radius: 6px;
 	border-top: 3px solid var(--h1-color);
-	padding: 5px;
+	margin: 25px;
 }
 
 .industries, .aboutus p {
