@@ -906,8 +906,9 @@ hr.rounded {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
-	font-size: 18x;
+	font-size: 18px;
 	font-family: helvetica, arial, sans-serif;
 	padding-left: 40px;
 	padding-right: 40px;
+	list-style-type: none;
 }
