@@ -895,16 +895,19 @@ hr.rounded {
 	margin: 25px;
 }
 
-.industries, .aboutus p {
+/* .aboutus p {
 	text-align: center;
-}
+	font-size: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+} */
 
-.aboutus ul {
+.aboutus ul, .aboutus p {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 18x;
 	font-family: helvetica, arial, sans-serif;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
