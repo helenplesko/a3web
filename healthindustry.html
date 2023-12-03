@@ -3,7 +3,7 @@
 	
 <head>
 	<!-- Title of our website, to appear in page tab -->
-	<title>Layer Larks</title>
+	<title>Layer Larks | Health Industry</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- External link to stylesheet -->
 	<link rel="stylesheet" href="./css/g10csstemplatev2.css">
@@ -49,7 +49,7 @@
 		<div class="bar2"></div>
 		<div class="bar3"></div>
 	  </div>
-	<a href="index.html" class="active">Home</a>  <!--Indicates currently active page -->
+	<a href="index.html">Home</a>
 	<a href="team.html">Meet the Team</a>
 	<div class="dropdown">
 		<button class="dropbtn">Industries
@@ -57,7 +57,7 @@
 		<div class="dropdown-content">
 			<a href="Industries.html">Industries Overview</a>
 			<a href="environmentalindustry.html">Environmental Industries</a>
-			<a href="healthindustry.html">Health Industries</a>
+			<a href="healthindustry.html" class="active">Health Industries</a> 		<!--Indicates currently active page -->
 			<a href="remotesensingindustry.html">Remote Sensing Industries</a>
 		</div> 
 	</div>
@@ -80,16 +80,16 @@
 - Content inspired by my own Assignment 2 Projects page: https://helenplesko.github.io/projects.html
 - All projects on this page were completed by Helen Plesko Fleming College GIS Applications Specialist deliverables
 -------------------- -->
-<div class="content">
-
+<!-- Title of page and text explaining what user will see on the page -->
 <h1>Health Industry </h1>
 <div class="pageintro">
 	<p>Layer Larks Consulting Group is dedicated to helping you fulfill your consulting needs within the health industry. The opportunities are endless. See some of our past projects below.</p>
 </div>
 
 <div class="rowprojects">
+	<!-- Project 1, in row 2 column 1 -->
 	<div class="columnprojects">
-		<h2>PRIMARY CARE ENROLMENT IN TORONTO</h2>
+		<h2>Primary Care Enrolment in Toronto</h2>
 		<div class="projectcontainer">
 				<img src="./images/HPleskoPrimCareEnr.png" alt="Toronto Primary Care Enrolment by Helen Plesko" width="620" height="477" class="projectimage">
 			<div class="projectmiddle">
@@ -99,8 +99,9 @@
 			</div>
 		</div>
 	</div>
+	<!-- Project 2, in row 2 column 2 -->
 	<div class="columnprojects">
-		<h2>TORONTO HEALTH SERVICES TO THE TTC DASHBOARD</h2>
+		<h2>Toronto Health Services to the TTC Dashboard</h2>
 		<div class="projectcontainer">
 				<img src="./images/HPleskoDashboard.png" alt="TO Health Services and the TTC Dashboard by Helen Plesko" width="620" height="293" class="projectimage">
 			<div class="projectmiddle">
@@ -113,18 +114,30 @@
 </div>
 
 <div class="rowprojects">
-		<div class="columnprojects">
-			<h2>HEALTH SERVICES DRIVING TIME NOTEBOOK</h2>
-			<div class="projectcontainer">
-					<img src="./images/HPleskoSubUseLocAmb.png" alt="TO Substance Use Treatment and Ambulance Stations Notebook by Helen Plesko" width="477" height="620" class="projectimage">
-				<div class="projectmiddle">
-					<div class="projecttext">
-						<p>This ArcGIS Pro Notebook of the City of Toronto shows the proximity of Substance Use Treatment Locations to Ambulance Stations within the city by vehicle using Closest Facility Network Analysis tools.</p>
-					</div>
+	<!-- Project 3, in row 2 column 1 -->
+	<div class="columnprojects">
+		<h2>Health Services Driving Time Notebook</h2>
+		<div class="projectcontainer">
+				<img src="./images/HPleskoSubUseLocAmb.png" alt="TO Substance Use Treatment and Ambulance Stations Notebook by Helen Plesko" width="477" height="620" class="projectimage">
+			<div class="projectmiddle">
+				<div class="projecttext">
+					<p>This ArcGIS Pro Notebook of the City of Toronto shows the proximity of Substance Use Treatment Locations to Ambulance Stations within the city by vehicle using Closest Facility Network Analysis tools.</p>
 				</div>
 			</div>
 		</div>
-</div>
+	</div>
+	<!-- Project 4, in row 2 column 2 -->
+	<div class="columnprojects">
+		<h2>COVID Cases and High Risk Factors Base Map</h2>
+		<div class="projectcontainer">
+				<img src="./images/LMarkarianCOVIDCasesRiskFactors.png" alt="Montreal COVID Cases Base Map with High Risk Factors 2021 by Lilit Markarian and Amanda Ramrup" width="475" height="620" class="projectimage">
+			<div class="projectmiddle">
+				<div class="projecttext">
+					<p>Visual representation of the analysis of the high risk factors for COVID-19 relative to the cumulative cases in Montreal, Quebec.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- --------------------
 - Helen Health Industry Section End
@@ -138,16 +151,18 @@
 		https://www.w3schools.com/html/html_layout.asp
 -------------------- -->
 <!-- This footer will appear at the bottom of every page of our website -->
-<div class="footer">
+<footer>
 	<address>Layer Larks Consulting Group, 101 Fleming Nest, Lindsay ON, K9V 5E6</address>
 	<!-- Clicking on the social media icons leads the user to their main pages; link to profile if the consulting group legitimate -->
-	<p>Follow Us On Social Media!</p>
-	<div class="centericon">
-		<a href="https://www.facebook.com/" class="fa fa-facebook"target="_blank"></a>
-		<a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
-		<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+	<div class="footertext">
+		<p>Follow Us On Social Media!</p>
 	</div>
-</div>
+	<div class="centericon">
+		<a href="https://www.facebook.com/" class="fa fa-facebook" title="Link to Facebook page" target="_blank"></a>
+		<a href="https://twitter.com/" class="fa fa-twitter" title="Link to Twitter page" target="_blank"></a>
+		<a href="https://www.instagram.com/" class="fa fa-instagram" title="Link to Instagram page" target="_blank"></a>
+	</div>
+</footer>
 <!-- --------------------
 - Helen Footer Section End
 -------------------- -->
