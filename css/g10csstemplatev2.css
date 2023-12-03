@@ -914,8 +914,38 @@ hr.rounded {
 	padding-bottom: 20px;
 }
 
+/*3 column design for industries section on index*/
+.column1 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.column2 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+    float: left;
+    width: 66.66%;
+    padding: 15px;
+}
+
+.column3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+
+
+.row::after {      /*clear floats after the columns using the row class*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) { /*If the browser window is 600px or smaller the width for classes starting w column is set to 100%*/
+    [class*="column"] {
+        width: 100%;
+    }
+
 /*Responsive design for phone screens to resize images*/
-@media screen and (max-width:600px) {
 	img {                  /*selects image tag src=https://www.w3schools.com/css/css_rwd_images.asp*/
 		max-width: 100%;   /*image width wont exceed its max width but will size down responsively*/
 		height: auto;
