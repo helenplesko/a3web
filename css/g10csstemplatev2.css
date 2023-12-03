@@ -915,23 +915,23 @@ hr.rounded {
 }
 
 /*3 column design for industries section on index*/
-.column1 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+.column1, .column2, .column3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
     float: left;
     width: 33.33%;
     padding: 15px;
 }
 
-.column2 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
-    float: left;
+/* .column2 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+    /* float: left;
     width: 66.66%;
     padding: 15px;
 }
 
-.column3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+.column3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive
     float: left;
     width: 100%;
     padding: 15px;
-}
+} */ 
 
 
 .row::after {      /*clear floats after the columns using the row class*/
