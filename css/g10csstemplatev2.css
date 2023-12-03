@@ -888,12 +888,14 @@ address {
 	width: 100%;
 }
 
+/*Customization of dividing lines*/
 hr.rounded {
 	border-radius: 6px;
 	border-top: 3px solid var(--h1-color);
 	padding: 5px;
 }
 
-.industries {
+.industries, .aboutus p {
 	text-align: center;
 }
+
