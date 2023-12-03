@@ -913,3 +913,12 @@ hr.rounded {
 	list-style-type: none;
 	padding-bottom: 20px;
 }
+
+/*Responsive design for phone screens to resize images*/
+@media screen and (max-width:600px) {
+	img {                  /*selects image tag src=https://www.w3schools.com/css/css_rwd_images.asp*/
+		max-width: 100%;   /*image width wont exceed its max width but will size down responsively*/
+		height: auto;
+	}
+	
+}
