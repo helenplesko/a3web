@@ -899,3 +899,12 @@ hr.rounded {
 	text-align: center;
 }
 
+.aboutus ul {
+	color: var(--p-color);
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
