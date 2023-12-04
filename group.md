@@ -74,7 +74,7 @@ Worked on by: All
 
 Due by: mid Week 13
 
-Completed: N
+Completed: In Progress
 
 
 ## 8. Page 2 (content) About the Team
@@ -118,7 +118,7 @@ Worked on by: Lori
 
 Due by: mid Week 13
 
-Completed: N
+Completed: Y
 
 
 ## 12. Page 6 (content) Health Industry
@@ -195,7 +195,7 @@ Worked on by: Lori & Craig
 
 Due by: before Week 12 Lab, include in template
 
-Completed: In Progress
+Completed: Y
 
 
 ## 20. Responsive Design

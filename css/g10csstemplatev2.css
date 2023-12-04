@@ -6,7 +6,7 @@
 /* Variables colors to assist JS light/dark mode function */
 :root {
 	/* Color variables */
-	--background-color-light: #ffffff;
+	--background-color-light: #f5f5f5;
 	--header-background: #f5f5f5;
 	--navbar-color: #2b3634;
 	--h1-color: #41534f;
@@ -308,7 +308,7 @@ h2 {
 /* Customization of Header 3 */
 h3 {
 	color: var(--h3-color);
-	text-align: left;
+	text-align: center;
 	font-weight: normal;
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;
@@ -798,37 +798,6 @@ address {
 /* --------------------
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
-- Section:	MAIN DIV CSS 
-- Inspired by:	
--------------------- */
-
-/* Customization of content page */
-/* MIGHT BE ABLE TO TAKE THIS OUT - move up IF APPLIED TO ALL PAGES */
-.content {
-	background: var(--header-background);
-}
-
-/* Customization of heading 1 within content page */
-/* MIGHT BE ABLE TO TAKE THIS OUT - move to h1 heading IF APPLIED TO ALL PAGES */
-.content h1 {
-	text-align: center;
-	margin-top: 5px;
-	padding-top: 20px;
-}
-
-/* Customization of heading 2 within content page */
-/* MIGHT BE ABLE TO TAKE THIS OUT - move to h2 heading IF APPLIED TO ALL PAGES */
-.content h2 {
-	text-align: center;
-}
-
-/* --------------------
-- Helen Content Div Section End
--------------------- */
-
-/* --------------------
-- Owner: 	Helen Plesko
-- Date:		November 21, 2023
 - Section:	INDUSTRY PAGE CSS
 - Inspired by:	Shawn Morgan, https://fleming.desire2learn.com/d2l/home
 				https://www.w3schools.com/howto/howto_css_image_overlay.asp
@@ -972,12 +941,294 @@ address {
 	width: 100%;
 }
 
+/*Customization of dividing lines*/
 hr.rounded {
 	border-radius: 6px;
 	border-top: 3px solid var(--h1-color);
-	padding: 5px;
+	margin: 25px;
 }
 
-.industries {
+.aboutus ul, .aboutus p {
+	color: var(--p-color);
 	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+
+/*3 column design for industries section on index*/
+.hcolumn1, .hcolumn2, .hcolumn3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+	text-align: center;
+}
+
+.row::after {      /*clear floats after the columns using the row class*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) { /*If the browser window is 600px or smaller the width for classes starting w column is set to 100%*/
+    [class*="hcolumn"] {
+        width: 100%;
+    }
+
+	/*Responsive design for phone screens to resize images*/
+	img {                  /*selects image tag src=https://www.w3schools.com/css/css_rwd_images.asp*/
+		max-width: 100%;   /*image width wont exceed its max width but will size down responsively*/
+		height: auto;
+	}	
+}
+
+/* --------------------
+- Owner: 	Lilit Markarian
+- Date:		December 2, 2023
+- Section:	Career Page CSS
+- Inspired by:	
+- Content from: Canva
+-------------------- */
+
+/*Customization of banner class*/
+.bannercareer {
+	position: relative;
+	max-width: 100%;
+	width: 100;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+/*Customization of vidcontainer for careers page class*/
+.vidcontainerc {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+	transform: translate(0%,-40%);
+}
+
+/*Customization of h2 for the banner of careers page*/
+.bannercareer h2 {
+	text-align: center;
+	font-size: 3rem;
+	z-index: 1;
+	padding: 20px;
+	margin: 15px;
+	color: white;
+	opacity: 0.8;
+}
+
+/*Customization of green mask over the video banner*/
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	background-color: rgba(65, 83, 79, 0.2);
+  }
+
+@media screen and (max-width: 600px) {
+	[class*="bannercareer"]{
+		width:100%;
+	}
+}
+
+
+/*Customization of cards and containers of Career page*/
+/* - Inspired by https://www.youtube.com/watch?v=TJe8fYs0PiI */
+.career-container {
+	background-color: transparent;
+	max-width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 100px;
+}
+
+.row {
+	display: flex;
+}
+
+.columncareers1, .columncareers2, .columncareers3 {
+	margin: 0 20px 25px;
+	background-color: transparent;
+	flex-basis: 33%;
+	justify-content: center;
+	text-align: center;
+}
+
+.card {
+	padding: 15px 25px;
+}
+
+@media screen and (max-width: 600px) {
+	.row {   
+		flex-direction: column;
+	}
+}
+
+/* Customization of the county maps on the career page */
+.countries-container{
+	background-color: transparent;
+	border: 20px solid rgba(103, 125, 121, 0.226);
+	max-width: 1450px;;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	height: 243px;
+}
+
+.countries{
+	margin: 0 25px 25px;
+	background-color: transparent;
+	flex-basis: 33%;
+	flex-wrap: wrap;
+}
+
+.countries-card {
+	padding: 45px 150px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+/* customization of images and texts of the Careers page */
+.wrapped-content {
+	margin: 25px auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 75vh;
+	background-color: transparent;
+	width: 70%;
+	padding: 0%;
+}
+
+.careersimages {
+	max-width: 100%;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.wrapped-text-box  {
+	justify-content: center;
+	display: flex;
+}
+
+.wrapped-text-box h2 {
+	display: flex;
+	font-size: 35px;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapped-text-box h3 {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 20px;
+	color: #576864;
+}
+
+/* customization of second images and texts of the Careers page */
+.wrapped-content-2 {
+	margin: 25px auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 75vh;
+	background-color: transparent;
+	width: 70%;
+	padding: 0%;
+}
+
+.careersimages-2 {
+	max-width: 100%;
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.wrapped-text-box-2  {
+	justify-content: center;
+	display: flex;
+	float: left;
+}
+
+/* customization of third images and texts of the Careers page */
+.wrapped-content-3 {
+	margin: 25px auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 75vh;
+	background-color: transparent;
+	width: 70%;
+	padding: 0%;
+}
+
+.careersimages-3{
+	max-width: 100%;
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.wrapped-text-box-3{
+	justify-content: center;
+	display: flex;
+	float: left;
+}
+
+
+/* Customization of Open Application part of Careers page */
+.openappcontent {
+	margin: 0 39px 25px;
+	background-color: transparent;
+	display: flex;
+	text-align: center;
+}
+
+.openapp {
+	margin: 0 20px 25px;
+	background-color: transparent;
+	flex-basis: 33%;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.openapp h2 {
+	display: flex;
+	font-size: 35px;
+	margin-top: 40px;
+	justify-content: center;
+	align-items: center;
+}
+
+.openapp h3{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 18px;
 }
