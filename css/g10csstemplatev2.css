@@ -357,7 +357,7 @@ p {
 -------------------- */
  
 /* div to hold everything that's involved with the contact section and style the area outside the contact box*/
-.flex-container{
+ .flex-container{
 	min-height: 100vh;
 	width: 100%;
 	background: #9fe0b3;
