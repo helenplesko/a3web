@@ -798,6 +798,7 @@ address {
 	--p-color: var(--p-color-dark);
 	--dmode-button-text-color: var(--dmode-button-text-color-dark);
 	--dmode-button-background: var(--dmode-button-background-dark)
+ 
 }
 
 /* Customization of Dark Mode button */
