@@ -1281,11 +1281,36 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	}
 }
 
+/* Customization of Career's Page Apply Now Button*/
+/* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
+.buttoncontainer {
+	margin: 0 39px 25px;
+	background-color: transparent;
+	display: flex;
+	text-align: center;
+}
 
 .applynowbutton{
+	background-color: #43524d;
+	border: none;
+	color: white;
+	padding: 15px 10px;
+	justify-content: center;
 	text-decoration: none;
+	display: flex;
+	font-size: 18px;
+	flex-basis: 100%;
+}
+
+.applynowbutton h3{
 	color: white;
 }
+
+.applynowbutton:hover{
+background-color: #7ea69c;
+	transition: 0.3s;
+}
+
 /* --------------------
 - Lilit Career Page CSS End
 -------------------- */
