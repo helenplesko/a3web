@@ -361,7 +361,6 @@ p {
 .flex-container{
 	min-height: 100vh;
 	width: 100%;
-	background: #9fe0b3;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -546,8 +545,6 @@ label{
 
    }
  
- 
-
 
   
  /* --
@@ -740,7 +737,7 @@ address {
 }
 
 /* Customization of all footer social media icons */
-.fab {
+.fa {
 	padding: 15px;
 	font-size: 20px;
 	text-align: center;
@@ -751,7 +748,7 @@ address {
 }
 
 /* Customization of footer social media icon hover - makes icon semi-transparent when user hovers over it */
-.fab:hover {
+.fa:hover {
     opacity: 0.5;
 }
 
@@ -1050,7 +1047,6 @@ hr.rounded {
 	margin: 15px;
 	color: white;
 	opacity: 0.8;
-	width: 100%;
 }
 
 /*Customization of green mask over the video banner*/
@@ -1062,7 +1058,6 @@ hr.rounded {
 	height: auto;
 	background-color: rgba(65, 83, 79, 0.2);
   }
-
 
 /*Customization of cards and containers of Career page*/
 /* - Inspired by https://www.youtube.com/watch?v=TJe8fYs0PiI */
@@ -1076,7 +1071,6 @@ hr.rounded {
 	padding: 0px 100px;
 }
 
-
 .columncareers1, .columncareers2, .columncareers3 {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1088,6 +1082,7 @@ hr.rounded {
 .card {
 	padding: 15px 25px;
 }
+
 
 /* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
 @media (max-width: 600px) {
@@ -1273,16 +1268,18 @@ hr.rounded {
 - Owner: 	Helen Plesko
 - Date:		December 3, 2023
 - Section:	MEDIA PAGE CSS
-- Inspired by:	https://www.w3schools.com/howto/howto_css_calendar.asp
+- Inspired by:	
 -------------------- */
-/* Customization of how to display calendar month */
+.mediabody ul {
+	list-style-type: none;
+}
+
 .calendarmonth {
 	padding: 10px;
 	width: 100%;
 	background: #7ea69c;
 }
 
-/* Customization of calendar month text */
 .calendarmonth h3 {
 	color: #FFF;
 	font-size: 20px;
@@ -1293,14 +1290,12 @@ hr.rounded {
 	font-weight: bold;  
 }
 
-/* Customization of how to display calendar weekdays */
 .calendarweekdays {
 	margin: 0;
 	padding: 10px 0;
 	background-color: #ddd;
 }
 
-/* Customization of calendar weekday text */
 .calendarweekdays li {
 	display: inline-block;
 	width: 13.6%;
@@ -1310,14 +1305,12 @@ hr.rounded {
 	font-weight: bold;
 }
 
-/* Customization of how to display calendar days */
 .calendardays {
 	padding: 10px 0;
 	background: #eee;
 	margin: 0;
 }
 
-/* Customization of calendar day text */
 .calendardays li {
 	list-style-type: none;
 	display: inline-block;
@@ -1328,31 +1321,27 @@ hr.rounded {
 	color: #777;
 }
 
-/* Customization of calendar days that have an event occurring on that day */
 .calendardays .mediaevent {
 	color: #000;
 	font-weight: bold;
 }
 
-/* Responsive layout for smaller screens, shrinking the calendar */
+/* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
   .calendarweekdays li, .calendardays li {width: 13.1%;}
 }
+
 @media screen and (max-width: 420px) {
   .calendarweekdays li, .calendardays li {width: 12.5%;}
   .calendardays li {padding: 2px;}
 }
+
 @media screen and (max-width: 290px) {
   .calendarweekdays li, .calendardays li {width: 12.2%;}
 }
 
-/* Center the news article images on the media page */
 .medianews img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.mediapagetext {
-	text-align: center;
 }
