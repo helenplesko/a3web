@@ -12,6 +12,7 @@
 	--h1-color: #41534f;
 	--h2-color: #637e77;
 	--h3-color: #7ea69c;
+	--h4-color: #000000;
 	--p-color: #000000;
 	--dmode-button-text-color: #fff;
 	--dmode-button-background: #2b3634;
@@ -22,6 +23,7 @@
 	--h1-color-dark: #7ea69c;
 	--h2-color-dark: #637e77;
 	--h3-color-dark: #667672;
+	--h4-color-dark: #f5f5f5;
 	--p-color-dark: #f5f5f5;
 	--dmode-button-text-color-dark: #ebee22;
 	--dmode-button-background-dark: #0a0a0a;
@@ -311,6 +313,17 @@ h3 {
 	text-align: center;
 	font-weight: normal;
 	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Customization of Header 4 */
+h4 {
+	color: var(--h4-color);
+	text-align: left;
+	font-weight: bold;
+	font-size: 17px;
 	font-family: helvetica, arial, sans-serif;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -1241,4 +1254,86 @@ hr.rounded {
 	align-items: center;
 	display: flex;
 	font-size: 18px;
+}
+
+/* --------------------
+- Owner: 	Helen Plesko
+- Date:		December 3, 2023
+- Section:	MEDIA PAGE CSS
+- Inspired by:	
+-------------------- */
+.mediabody ul {
+	list-style-type: none;
+}
+
+.calendarmonth {
+	padding: 10px;
+	width: 100%;
+	background: #7ea69c;
+}
+
+.calendarmonth h3 {
+	color: #FFF;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+	font-weight: bold;  
+}
+
+.calendarweekdays {
+	margin: 0;
+	padding: 10px 0;
+	background-color: #ddd;
+}
+
+.calendarweekdays li {
+	display: inline-block;
+	width: 13.6%;
+	color: #666;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+}
+
+.calendardays {
+	padding: 10px 0;
+	background: #eee;
+	margin: 0;
+}
+
+.calendardays li {
+	list-style-type: none;
+	display: inline-block;
+	width: 13.6%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: #777;
+}
+
+.calendardays .mediaevent {
+	color: #000;
+	font-weight: bold;
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .calendarweekdays li, .calendardays li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .calendarweekdays li, .calendardays li {width: 12.5%;}
+  .calendardays li {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .calendarweekdays li, .calendardays li {width: 12.2%;}
+}
+
+.medianews img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
