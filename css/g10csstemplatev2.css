@@ -983,17 +983,13 @@ hr.rounded {
 	text-align: center;
 }
 
-.columncareers .card{
-	flex:1;	
-}
-
 .card {
 	padding: 15px 25px;
 }
 
 @media screen and (max-width: 600px) {
 	[class*= "columncareers"] {
-		width:100%;
+		flex-basis:100%;
 	}
 }
 
