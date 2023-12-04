@@ -1050,6 +1050,7 @@ hr.rounded {
 	margin: 15px;
 	color: white;
 	opacity: 0.8;
+	width: 100%;
 }
 
 /*Customization of green mask over the video banner*/
@@ -1097,11 +1098,6 @@ hr.rounded {
 	padding: 15px 25px;
 }
 
-@media screen and (max-width: 600px) {
-	.row {   
-		flex-direction: column;
-	}
-}
 
 /* Customization of the county maps on the career page */
 .countries-container{
