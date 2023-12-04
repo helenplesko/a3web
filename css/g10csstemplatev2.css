@@ -360,6 +360,7 @@ p {
 .flex-container{
 	min-height: 100vh;
 	width: 100%;
+	background: #9fe0b3;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -371,7 +372,7 @@ p {
  .contactcontainer{
 	 
 	width: 85%;
-	background: rgb(64, 87, 61);
+	background: #2b3634;
 	border-radius: 6px;
 	padding: 20px 60px 30px 40px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -398,10 +399,10 @@ p {
 .contactcontent .left-side::before{
 	content: '';
 	position:  absolute;
-	height: 70%;
+	height: 250px;
 	width: 2px;
 	background: black;
-	 transform: translateY(-50%);
+	transform: translateY(-50%);
 	right: 0px;
 	top: 50%;
 	}
@@ -414,13 +415,14 @@ p {
 	.contactcontent .left-side .details .text-one,
 	.contactcontent .left-side .details .text-two{
 	font-size: 16px;
-	color: rgb(58, 57, 68);
+	color: rgb(206, 205, 219);
 	}
 
 	/* creating a margin and centering the text  and icons  on the left side of the div*/
 .contactcontent .left-side .details{
 	margin: 14px;
 	text-align: center;	
+	color: rgb(206, 205, 219);
 }
  /* adding style to the topic section text on the left hand side for the address phone number and email address  */
 .contactcontent .left-side .details .topic{
@@ -430,7 +432,7 @@ font-weight:500;
 /* stylizing the icons on the left hand side of the contact section*/
 .contactcontent .left-side .details i{
 font-size: 30px;
-color: rgb(227, 58, 58);
+color: rgb(139, 173, 140);
 }
  
 /* creating a larger divide between the left and ride side of the contact box */
@@ -455,17 +457,18 @@ color: rgb(5, 5, 5)
 label{
 	padding-left: 12px;
 }
-    /* adding style to the select box container*/
+  /* adding style to the select box container*/
  .select-box{
-	display:flex;
-	justify-content: center;
-	position: relative;
-	border-radius: 6px;
-	padding-left: 6px;
-	width: 150px;
-	height: 25px;
-	background-color: #F0F1F8;
-	}
+display:flex;
+justify-content: center;
+position: relative;
+border-radius: 6px;
+padding-left: 6px;
+width: 150px;
+height: 25px;
+background-color: #F0F1F8;
+}
+
  
 
 /* adding style to the input box areas where the user inputs their name, email address and messege for LayerLarks*/
