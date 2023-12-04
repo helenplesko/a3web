@@ -1260,18 +1260,16 @@ hr.rounded {
 - Owner: 	Helen Plesko
 - Date:		December 3, 2023
 - Section:	MEDIA PAGE CSS
-- Inspired by:	
+- Inspired by:	https://www.w3schools.com/howto/howto_css_calendar.asp
 -------------------- */
-.mediabody ul {
-	list-style-type: none;
-}
-
+/* Customization of how to display calendar month */
 .calendarmonth {
 	padding: 10px;
 	width: 100%;
 	background: #7ea69c;
 }
 
+/* Customization of calendar month text */
 .calendarmonth h3 {
 	color: #FFF;
 	font-size: 20px;
@@ -1282,12 +1280,14 @@ hr.rounded {
 	font-weight: bold;  
 }
 
+/* Customization of how to display calendar weekdays */
 .calendarweekdays {
 	margin: 0;
 	padding: 10px 0;
 	background-color: #ddd;
 }
 
+/* Customization of calendar weekday text */
 .calendarweekdays li {
 	display: inline-block;
 	width: 13.6%;
@@ -1297,12 +1297,14 @@ hr.rounded {
 	font-weight: bold;
 }
 
+/* Customization of how to display calendar days */
 .calendardays {
 	padding: 10px 0;
 	background: #eee;
 	margin: 0;
 }
 
+/* Customization of calendar day text */
 .calendardays li {
 	list-style-type: none;
 	display: inline-block;
@@ -1313,27 +1315,31 @@ hr.rounded {
 	color: #777;
 }
 
+/* Customization of calendar days that have an event occurring on that day */
 .calendardays .mediaevent {
 	color: #000;
 	font-weight: bold;
 }
 
-/* Add media queries for smaller screens */
+/* Responsive layout for smaller screens, shrinking the calendar */
 @media screen and (max-width:720px) {
   .calendarweekdays li, .calendardays li {width: 13.1%;}
 }
-
 @media screen and (max-width: 420px) {
   .calendarweekdays li, .calendardays li {width: 12.5%;}
   .calendardays li {padding: 2px;}
 }
-
 @media screen and (max-width: 290px) {
   .calendarweekdays li, .calendardays li {width: 12.2%;}
 }
 
+/* Center the news article images on the media page */
 .medianews img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.mediapagetext {
+	text-align: center;
 }
