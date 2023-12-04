@@ -1089,6 +1089,18 @@ hr.rounded {
 	padding: 15px 25px;
 }
 
+/* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
+@media (max-width: 600px) {
+	.career-container {
+	  padding: 0 20px; 
+	  flex-direction: column;
+	  align-items: center;
+	}
+	.columncareers1, .columncareers2, .columncareers3 {
+	  flex-basis: 100%; 
+	  margin: 0 0 25px;
+	}
+}
 
 /* Customization of the county maps on the career page */
 .countries-container{
@@ -1099,22 +1111,32 @@ hr.rounded {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	height: 243px;
+	height: auto;
+	padding: 0px 15px;
 }
 
 .countries{
-	margin: 0 25px 25px;
+	margin: 0 5px 25px;
 	background-color: transparent;
-	flex-basis: 33%;
-	flex-wrap: wrap;
+	flex-basis: 100%;
+	justify-content: center;
+	text-align: center;
 }
 
 .countries-card {
-	padding: 45px 150px;
+	padding: 15px;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
+@media (max-width: 600px) {
+	.countries-container {
+	  padding: 0 50px; 
+	}
+	.countries {
+	  flex-basis: 50%; 
+	}
+}
 
 /* customization of images and texts of the Careers page */
 .wrapped-content {
@@ -1133,24 +1155,22 @@ hr.rounded {
 	max-width: 100%;
 	float: left;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 25px;
 }
 
 .wrapped-text-box  {
 	justify-content: center;
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .wrapped-text-box h2 {
 	display: flex;
 	font-size: 35px;
-	justify-content: center;
-	align-items: center;
 }
 
 .wrapped-text-box h3 {
-	justify-content: center;
-	align-items: center;
 	display: flex;
 	font-size: 20px;
 	color: #576864;
@@ -1171,7 +1191,8 @@ hr.rounded {
 
 .careersimages-2 {
 	max-width: 100%;
-	float: right;
+	float: left;
+	display: flex;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -1179,7 +1200,8 @@ hr.rounded {
 .wrapped-text-box-2  {
 	justify-content: center;
 	display: flex;
-	float: left;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* customization of third images and texts of the Careers page */
@@ -1195,19 +1217,19 @@ hr.rounded {
 	padding: 0%;
 }
 
-.careersimages-3{
+.careersimages-3 {
 	max-width: 100%;
-	float: right;
+	float: left;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-.wrapped-text-box-3{
+.wrapped-text-box-3  {
 	justify-content: center;
 	display: flex;
-	float: left;
+	flex-direction: column;
+	align-items: center;
 }
-
 
 /* Customization of Open Application part of Careers page */
 .openappcontent {
@@ -1220,12 +1242,9 @@ hr.rounded {
 .openapp {
 	margin: 0 20px 25px;
 	background-color: transparent;
-	flex-basis: 33%;
+	flex-basis: 100%;
 	text-align: center;
-	padding-left: 100px;
-	padding-right: 100px;
-	margin-left: 100px;
-	margin-right: 100px;
+	padding:0;
 }
 
 .openapp h2 {
@@ -1241,6 +1260,13 @@ hr.rounded {
 	align-items: center;
 	display: flex;
 	font-size: 18px;
+}
+
+@media screen and (min-width:600px) {
+	.openapp {
+		flex-basis:48%;
+		margin:0 1%;
+	}
 }
 
 /* --------------------
