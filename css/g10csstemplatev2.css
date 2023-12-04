@@ -1283,9 +1283,18 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 
 
 .applynowbutton{
-	text-decoration: none;
+	background-color: #3d4d47;
+	border: none;
 	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
+
 /* --------------------
 - Lilit Career Page CSS End
 -------------------- */
