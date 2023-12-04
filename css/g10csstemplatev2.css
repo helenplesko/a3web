@@ -18,7 +18,7 @@
 	--dmode-button-background: #2b3634;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
-	--header-background-dark: #14191a;
+	--header-background-dark: #1e2423;
 	--navbar-color-dark: #1f2726;
 	--h1-color-dark: #7ea69c;
 	--h2-color-dark: #8fa9a2;
@@ -42,7 +42,6 @@
 header {
 	background-color: var(--header-background);
 	padding: 5px;
-	margin-bottom: 5px;
 	justify-content: space-between;
 }
 
