@@ -361,7 +361,7 @@ p {
 .flex-container{
 	min-height: 100vh;
 	width: 100%;
-	background: #9fe0b3;
+	 
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -546,8 +546,6 @@ label{
 
    }
  
- 
-
 
   
  /* --
@@ -555,12 +553,12 @@ label{
 -- */
   
   
-/* --------------------
+/* -
 - Owner: 	Craig Jurkiewicz 
 - Date:		November 23, 2023
 - Section:	Testimonials
 - Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
--------------------- */ 
+-- */ 
  /* classes for the banner adn header having a slightly opaque  background for the header and ensuring no items overlap */ 
  .testibanner{
 	position: relative;
@@ -594,7 +592,7 @@ label{
 		align-content: center;
 		justify-content: space-around;
 	  }
-	/* adding changes to test for pullign */ 
+
 	  /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
 	  .wrapper .box{
 		width: calc(33% - 10px);
@@ -606,8 +604,7 @@ label{
 		background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
 		 
 	  }
-	
-	  /* adjusting changes and comments */
+	 
 	  /* adjusting the size of the quotes that are stacked inside the two div's */ 
 	  .wrapper .box i.quote{
 		font-size: 15px;
