@@ -444,7 +444,17 @@ color: rgb(5, 5, 5)
 label{
 	padding-left: 12px;
 }
-  
+    /* adding style to the select box container*/
+ .select-box{
+	display:flex;
+	justify-content: center;
+	position: relative;
+	border-radius: 6px;
+	padding-left: 6px;
+	width: 150px;
+	height: 25px;
+	background-color: #F0F1F8;
+	}
  
 
 /* adding style to the input box areas where the user inputs their name, email address and messege for LayerLarks*/
