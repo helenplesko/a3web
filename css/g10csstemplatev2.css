@@ -743,7 +743,6 @@ address {
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
-	width: 45px;
 	transition: .3s ease-in-out;
 }
 
