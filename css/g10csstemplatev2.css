@@ -1281,18 +1281,34 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	}
 }
 
+/* Customization of Career's Page Apply Now Button*/
+/* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
+.buttoncontainer {
+	margin: 0 39px 25px;
+	background-color: transparent;
+	display: flex;
+	text-align: center;
+}
 
 .applynowbutton{
-	background-color: #3d4d47;
+	background-color: #43524d;
 	border: none;
 	color: white;
-	padding: 15px 32px;
-	text-align: center;
+	padding: 15px 10px;
+	justify-content: center;
 	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
+	display: flex;
+	font-size: 18px;
+	flex-basis: 100%;
+}
+
+.applynowbutton h3{
+	color: white;
+}
+
+.applynowbutton:hover{
+background-color: #7ea69c;
+	transition: 0.3s;
 }
 
 /* --------------------
