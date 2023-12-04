@@ -974,11 +974,14 @@ hr.rounded {
 	padding: 0px 100px;
 }
 
+.row {
+	display: flex;
+}
+
 .columncareers1, .columncareers2, .columncareers3 {
 	margin: 0 20px 25px;
 	background-color: transparent;
 	flex-basis: 33%;
-	display: flex;
 	justify-content: center;
 	text-align: center;
 }
@@ -988,8 +991,8 @@ hr.rounded {
 }
 
 @media screen and (max-width: 600px) {
-	[class*= "columncareers"] {
-		flex-basis:100%;
+	.row {   
+		flex-direction: column;
 	}
 }
 
