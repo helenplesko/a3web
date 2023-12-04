@@ -737,7 +737,7 @@ address {
 }
 
 /* Customization of all footer social media icons */
-.fa {
+.fab {
 	padding: 15px;
 	font-size: 20px;
 	text-align: center;
@@ -748,25 +748,25 @@ address {
 }
 
 /* Customization of footer social media icon hover - makes icon semi-transparent when user hovers over it */
-.fa:hover {
+.fab:hover {
     opacity: 0.5;
 }
 
 /* Customization of footer Facebook icon */
 .fa-facebook {
-	background: #3B5998;
+	background: #637e77;
 	color: #FFF;
 }
 
 /* Customization of footer Twitter icon */
 .fa-twitter {
-	background: #55ACEE;
+	background: #637e77;
 	color: #FFF;
 }
 
 /* Customization of footer Instagram icon */
 .fa-instagram {
-	background: #125688;
+	background: #637e77;
 	color: #FFF;
 }
 
