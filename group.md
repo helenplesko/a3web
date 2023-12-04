@@ -140,7 +140,7 @@ Worked on by: Lilit
 
 Due by: mid Week 13
 
-Completed: N
+Completed: Y
 
 
 ## 14. Page 8 (content) Client Testimonials
@@ -162,7 +162,7 @@ Worked on by: Lilit
 
 Due by: mid Week 13
 
-Completed: N
+Completed: Y
 
 
 ## 16. Page 10 (content) Contact Us
@@ -228,7 +228,7 @@ Worked on by: Ryan & Lilit
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 23. Individual Industry Page Template
