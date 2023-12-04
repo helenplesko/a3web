@@ -1098,6 +1098,11 @@ hr.rounded {
 	padding: 15px 25px;
 }
 
+@media screen and (max-width:600px){
+	[class*="columncareers"] {
+		width:100%;
+	}
+}
 
 /* Customization of the county maps on the career page */
 .countries-container{
@@ -1116,6 +1121,7 @@ hr.rounded {
 	background-color: transparent;
 	flex-basis: 33%;
 	flex-wrap: wrap;
+	width:100%;
 }
 
 .countries-card {
@@ -1124,6 +1130,11 @@ hr.rounded {
 	flex-wrap: wrap;
 }
 
+@media screen and (max-width:600px){
+	[class*="countries"] {
+		width:100%;
+	}
+}
 
 /* customization of images and texts of the Careers page */
 .wrapped-content {
