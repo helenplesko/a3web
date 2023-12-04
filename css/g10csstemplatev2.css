@@ -29,6 +29,7 @@
 	--dmode-button-background-dark: #0a0a0a;
 	--text-one-color-dark: #f5f5f5;
  	--text-two-color-dark: #f5f5f5;
+	--topic-color-dark:  #ebee22;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -416,7 +417,7 @@ p {
 	.contactcontent .left-side .details .text-one,
 	.contactcontent .left-side .details .text-two{
 	font-size: 16px;
-	color: rgb(206, 205, 219);
+	color: rgb(73, 65, 183);
 	}
 
 	/* creating a margin and centering the text  and icons  on the left side of the div*/
@@ -797,6 +798,7 @@ address {
 	--h2-color: var(--h2-color-dark);
 	--h3-color: var(--h3-color-dark);
 	--p-color: var(--p-color-dark);
+	--topic-color: var(--topic-color-dark);
 	--text-one-color: var(--text-one-color-dark);
 	--text-two-color: var(--text-two-color-dark);
 	--dmode-button-text-color: var(--dmode-button-text-color-dark);
