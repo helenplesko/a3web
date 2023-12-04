@@ -27,8 +27,9 @@
 	--p-color-dark: #f5f5f5;
 	--dmode-button-text-color-dark: #ebee22;
 	--dmode-button-background-dark: #0a0a0a;
+	--text-one-color-dark: #f5f5f5;
+ 	--text-twp-color-dark: #f5f5f5;
 }
-
 /* --------------------
 - Ryan Variable Section End
 -------------------- */
@@ -796,8 +797,11 @@ address {
 	--h2-color: var(--h2-color-dark);
 	--h3-color: var(--h3-color-dark);
 	--p-color: var(--p-color-dark);
+	--text-one-color: var(--text-one-color-dark);
+	--text-two-color: var(--text-two-color-dark);
 	--dmode-button-text-color: var(--dmode-button-text-color-dark);
-	--dmode-button-background: var(--dmode-button-background-dark)
+	--dmode-button-background: var(--dmode-button-background-dark);
+	
  
 }
 
