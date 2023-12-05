@@ -1327,16 +1327,14 @@ background-color: #7ea69c;
 - Section:	MEDIA PAGE CSS
 - Inspired by:	
 -------------------- */
-.mediabody ul {
-	list-style-type: none;
-}
-
+/* Customization of how to display calendar month */
 .calendarmonth {
 	padding: 10px;
 	width: 100%;
 	background: #7ea69c;
 }
 
+/* Customization of calendar month text */
 .calendarmonth h3 {
 	color: #FFF;
 	font-size: 20px;
@@ -1347,12 +1345,14 @@ background-color: #7ea69c;
 	font-weight: bold;  
 }
 
+/* Customization of how to display calendar weekdays */
 .calendarweekdays {
 	margin: 0;
 	padding: 10px 0;
 	background-color: #ddd;
 }
 
+/* Customization of calendar weekday text */
 .calendarweekdays li {
 	display: inline-block;
 	width: 13.6%;
@@ -1362,12 +1362,14 @@ background-color: #7ea69c;
 	font-weight: bold;
 }
 
+/* Customization of how to display calendar days */
 .calendardays {
 	padding: 10px 0;
 	background: #eee;
 	margin: 0;
 }
 
+/* Customization of calendar day text */
 .calendardays li {
 	list-style-type: none;
 	display: inline-block;
@@ -1378,27 +1380,66 @@ background-color: #7ea69c;
 	color: #777;
 }
 
+/* Customization of calendar days that have an event occurring on that day */
 .calendardays .mediaevent {
 	color: #000;
 	font-weight: bold;
 }
 
-/* Add media queries for smaller screens */
+/* Responsive layout for smaller screens, shrinking the calendar */
 @media screen and (max-width:720px) {
   .calendarweekdays li, .calendardays li {width: 13.1%;}
 }
-
 @media screen and (max-width: 420px) {
   .calendarweekdays li, .calendardays li {width: 12.5%;}
   .calendardays li {padding: 2px;}
 }
-
 @media screen and (max-width: 290px) {
   .calendarweekdays li, .calendardays li {width: 12.2%;}
 }
 
-.medianews img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+/* Customization of paragraph text on media page */
+.mediapagetext p {
+	text-align: center;
+	margin: 0;
 }
+
+/* Customization of h4 text on media page */
+.mediapagetext h4 {
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom:0;
+}
+
+/*Customization of container that holds the news article images and future events */
+.mediacontainer {
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Customization of columns to format news article images and future events */
+.mediacolumn {
+	margin: 0 20px 25px;
+	background-color: transparent;
+	flex-basis: 25%;
+	text-align: center;
+}
+
+/* Adding a padding on the news images */
+.newsarticle {
+	padding: 15px 25px;
+}
+
+/* Making the columns on the media page responsive, they stack when the page gets too small */
+@media (max-width: 700px) {
+	.mediacontainer {
+	  flex-direction: column;
+	  align-items: center;
+	}
+}
+
+/* --------------------
+- Helen Media Page CSS End
+-------------------- */
