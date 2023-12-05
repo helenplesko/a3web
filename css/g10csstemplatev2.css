@@ -1300,6 +1300,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin-left: 30px;
 	margin-right: 30px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
 }
 
 .applynowbutton h3{
