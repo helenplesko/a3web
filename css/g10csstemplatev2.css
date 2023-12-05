@@ -249,7 +249,7 @@ body {
 	/* Selects dropdown content in the navbar and responsive class */
 	.navbar.responsive .dropdown-content {
 		position: relative;
-		display: block;}
+	}
 	
 	/* Selects dropdown button in the navbar and responsive class */
 	.navbar.responsive .dropdown .dropbtn {
