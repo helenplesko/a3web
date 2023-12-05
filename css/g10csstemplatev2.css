@@ -1032,6 +1032,9 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	font-size: 16px;
 }
 
+/*Custimization of testimonal section*/
+/*Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya*/
+
 .htestimonial-container {
 	display: flex;
 	justify-content: center;
