@@ -16,6 +16,9 @@
 	--p-color: #000000;
 	--dmode-button-text-color: #fff;
 	--dmode-button-background: #2b3634;
+	--text-one-color: #d44343;
+	--text-two-color: #d12424;
+	--topic-color: #d81414;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -30,6 +33,7 @@
 	--text-one-color-dark: #111010;
 	--text-two-color-dark: #111010;
 	--topic-color-dark: #191111;
+
 }
 /* --------------------
 - Ryan Variable Section End
@@ -417,7 +421,7 @@ p {
 	.contactcontent .left-side .details .text-one,
 	.contactcontent .left-side .details .text-two{
 	font-size: 16px;
-	color: rgb(119, 119, 124);
+	
 	}
 
 
@@ -425,7 +429,7 @@ p {
 .contactcontent .left-side .details{
 	margin: 14px;
 	text-align: center;	
-	color: rgb(206, 205, 219);
+	
 }
  /* adding style to the topic section text on the left hand side for the address phone number and email address  */
 .contactcontent .left-side .details .topic{
