@@ -1299,6 +1299,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	flex-basis: 100%;
 	margin-left: 30px;
 	margin-right: 30px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .applynowbutton h3{
