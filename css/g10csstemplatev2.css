@@ -19,7 +19,7 @@
 	--text-one-color: #000000;
 	--text-two-color: #030202;
 	--topic-color: #060303;
-	--contactcontainer-color: #2b3634;
+	--contactcontainer-background-color: #2b3634;
 	--pageintro-background-color: #FFF;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
@@ -35,7 +35,7 @@
 	--text-one-color-dark: #ffffff;
 	--text-two-color-dark: #ffffff;
 	--topic-color-dark: #ffffff;
-	--contactcontainer-color-dark: #1f2726;
+	--contactcontainer-background-color-dark: #1f2726;
 	--pageintro-background-color-dark: #000;
 }
 /* --------------------
@@ -386,7 +386,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	border-radius: 6px;
 	padding: 20px 60px 30px 40px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	color: var(--contactcontainer-color);
+	background-color: var(--contactcontainer-background-color);
 }
 /* organinzing the content inside the container */
 .contactcontainer .contactcontent{
