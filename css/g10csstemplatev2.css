@@ -517,6 +517,12 @@ background-color: #F0F1F8;
 		cursor: pointer;
 		transition: all 0.3s ease;
 		}
+
+ /* adding color for the submit button when the user over over it*/
+ #submit:hover{
+	background: #044603;
+  }
+
 	  /* adding style to the reset button */
 .right-side .contactbutton input[type="reset"]{
 	color: #fff;
@@ -529,11 +535,8 @@ background-color: #F0F1F8;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
- /* adding color for the button when the user over over it*/
- #submit:hover{
-	background: #044603;
-  }
- /* changing the color fo the button when the user hobers over it*/
+ 
+ /* changing the color fo the reset button when the user hobers over it*/
 .contactbutton input[type="reset"]:hover{
 	background: #044603;
   }
