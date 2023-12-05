@@ -533,16 +533,14 @@ background-color: #F0F1F8;
 	.contactcontainer .contactcontent{
 	  flex-direction: column-reverse;
 	}
-   .contactcontainer .contactcontent .left-side{
+   .contactcontainer .contactcontent .bottom{
 	 width: 100%;
 	 flex-direction: row;
 	 margin-top: 40px;
 	 justify-content: center;
 	 flex-wrap: wrap;
    }
-   .contactcontainer .contactcontent .left-side::before{
-	 display: none;
-   }
+ 
    .contactcontainer .contactcontent .right-side{
 	 width: 100%;
 	 margin-left: 0;
