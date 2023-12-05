@@ -1279,7 +1279,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 /* Customization of Career's Page Apply Now Button*/
 /* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
 .buttoncontainer {
-	margin: 0 39px 25px;
+	margin: 0 0px 25px;
 	background-color: transparent;
 	display: flex;
 	text-align: center;
