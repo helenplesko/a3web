@@ -19,8 +19,7 @@
 	--text-one-color: #000000;
 	--text-two-color: #030202;
 	--topic-color: #060303;
-	--contactcontainer-background-color: #2b3634;
-	--pageintro-background-color: #FFF;
+	--contactcontainer-color: #2b3634;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -35,8 +34,7 @@
 	--text-one-color-dark: #ffffff;
 	--text-two-color-dark: #ffffff;
 	--topic-color-dark: #ffffff;
-	--contactcontainer-background-color-dark: #1f2726;
-	--pageintro-background-color-dark: #000;
+	--contactcontainer-color-dark: #1f2726;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -249,7 +247,7 @@ body {
 	/* Selects dropdown content in the navbar and responsive class */
 	.navbar.responsive .dropdown-content {
 		position: relative;
-	}
+		display: block;}
 	
 	/* Selects dropdown button in the navbar and responsive class */
 	.navbar.responsive .dropdown .dropbtn {
@@ -325,7 +323,7 @@ h2 {
 h3 {
 	color: var(--h3-color);
 	text-align: center;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;
 	padding-left: 10px;
@@ -386,7 +384,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	border-radius: 6px;
 	padding: 20px 60px 30px 40px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	background-color: var(--contactcontainer-background-color);
+	color: var(--contactcontainer-color);
 }
 /* organinzing the content inside the container */
 .contactcontainer .contactcontent{
@@ -838,14 +836,14 @@ address {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: helvetica, arial, sans-serif;
 	padding: 10px;
 	border-radius: 6px;
 	border: 2px solid var(--h1-color);
-	background: var(--pageintro-background-color);
-	margin-left: 20px;
-	margin-right: 20px;
+	background: var(--background-color-light);
+	margin-left: 33%;
+	margin-right: 33%;
 }
 
 /* Container to hold projects */
@@ -898,6 +896,11 @@ address {
 }
 
 /* Responsive Two Column Layout for Projects Page Begin */
+/* Projects Section 
+.industrypage {
+	box-sizing: border-box;
+	
+}*/
 /* Create two even columns */
 .columnprojects {
 	float: left;
@@ -1279,7 +1282,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 /* Customization of Career's Page Apply Now Button*/
 /* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
 .buttoncontainer {
-	margin: 0 200px 25px;
+	margin: 0 30px 25px;
 	background-color: transparent;
 	display: flex;
 	text-align: center;
@@ -1295,6 +1298,8 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	display: flex;
 	font-size: 18px;
 	flex-basis: 100%;
+	margin-left: 183px;
+	margin-right: 183px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 	border-radius: 6px;
 }
