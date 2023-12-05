@@ -503,7 +503,20 @@ background-color: #F0F1F8;
 		display: inline-block;
 		margin-top: 12px;
 	  }
+	  /* adding style to the submit button */
 
+	  #submit{
+		color: #fff;
+		font-size: 15px;
+		outline:mnone;
+		border:none;
+		padding: 8px 16px;
+		border-radius: 6px;
+		background-image:  linear-gradient(-180deg, rgb(220, 216, 216), rgb(0, 0, 0));
+	
+		cursor: pointer;
+		transition: all 0.3s ease;
+		}
 	  /* adding style to the submit button */
 .right-side .contactbutton input[type="button"]{
 	color: #fff;

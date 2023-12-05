@@ -30,3 +30,12 @@ function darkMode() {
   element.classList.toggle("dark-mode");
 }
 // Lilit & Ryan Dark Mode End
+
+
+// Function to alert user that their email and response has been sent in the contact us page Craig Jurkiewicz 
+
+function myFunction(alert) {
+  alert("Thank you for reaching out, we will get back to you shortly :) ");
+}
+
+// Contact Page End 
