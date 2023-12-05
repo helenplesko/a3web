@@ -421,7 +421,9 @@ p {
 	.contactcontent .left-side .details .text-one,
 	.contactcontent .left-side .details .text-two{
 	font-size: 16px;
+	color: var(--text-one-color);
 	
+
 	}
 
 
@@ -435,6 +437,7 @@ p {
 .contactcontent .left-side .details .topic{
 font-size: 18px;
 font-weight:500;
+color:var(--topic-color);
 }
 /* stylizing the icons on the left hand side of the contact section*/
 .contactcontent .left-side .details i{
