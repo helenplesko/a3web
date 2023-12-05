@@ -1,7 +1,7 @@
 ///////////////////////
 // Owner: 	Lori Lowy & Craig Jurkiewicz
 // Date:		November 23, 2023
-// Section:	NAV BAR
+// Section:	RESPONSIVE NAV BAR
 // Inspired By: 
 ///////////////////////
 
