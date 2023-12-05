@@ -992,6 +992,7 @@ hr.rounded {
 	margin: 25px;
 }
 
+/*Customization of home-aboutus ul and home-aboutus p elements*/
 .haboutus ul, .haboutus p {
 	color: var(--p-color);
 	text-align: center;
@@ -1019,18 +1020,20 @@ hr.rounded {
     clear: both;
 }
 
-	/*Responsive design for phone screens to resize images*/
+/*Responsive design for phone screens to resize images*/
 img {                  /*selects image tag src=https://www.w3schools.com/css/css_rwd_images.asp*/
 	max-width: 100%;   /*image width wont exceed its max width but will size down responsively*/
 	height: auto;
 }	
 
+/*Custimization of home-industry p element*/
 .hindustries p {
 	text-align: center;
+	font-size: 16px;
 }
 
-
-@media screen and (max-width: 600px) { /*If the browser window is 600px or smaller the width for classes starting w column is set to 100%*/
+/*If the browser window is 600px or smaller the width for classes starting w home-column is set to 100%*/
+@media screen and (max-width: 600px) { 
     [class*="hcolumn"] {
         width: 100%;
     }
