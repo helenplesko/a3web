@@ -20,6 +20,7 @@
 	--text-two-color: #030202;
 	--topic-color: #060303;
 	--contactcontainer-color: #2b3634;
+	--pageintro-background-color: #FFF;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -35,6 +36,7 @@
 	--text-two-color-dark: #ffffff;
 	--topic-color-dark: #ffffff;
 	--contactcontainer-color-dark: #1f2726;
+	--pageintro-background-color-dark: #000;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -802,6 +804,7 @@ address {
 	--text-one-color: var(--text-one-color-dark);
 	--text-two-color: var(--text-two-color-dark);
 	--topic-color: var(--topic-color-dark);
+	--pageintro-background-color: var(--pageintro-background-color-dark);
 }
 
 /* Customization of Dark Mode button */
@@ -835,14 +838,14 @@ address {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: helvetica, arial, sans-serif;
 	padding: 10px;
 	border-radius: 6px;
 	border: 2px solid var(--h1-color);
-	background: var(--background-color-light);
-	margin-left: 33%;
-	margin-right: 33%;
+	background: var(--pageintro-background-color);
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 /* Container to hold projects */
@@ -895,11 +898,6 @@ address {
 }
 
 /* Responsive Two Column Layout for Projects Page Begin */
-/* Projects Section 
-.industrypage {
-	box-sizing: border-box;
-	
-}*/
 /* Create two even columns */
 .columnprojects {
 	float: left;
