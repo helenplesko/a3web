@@ -394,15 +394,13 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 }
 
 /* organizing the area  on the elft side of the content box*/
-.contactcontainer .contactcontent .left-side{
-	width: 25%;
+.contactcontainer .contactcontent .bottom{
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: center;
 	margin-top: 15px;
-	position: relative;
 }
 /* creating a long | to stylize and seperate boxes in the contact box*/
 .divider{
