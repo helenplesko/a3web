@@ -1297,6 +1297,8 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	display: flex;
 	font-size: 18px;
 	flex-basis: 100%;
+	margin-left: 30;
+	margin-right: 30;
 }
 
 .applynowbutton h3{
