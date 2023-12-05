@@ -518,7 +518,7 @@ background-color: #F0F1F8;
 		transition: all 0.3s ease;
 		}
 	  /* adding style to the submit button */
-.right-side .contactbutton input[type="button"]{
+.right-side .contactbutton input[type="reset"]{
 	color: #fff;
 	font-size: 15px;
 	outline:mnone;
@@ -532,7 +532,7 @@ background-color: #F0F1F8;
 }
 
 /* changing the color fo the button when the user hobers over it*/
-.contactbutton input[type="button"]:hover{
+.contactbutton input[type="reset"]:hover{
 	background: #044603;
   }
 
