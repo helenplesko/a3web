@@ -16,6 +16,10 @@
 	--p-color: #000000;
 	--dmode-button-text-color: #fff;
 	--dmode-button-background: #2b3634;
+	--text-one-color: #000000;
+	--text-two-color: #030202;
+	--topic-color: #060303;
+	--contactcontainer-color: #2b3634;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -27,9 +31,10 @@
 	--p-color-dark: #f5f5f5;
 	--dmode-button-text-color-dark: #ebee22;
 	--dmode-button-background-dark: #0a0a0a;
-	--text-one-color-dark: #f5f5f5;
- 	--text-two-color-dark: #f5f5f5;
-	--topic-color-dark:  #ebee22;
+	--text-one-color-dark: #ffffff;
+	--text-two-color-dark: #ffffff;
+	--topic-color-dark: #ffffff;
+	--contactcontainer-color-dark: #1f2726;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -240,7 +245,9 @@ body {
 	.navbar.responsive .dropdown {float: none;}
 	
 	/* Selects dropdown content in the navbar and responsive class */
-	.navbar.responsive .dropdown-content {position: relative;}
+	.navbar.responsive .dropdown-content {
+		position: relative;
+		display: block;}
 	
 	/* Selects dropdown button in the navbar and responsive class */
 	.navbar.responsive .dropdown .dropbtn {
@@ -248,6 +255,10 @@ body {
 	  width: 100%;
 	  text-align: left;
 	   
+	}
+
+	.dropdown-content .active {
+		display: block;
 	}
 	
 	/* Selects hamburger class (menu icon) */
@@ -344,19 +355,15 @@ p {
 - Helen Heading & Paragraph Styles Section End
 -------------------- */
 
-/* --------------------
+ 
+
+/* --************************
 - Owner: 	Craig Jurkiewicz
 - Date:		November 23, 2023
 - Section:	Comment Box CSS (in progress)
 - Inspired By: 	https://www.w3schools.com/howto/howto_css_contact_section.asp
--------------------- */
-/* --------------------
-/* --------------------
-- Owner: 	Craig Jurkiewicz
-- Date:		November 23, 2023
-- Section:	Comment Box CSS (in progress)
-- Inspired By: 	https://www.w3schools.com/howto/howto_css_contact_section.asp
--------------------- */
+https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
+*************************-- */
  
 /* div to hold everything that's involved with the contact section and style the area outside the contact box*/
  .flex-container{
@@ -374,10 +381,10 @@ p {
  .contactcontainer{
 	 
 	width: 85%;
-	background: #2b3634;
 	border-radius: 6px;
 	padding: 20px 60px 30px 40px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	color: var(--contactcontainer-color);
 }
 /* organinzing the content inside the container */
 .contactcontainer .contactcontent{
@@ -387,52 +394,46 @@ p {
 }
 
 /* organizing the area  on the elft side of the content box*/
-.contactcontainer .contactcontent .left-side{
-	width: 25%;
+.contactcontainer .contactcontent .bottom{
+	width: 100%;
 	height: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
 	justify-content: center;
 	margin-top: 15px;
-	position: relative;
 }
-/* creating a long | to help stylize and seperate content from the left and ride side of the contact box*/
-.contactcontent .left-side::before{
-	content: '';
-	position:  absolute;
-	height: 250px;
-	width: 2px;
-	background: black;
-	transform: translateY(-50%);
-	right: 0px;
-	top: 50%;
-	}
+/* creating a long | to stylize and seperate boxes in the contact box*/
+.divider{
+	border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
 
  
 
  
  
 /* stylizing the text reas on the left hand side */
-	.contactcontent .left-side .details .text-one,
-	.contactcontent .left-side .details .text-two{
+	.contactcontent .bottom .details .text-one,
+	.contactcontent .bottom .details .text-two{
 	font-size: 16px;
-	color: rgb(73, 65, 183);
+	color: var(--text-one-color);
 	}
 
+
 	/* creating a margin and centering the text  and icons  on the left side of the div*/
-.contactcontent .left-side .details{
+.contactcontent .bottom .details{
 	margin: 14px;
 	text-align: center;	
-	color: rgb(206, 205, 219);
+	
 }
  /* adding style to the topic section text on the left hand side for the address phone number and email address  */
-.contactcontent .left-side .details .topic{
+.contactcontent .bottom .details .topic{
 font-size: 18px;
 font-weight:500;
+color:var(--topic-color);
 }
 /* stylizing the icons on the left hand side of the contact section*/
-.contactcontent .left-side .details i{
+.contactcontent .bottom .details i{
 font-size: 30px;
 color: rgb(139, 173, 140);
 }
@@ -532,16 +533,14 @@ background-color: #F0F1F8;
 	.contactcontainer .contactcontent{
 	  flex-direction: column-reverse;
 	}
-   .contactcontainer .contactcontent .left-side{
+   .contactcontainer .contactcontent .bottom{
 	 width: 100%;
 	 flex-direction: row;
 	 margin-top: 40px;
 	 justify-content: center;
 	 flex-wrap: wrap;
    }
-   .contactcontainer .contactcontent .left-side::before{
-	 display: none;
-   }
+ 
    .contactcontainer .contactcontent .right-side{
 	 width: 100%;
 	 margin-left: 0;
@@ -798,13 +797,11 @@ address {
 	--h2-color: var(--h2-color-dark);
 	--h3-color: var(--h3-color-dark);
 	--p-color: var(--p-color-dark);
-	--topic-color: var(--topic-color-dark);
-	--text-one-color: var(--text-one-color-dark);
-	--text-two-color: var(--text-two-color-dark);
 	--dmode-button-text-color: var(--dmode-button-text-color-dark);
 	--dmode-button-background: var(--dmode-button-background-dark);
-	
- 
+	--text-one-color: var(--text-one-color-dark);
+	--text-two-color: var(--text-two-color-dark);
+	--topic-color: var(--topic-color-dark);
 }
 
 /* Customization of Dark Mode button */
@@ -1321,16 +1318,14 @@ background-color: #7ea69c;
 - Section:	MEDIA PAGE CSS
 - Inspired by:	
 -------------------- */
-.mediabody ul {
-	list-style-type: none;
-}
-
+/* Customization of how to display calendar month */
 .calendarmonth {
 	padding: 10px;
 	width: 100%;
 	background: #7ea69c;
 }
 
+/* Customization of calendar month text */
 .calendarmonth h3 {
 	color: #FFF;
 	font-size: 20px;
@@ -1341,12 +1336,14 @@ background-color: #7ea69c;
 	font-weight: bold;  
 }
 
+/* Customization of how to display calendar weekdays */
 .calendarweekdays {
 	margin: 0;
 	padding: 10px 0;
 	background-color: #ddd;
 }
 
+/* Customization of calendar weekday text */
 .calendarweekdays li {
 	display: inline-block;
 	width: 13.6%;
@@ -1356,12 +1353,14 @@ background-color: #7ea69c;
 	font-weight: bold;
 }
 
+/* Customization of how to display calendar days */
 .calendardays {
 	padding: 10px 0;
 	background: #eee;
 	margin: 0;
 }
 
+/* Customization of calendar day text */
 .calendardays li {
 	list-style-type: none;
 	display: inline-block;
@@ -1372,27 +1371,66 @@ background-color: #7ea69c;
 	color: #777;
 }
 
+/* Customization of calendar days that have an event occurring on that day */
 .calendardays .mediaevent {
 	color: #000;
 	font-weight: bold;
 }
 
-/* Add media queries for smaller screens */
+/* Responsive layout for smaller screens, shrinking the calendar */
 @media screen and (max-width:720px) {
   .calendarweekdays li, .calendardays li {width: 13.1%;}
 }
-
 @media screen and (max-width: 420px) {
   .calendarweekdays li, .calendardays li {width: 12.5%;}
   .calendardays li {padding: 2px;}
 }
-
 @media screen and (max-width: 290px) {
   .calendarweekdays li, .calendardays li {width: 12.2%;}
 }
 
-.medianews img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+/* Customization of paragraph text on media page */
+.mediapagetext p {
+	text-align: center;
+	margin: 0;
 }
+
+/* Customization of h4 text on media page */
+.mediapagetext h4 {
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom:0;
+}
+
+/*Customization of container that holds the news article images and future events */
+.mediacontainer {
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Customization of columns to format news article images and future events */
+.mediacolumn {
+	margin: 0 20px 25px;
+	background-color: transparent;
+	flex-basis: 25%;
+	text-align: center;
+}
+
+/* Adding a padding on the news images */
+.newsarticle {
+	padding: 15px 25px;
+}
+
+/* Making the columns on the media page responsive, they stack when the page gets too small */
+@media (max-width: 700px) {
+	.mediacontainer {
+	  flex-direction: column;
+	  align-items: center;
+	}
+}
+
+/* --------------------
+- Helen Media Page CSS End
+-------------------- */
