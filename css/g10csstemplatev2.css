@@ -531,8 +531,11 @@ background-color: #F0F1F8;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
-
-/* changing the color fo the button when the user hobers over it*/
+ /* adding color for the button when the user over over it*/
+ .contactbutton input[type="submit"]:hover{
+	background: #044603;
+  }
+ /* changing the color fo the button when the user hobers over it*/
 .contactbutton input[type="reset"]:hover{
 	background: #044603;
   }
