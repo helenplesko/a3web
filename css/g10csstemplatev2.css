@@ -255,7 +255,7 @@ body {
 	   
 	}
 
-	.navbar.responsive .dropdown-content .active {
+	.navbar.responsive .dropdown-content.active {
 		display: block;
 	}
 	
