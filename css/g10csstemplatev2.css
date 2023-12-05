@@ -1074,7 +1074,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	width: 0;
 	border-width: 15px 20px 0;
 	border-style: solid;
-	border-color: var(--p-color) transparent;
+	border-color: var(--navbar-color) transparent;
 }
 
 .htestimonial h3 {
