@@ -802,6 +802,7 @@ address {
 	--text-one-color: var(--text-one-color-dark);
 	--text-two-color: var(--text-two-color-dark);
 	--topic-color: var(--topic-color-dark);
+	--contactcontainer-color: var(--contactcontainer-color-dark);
 }
 
 /* Customization of Dark Mode button */
