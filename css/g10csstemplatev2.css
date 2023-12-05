@@ -470,8 +470,8 @@ display:flex;
 justify-content: center;
 position: relative;
 border-radius: 6px;
-padding-left: 6px;
-width: 150px;
+margin-left: 6px;
+width: 250px;
 height: 25px;
 background-color: #F0F1F8;
 }
