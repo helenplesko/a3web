@@ -5,7 +5,7 @@
 // Inspired By: 
 ///////////////////////
 
-// Function to make navigation bar responsive
+// Function to make navigation bar responsive, change to hamburger when screen size reduces
 function responsiveNav(y) {
   y.classList.toggle("change");
   let x = document.getElementById("myNav");
@@ -15,9 +15,7 @@ function responsiveNav(y) {
     x.className = "navbar";
   }
 }
-
 // Lori & Craig Responsive NavBar End 
-
 
 ///////////////////////
 // Owner: 	Lilit Markarian & Ryan Jeffery
@@ -31,5 +29,4 @@ function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
-
 // Lilit & Ryan Dark Mode End
