@@ -514,11 +514,10 @@ background-color: #F0F1F8;
 		padding: 8px 16px;
 		border-radius: 6px;
 		background-image:  linear-gradient(-180deg, rgb(220, 216, 216), rgb(0, 0, 0));
-	
 		cursor: pointer;
 		transition: all 0.3s ease;
 		}
-	  /* adding style to the submit button */
+	  /* adding style to the reset button */
 .right-side .contactbutton input[type="reset"]{
 	color: #fff;
 	font-size: 15px;
@@ -527,12 +526,11 @@ background-color: #F0F1F8;
 	padding: 8px 16px;
 	border-radius: 6px;
 	background-image:  linear-gradient(180deg, rgb(220, 216, 216), rgb(0, 0, 0));
-
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
  /* adding color for the button when the user over over it*/
- .contactbutton input[type="submit"]:hover{
+ #submit:hover{
 	background: #044603;
   }
  /* changing the color fo the button when the user hobers over it*/
