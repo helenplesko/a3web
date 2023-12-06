@@ -1006,6 +1006,10 @@ hr.rounded {
 	padding-bottom: 20px;
 }
 
+.haboutus li {
+	padding-bottom: 10px;
+}
+
 /*3 column design for industries section on index*/
 .hcolumn1, .hcolumn2, .hcolumn3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
     float: left;
