@@ -466,7 +466,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	border-radius: 6px;
 	padding: 0 15px;
 	resize: none;
-	background-color:var(--textarea-color)
+	background-color:var(--textarea-background-color)
 }
 
 .contactinput .message-box{
