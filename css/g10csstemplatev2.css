@@ -1525,3 +1525,63 @@ background-color: #7ea69c;
 /* --------------------
 - Helen Media Page CSS End
 -------------------- */
+
+
+/* --------------------
+- Owner: 	Ryan Jeffery
+- Date:		December 5, 2023
+- Section:	TEAM PAGE CSS
+- Inspired by:	https://www.w3schools.com/howto/howto_css_flip_card.asp
+-------------------- */
+
+/* Container for a team card, sets size and 3D perspective */
+.team-card-container {
+	height: 250px;
+	width: 350px;
+	perspective: 500px;
+	background-color: #9b9214;
+	border: 6px outset blue;
+}
+
+/* Inner container that manages the flip transition effect */
+.team-card-container-inner {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	transition: transform 0.5s;
+	transform-style: preserve-3d;
+	border: 1px dotted red;
+  }
+
+  /* Front of the card styling */
+.team-card-front {
+	background-color: darkmagenta;
+}
+
+/* Back of the card styling */
+.team-card-back {
+	background-color: darksalmon;
+	/* Flip the back to begin with so it can be flipped on hover */
+	transform: rotateY(180deg);
+}
+
+/* The flip effect when the card is hovered over */
+.team-card-container:hover .team-card-container-inner {
+	transform: rotateY(180deg);
+}
+
+/* Styling that both sides have in common */
+.team-card-front, .team-card-back {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	/* Hides the other side of the card so both aren't displayed */
+	backface-visibility: hidden;
+	/* This webkit property is necessary for Safari and older versions of Chrome*/
+	-webkit-backface-visibility: hidden; 
+}
+
+/* --------------------
+- Ryan Team Page CSS End
+-------------------- */
