@@ -419,20 +419,20 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 }
  
 /* creating a larger divide between the left and ride side of the contact box */
-.contactcontainer .contactcontent .right-side{
+.contactcontainer .contactcontent .contactinput{
 	width: 75%;
 	margin-left:50px;
 }
 	
 /* adding style to the input moxes with specific height width and margin*/
-.right-side .input-box{
+.contactinput .input-box{
 	height: 50px;
 	width: 100%;
 	margin: 12px 0;
 }
 
 /* adding Style to the right side topic text (Contact US) */
-.contactcontent .right-side .topic-text {
+.contactcontent .contactinput .topic-text {
 	font-size: 23px;
 	font-weight: 600;
 	color:var(--topic-text-color);
@@ -453,8 +453,8 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 }
 
 /* adding style to the input box areas where the user inputs their name, email address and messege for LayerLarks*/
-.right-side .input-box input,
-.right-side .input-box textarea {
+.contactinput .input-box input,
+.contactinput .input-box textarea {
 	height: 100%;
 	width: 100%;
 	border: none;
@@ -466,16 +466,16 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	resize: none;
 }
 
-.right-side .message-box{
+.contactinput .message-box{
 	min-height: 110px;
 } 
 /* adding some padding to the messege box*/
-.right-side .input-box textarea{
+.contactinput .input-box textarea{
 	padding-top: 6px;
 }
 
 /* adding style to the contact button to create some distance between above divs*/
-.right-side .contactbutton{
+.contactinput .contactbutton{
 	display: inline-block;
 	margin-top: 12px;
 }
@@ -499,7 +499,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 }
 
 /* adding style to the reset button */
-.right-side .contactbutton input[type="reset"]{
+.contactinput .contactbutton input[type="reset"]{
 	color: #fff;
 	font-size: 15px;
 	outline:none;
@@ -537,7 +537,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 		flex-wrap: wrap;
 	}
 
-	.contactcontainer .contactcontent .right-side{
+	.contactcontainer .contactcontent .contactinput{
 		width: 100%;
 		margin-left: 0;
 	}
