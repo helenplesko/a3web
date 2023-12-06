@@ -19,7 +19,8 @@
 	--text-one-color: #000000;
 	--text-two-color: #030202;
 	--topic-color: #060303;
-	--contactcontainer-background-color: #2b3634;
+	--topic-text-color-dark: #ffffff;
+	--contactcontainer-background-color: #f5f5f5;
 	--pageintro-background-color: #FFF;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
@@ -35,6 +36,7 @@
 	--text-one-color-dark: #ffffff;
 	--text-two-color-dark: #ffffff;
 	--topic-color-dark: #ffffff;
+	--topic-text-color-dark: #ffffff;
 	--contactcontainer-background-color-dark: #1f2726;
 	--pageintro-background-color-dark: #000;
 }
@@ -335,7 +337,7 @@ h3 {
 /* Customization of Header 4 */
 h4 {
 	color: var(--h4-color);
-	text-align: left;
+	text-align: center;
 	font-weight: bold;
 	font-size: 17px;
 	font-family: helvetica, arial, sans-serif;
@@ -408,6 +410,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 .divider{
 	border-top: 8px solid #bbb;
   border-radius: 5px;
+  margin-bottom:14px;
 }
 
  
@@ -455,7 +458,7 @@ color: rgb(139, 173, 140);
 .contactcontent .right-side .topic-text{
 font-size: 23px;
 font-weight: 600;
-color: rgb(5, 5, 5)
+color:var(--topic-text-color);
 }
  
 /* adding padding to line up the label with the below text in the div */
@@ -468,8 +471,8 @@ display:flex;
 justify-content: center;
 position: relative;
 border-radius: 6px;
-padding-left: 6px;
-width: 150px;
+margin-left: 6px;
+width: 250px;
 height: 25px;
 background-color: #F0F1F8;
 }
@@ -501,9 +504,27 @@ background-color: #F0F1F8;
 		display: inline-block;
 		margin-top: 12px;
 	  }
-
 	  /* adding style to the submit button */
-.right-side .contactbutton input[type="button"]{
+
+	  #submit{
+		color: #fff;
+		font-size: 15px;
+		outline:mnone;
+		border:none;
+		padding: 8px 16px;
+		border-radius: 6px;
+		background-image:  linear-gradient(-180deg, rgb(220, 216, 216), rgb(0, 0, 0));
+		cursor: pointer;
+		transition: all 0.3s ease;
+		}
+
+ /* adding color for the submit button when the user over over it*/
+ #submit:hover{
+	background: #044603;
+  }
+
+	  /* adding style to the reset button */
+.right-side .contactbutton input[type="reset"]{
 	color: #fff;
 	font-size: 15px;
 	outline:mnone;
@@ -511,13 +532,12 @@ background-color: #F0F1F8;
 	padding: 8px 16px;
 	border-radius: 6px;
 	background-image:  linear-gradient(180deg, rgb(220, 216, 216), rgb(0, 0, 0));
-
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
-
-/* changing the color fo the button when the user hobers over it*/
-.contactbutton input[type="button"]:hover{
+ 
+ /* changing the color fo the reset button when the user hobers over it*/
+.contactbutton input[type="reset"]:hover{
 	background: #044603;
   }
 
@@ -803,8 +823,10 @@ address {
 	--dmode-button-background: var(--dmode-button-background-dark);
 	--text-one-color: var(--text-one-color-dark);
 	--text-two-color: var(--text-two-color-dark);
+	--topic-text-color: var(--topic-text-color-dark);
 	--topic-color: var(--topic-color-dark);
 	--contactcontainer-background-color: var(--contactcontainer-background-color-dark);
+	--pageintro-background-color: var(--pageintro-background-color-dark);
 }
 
 /* Customization of Dark Mode button */
@@ -967,10 +989,11 @@ address {
 /*Customization of dividing lines*/
 hr.rounded {
 	border-radius: 6px;
-	border-top: 3px solid var(--h1-color);
+	border-top: 3px solid var(--h3-color);
 	margin: 25px;
 }
 
+/*Customization of home-aboutus ul and home-aboutus p elements*/
 .haboutus ul, .haboutus p {
 	color: var(--p-color);
 	text-align: center;
@@ -980,7 +1003,10 @@ hr.rounded {
 	padding-left: 40px;
 	padding-right: 40px;
 	list-style-type: none;
-	padding-bottom: 20px;
+}
+
+.haboutus li {
+	padding-bottom: 10px;
 }
 
 /*3 column design for industries section on index*/
@@ -998,21 +1024,98 @@ hr.rounded {
     clear: both;
 }
 
-	/*Responsive design for phone screens to resize images*/
+/*Responsive design for phone screens to resize images*/
 img {                  /*selects image tag src=https://www.w3schools.com/css/css_rwd_images.asp*/
 	max-width: 100%;   /*image width wont exceed its max width but will size down responsively*/
 	height: auto;
 }	
 
+/*Custimization of home-industry p element*/
 .hindustries p {
 	text-align: center;
+	font-size: 18px;
+	padding: 0 30px;
 }
 
+/*Custimization of testimonal section*/
+/*Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya*/
 
-@media screen and (max-width: 600px) { /*If the browser window is 600px or smaller the width for classes starting w column is set to 100%*/
+.htestimonial-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px;
+	margin: 30px 0 50px;
+	position: relative;
+	flex-direction: column;
+}
+
+.htestimonials {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: space-evenly;
+}
+
+.htestimonial-container h4 {
+	padding: 10px 10px 15px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto 30px;
+}
+
+.htestimonial {
+	width: 25%;
+	border-radius: 10px;
+	background: var(--h3-color);
+	padding: 20px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.htestimonial::after {
+	content: "";
+	display: block;
+	position:absolute;
+	bottom: -15px;
+	right: 50px;
+	width: 0;
+	border-width: 15px 20px 0;
+	border-style: solid;
+	border-color: var(--h3-color) transparent;
+}
+
+.htestimonial h3 {
+	margin-bottom: 10px;
+}
+
+.htestimonial-author {
+	font-size: 15px;
+	font-weight: bold;
+	color: var(--p-color);
+	position: absolute;
+	bottom: -40px;
+	right: 0;
+}
+
+.hcontact {
+	margin: 20px;
+}
+
+/*If the browser window is 600px or smaller the width for classes starting w home-column is set to 100%*/
+@media screen and (max-width: 600px) { 
     [class*="hcolumn"] {
         width: 100%;
     }
+
+	.htestimonials {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.htestimonial {
+		width: 90%;
+		margin-bottom: 60px;
+	}
 }
 
 /* --------------------
@@ -1028,6 +1131,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 -------------------- */
 
 /*Customization of banner class*/
+/* For the banner video I used the same sizes and a similar code to Lori's to not have very different styles on each page*/
 .bannercareer {
 	position: relative;
 	max-width: 100%;
@@ -1183,7 +1287,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	font-size: 20px;
 }
 
-/* customization of second images and texts of the Careers page */
+/* customization of second image and text of the Careers page */
 .wrapped-content-2 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1204,14 +1308,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin-right: 20px;
 }
 
-.wrapped-text-box-2  {
-	justify-content: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-/* customization of third images and texts of the Careers page */
+/* customization of third image and text of the Careers page */
 .wrapped-content-3 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1229,13 +1326,6 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	float: left;
 	margin-left: 20px;
 	margin-right: 20px;
-}
-
-.wrapped-text-box-3  {
-	justify-content: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 /* Customization of Open Application part of Careers page */
@@ -1399,7 +1489,6 @@ background-color: #7ea69c;
 
 /* Customization of h4 text on media page */
 .mediapagetext h4 {
-	text-align: center;
 	padding-top: 5px;
 	margin-bottom:0;
 }
