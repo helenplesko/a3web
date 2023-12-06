@@ -1097,6 +1097,10 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	right: 0;
 }
 
+.hcontact {
+	margin: 20px;
+}
+
 /*If the browser window is 600px or smaller the width for classes starting w home-column is set to 100%*/
 @media screen and (max-width: 600px) { 
     [class*="hcolumn"] {
