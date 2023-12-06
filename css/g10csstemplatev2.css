@@ -92,6 +92,7 @@ body {
 - Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
                	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
 		https://www.w3schools.com/howto/howto_css_menu_icon.asp
+		https://stackoverflow.com/questions/17510658/css3-transition-fadein-with-displaynone
 		 
 -------------------- */
 /* Customization of the navigation bar */
@@ -161,6 +162,7 @@ body {
 	text-decoration: none;
 	display: block;
 	text-align: left;
+	/* below code is to add a fade in animation for the drop down menu for several different browsers*/
 	animation-duration: 0.5s;
     animation-name: fadeInFromNone;
     animation-fill-mode: forwards;
@@ -171,6 +173,7 @@ body {
     -ms-animation-name: fadeInFromNoneIE;
     -ms-animation-fill-mode: forwards;
 }
+/* Key frames webkit for older versions of chrome and safari*/
 @-webkit-keyframes fadeInFromNone {
     0% {
         opacity: 0
@@ -184,7 +187,7 @@ body {
         opacity: 1
     }
 }
-
+/* key frames for internet explorer*/
 @keyframes fadeInFromNoneIE {
     0% {
         opacity: 0
@@ -198,7 +201,7 @@ body {
         opacity: 1
     }
 }
-
+/* Key frames for modern browsers that follow standard CSS specifications*/
 @keyframes fadeInFromNone {
     0% {
         opacity: 0
