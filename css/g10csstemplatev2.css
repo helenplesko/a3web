@@ -1375,7 +1375,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	text-align: center;
 }
 
-.applynowbutton, .schedulemeetingbutton, .getquotebutton {
+.applynowbutton {
 	background-color: #43524d;
 	border: none;
 	color: white;
