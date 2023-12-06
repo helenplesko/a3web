@@ -988,7 +988,7 @@ address {
 /*Customization of dividing lines*/
 hr.rounded {
 	border-radius: 6px;
-	border-top: 3px solid var(--h1-color);
+	border-top: 3px solid var(--h3-color);
 	margin: 25px;
 }
 
