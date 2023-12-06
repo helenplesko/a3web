@@ -16,6 +16,8 @@
 	--p-color: #000000;
 	--dmode-button-text-color: #fff;
 	--dmode-button-background: #2b3634;
+	--submit-button-background: #2b3634;
+	--reset-button-background: #2b3634;
 	--text-one-color: #000000;
 	--text-two-color: #030202;
 	--topic-color: #060303;
@@ -41,6 +43,9 @@
 	--contactcontainer-background-color-dark: #1f2726;
 	--pageintro-background-color-dark: #000;
 	--textarea-background-color-dark: #000;
+	--submit-background-color-dark: #0a0a0a;
+	--reset-background-color-dark: #0a0a0a;
+
 }
 /* --------------------
 - Ryan Variable Section End
@@ -454,7 +459,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	background-color: #F0F1F8;
 }
 
-/* adding style to the input box areas where the user inputs their name, email address and messege for LayerLarks*/
+/* adding style to the input box areas where the user inputs their name, email address and messege for LayerLarks as well as variables for darkmode*/
 .contactinput .input-box input,
 .contactinput .input-box textarea {
 	height: 100%;
@@ -491,7 +496,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	border:none;
 	padding: 8px 16px;
 	border-radius: 6px;
-	background-image:  linear-gradient(-180deg, rgb(220, 216, 216), rgb(0, 0, 0));
+	background: var(--submit-button-background);
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
@@ -509,7 +514,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	border:none;
 	padding: 8px 16px;
 	border-radius: 6px;
-	background-image:  linear-gradient(180deg, rgb(220, 216, 216), rgb(0, 0, 0));
+	background: var(--reset-button-background);
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
