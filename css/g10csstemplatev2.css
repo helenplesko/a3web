@@ -1031,8 +1031,8 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	align-items: space-evenly;
 }
 
-/*Customization of home-testimonial h4 element*/
-.home-testimonial-container h4 {
+/*Customization of home-testimonial h1 element*/
+.home-testimonial-container h1 {
 	padding: 10px 10px 15px;
 	text-align: center;
 	width: 100%;
@@ -1047,6 +1047,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 20px;
 	position: relative;
 	margin-bottom: 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 .home-testimonial::after {
@@ -1061,8 +1062,8 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	border-color: var(--h3-color) transparent;
 }
 
-/*Customization of home-testimonial h3 element*/
-.home-testimonial h3 {
+/*Customization of home-testimonial h4 element*/
+.home-testimonial h4 {
 	margin-bottom: 10px;
 }
 
