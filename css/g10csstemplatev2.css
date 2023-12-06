@@ -1033,7 +1033,8 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 /*Custimization of home-industry p element*/
 .hindustries p {
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
+	padding: 0 20px;
 }
 
 /*Custimization of testimonal section*/
@@ -1095,8 +1096,6 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	bottom: -40px;
 	right: 0;
 }
-
-
 
 /*If the browser window is 600px or smaller the width for classes starting w home-column is set to 100%*/
 @media screen and (max-width: 600px) { 
