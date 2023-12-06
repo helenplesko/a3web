@@ -22,7 +22,7 @@
 	--topic-text-color-dark: #ffffff;
 	--contactcontainer-background-color: #f5f5f5;
 	--pageintro-background-color: #FFF;
-	--textarea-color: #cdc8c8;
+	--textarea-background-color: #cdc8c8;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -466,7 +466,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	border-radius: 6px;
 	padding: 0 15px;
 	resize: none;
-	color:var(--textarea-color)
+	background-color:var(--textarea-color)
 }
 
 .contactinput .message-box{
