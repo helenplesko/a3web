@@ -948,7 +948,7 @@ address {
 	opacity: 0.7;
 }
 
-/*Customization of vidcontainer class*/
+/*Customization of home-vidcontainer class*/
 .hvidcontainer {
 	position: absolute;
 	top: 0;
@@ -1001,14 +1001,17 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	height: auto;
 }	
 
-/*Custimization of home-industry p element*/
+/*Cusomization of home-industry class*/
+.hindustries {height: auto;}
+
+/*Cusomization of home-industry p element*/
 .hindustries p {
 	text-align: center;
 	font-size: 18px;
 	padding: 0 30px;
 }
 
-/*Custimization of testimonal section*/
+/*Customization of testimonal section*/
 /*Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya*/
 /*Customization of home-testimonial-container class*/
 .htestimonial-container {
