@@ -1009,7 +1009,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 
 /*Custimization of testimonal section*/
 /*Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya*/
-
+/*Customization of home-testimonial-container class*/
 .htestimonial-container {
 	display: flex;
 	justify-content: center;
@@ -1020,12 +1020,14 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	flex-direction: column;
 }
 
+/*Customization of home-testimonials class*/
 .htestimonials {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: space-evenly;
 }
 
+/*Customization of home-testimonial h4 element*/
 .htestimonial-container h4 {
 	padding: 10px 10px 15px;
 	text-align: center;
@@ -1033,6 +1035,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin: 0 auto 30px;
 }
 
+/*Customization of home-testimonial class*/
 .htestimonial {
 	width: 25%;
 	border-radius: 10px;
@@ -1054,10 +1057,12 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	border-color: var(--h3-color) transparent;
 }
 
+/*Customization of home-testimonial h3 element*/
 .htestimonial h3 {
 	margin-bottom: 10px;
 }
 
+/*Customization of home-testimonial-author class*/
 .htestimonial-author {
 	font-size: 15px;
 	font-weight: bold;
@@ -1067,21 +1072,25 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	right: 0;
 }
 
+/*Customization of home-contact class*/
 .hcontact {
 	margin: 20px;
 }
 
-/*If the browser window is 600px or smaller the width for classes starting w home-column is set to 100%*/
-@media screen and (max-width: 600px) { 
+/*Responsive design if the browser window is 600px or smaller*/
+@media screen and (max-width: 600px) {
+	/*Classes starting with home-column is set to 100% width*/
     [class*="hcolumn"] {
         width: 100%;
     }
 
+	/*Customization of home-testimonials class*/
 	.htestimonials {
 		flex-direction: column;
 		align-items: center;
 	}
 
+	/*Customization of home-testimonial class*/
 	.htestimonial {
 		width: 90%;
 		margin-bottom: 60px;
