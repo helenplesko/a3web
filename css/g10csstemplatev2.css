@@ -969,7 +969,7 @@ hr.rounded {
 }
 
 /*Customization of home-aboutus ul and home-aboutus p elements*/
-.home-aboutusus ul, .home-aboutusus p {
+.home-aboutus ul, .home-aboutus p {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
@@ -980,7 +980,8 @@ hr.rounded {
 	list-style-type: none;
 }
 
-.home-aboutusus li {
+/*Customization of home-aboutus li element*/
+.home-aboutus li {
 	padding-bottom: 10px;
 }
 
@@ -1103,6 +1104,10 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	.home-testimonial {
 		width: 90%;
 		margin-bottom: 60px;
+	}
+
+	.home-banner h1 {
+		font-size: 3rem;
 	}
 }
 
