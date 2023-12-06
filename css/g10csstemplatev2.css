@@ -337,7 +337,7 @@ h3 {
 /* Customization of Header 4 */
 h4 {
 	color: var(--h4-color);
-	text-align: left;
+	text-align: center;
 	font-weight: bold;
 	font-size: 17px;
 	font-family: helvetica, arial, sans-serif;
@@ -1052,7 +1052,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	align-items: space-evenly;
 }
 
-.htestimonial-container h2 {
+.htestimonial-container h4 {
 	padding: 10px 10px 15px;
 	text-align: center;
 	width: 100%;
@@ -1085,7 +1085,9 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 }
 
 .htestimonial-author {
-	font-size: 1rem;
+	font-size: 15px;
+	font-weight: bold;
+	color: var(--p-color);
 	position: absolute;
 	bottom: -40px;
 	right: 0;
@@ -1494,7 +1496,6 @@ background-color: #7ea69c;
 
 /* Customization of h4 text on media page */
 .mediapagetext h4 {
-	text-align: center;
 	padding-top: 5px;
 	margin-bottom:0;
 }
