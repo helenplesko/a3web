@@ -826,6 +826,7 @@ address {
 	--topic-text-color: var(--topic-text-color-dark);
 	--topic-color: var(--topic-color-dark);
 	--contactcontainer-background-color: var(--contactcontainer-background-color-dark);
+	--pageintro-background-color: var(--pageintro-background-color-dark);
 }
 
 /* Customization of Dark Mode button */
