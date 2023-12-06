@@ -1047,7 +1047,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 20px;
 	position: relative;
 	margin-bottom: 20px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .home-testimonial::after {
