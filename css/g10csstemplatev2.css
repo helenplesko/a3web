@@ -438,10 +438,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	color:var(--topic-text-color);
 }
  
-/* adding padding to line up the label with the below text in the div */
-label {
-	padding-left: 12px;
-}
+ 
 
 /* adding style to the select box container*/
 .select-box {
