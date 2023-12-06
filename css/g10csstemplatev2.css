@@ -619,7 +619,9 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	margin-bottom: 25px;
 	background-color: #a6a6a6;;
 	border-radius: 20px;
-	width:fit-content + 5px;
+	width:fit-content;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 /* having the name div inside the info and box have a font weight and size */
