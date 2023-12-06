@@ -484,7 +484,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 #submit {
 	color: #fff;
 	font-size: 15px;
-	outline:mnone;
+	outline:none;
 	border:none;
 	padding: 8px 16px;
 	border-radius: 6px;
@@ -502,7 +502,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 .right-side .contactbutton input[type="reset"]{
 	color: #fff;
 	font-size: 15px;
-	outline:mnone;
+	outline:none;
 	border:none;
 	padding: 8px 16px;
 	border-radius: 6px;
