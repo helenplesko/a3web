@@ -1162,7 +1162,7 @@ img {
 	padding: 0px 100px;
 }
 
-/* missing comment */
+/* Customization of each column in the career container */
 .columncareers1, .columncareers2, .columncareers3 {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1171,28 +1171,28 @@ img {
 	text-align: center;
 }
 
-/* missing comment */
+/* Adding a padding on the Cards */
 .card {
 	padding: 15px 25px;
 }
 
 /* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
 @media (max-width: 600px) {
-	/* missing comment */
+	/* Career Container to have a padding and center when the screen is smaller */
 	.career-container {
 	  padding: 0 20px; 
 	  flex-direction: column;
 	  align-items: center;
 	}
 	
-	/* missing comment */
+	/* Customization of the career columns */
 	.columncareers1, .columncareers2, .columncareers3 {
 	  flex-basis: 100%; 
 	  margin: 0 0 25px;
 	}
 }
 
-/* Customization of the county maps on the career page */
+/* Customization of the container that contains the county maps on the career page */
 .countries-container{
 	background-color: transparent;
 	border: 20px solid rgba(120, 144, 140, 0.226);
@@ -1205,7 +1205,7 @@ img {
 	padding: 0px 15px;
 }
 
-/* missing comment */
+/* Customization of each country map */
 .countries{
 	margin: 0 5px 25px;
 	background-color: transparent;
@@ -1214,27 +1214,27 @@ img {
 	text-align: center;
 }
 
-/* missing comment */
+/* Customization of each country card */
 .countries-card {
 	padding: 15px;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
-/* missing comment */
+/* Customization of the coountries container to have a responsive design when the window is smaller than 600px */
 @media (max-width: 600px) {
-	/* missing comment */
+	/* Customization of the countries container */
 	.countries-container {
 	  padding: 0 50px; 
 	}
 
-	/* missing comment */
+	/* Customization of each country map */
 	.countries {
 	  flex-basis: 50%; 
 	}
 }
 
-/* customization of images and texts of the Careers page */
+/* customization of images and texts container of the Careers page */
 .wrapped-content {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1247,7 +1247,7 @@ img {
 	padding: 0%;
 }
 
-/* missing comment */
+/* Customization of the images on the career page */
 .careersimages {
 	max-width: 100%;
 	float: left;
@@ -1255,7 +1255,7 @@ img {
 	margin-right: 25px;
 }
 
-/* missing comment */
+/* Customization of the text on the career page */
 .wrapped-text-box  {
 	justify-content: center;
 	display: flex;
@@ -1263,19 +1263,19 @@ img {
 	align-items: center;
 }
 
-/* missing comment */
+/* Customization of the text h2 to have a different size than the main h2 */
 .wrapped-text-box h2 {
 	display: flex;
 	font-size: 35px;
 }
 
-/* missing comment */
+/* Customization of the text h3 to have a different size than the main h3 */
 .wrapped-text-box h3 {
 	display: flex;
 	font-size: 20px;
 }
 
-/* customization of second image and text of the Careers page */
+/* customization of the second image and text container */
 .wrapped-content-2 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1288,7 +1288,7 @@ img {
 	padding: 0%;
 }
 
-/* missing comment */
+/* Cuztomization of the second image for the careers */
 .careersimages2 {
 	max-width: 100%;
 	float: left;
@@ -1297,7 +1297,7 @@ img {
 	margin-right: 20px;
 }
 
-/* customization of third image and text of the Careers page */
+/* customization of the third image and text container  */
 .wrapped-content-3 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1310,7 +1310,7 @@ img {
 	padding: 0%;
 }
 
-/* missing comment */
+/* Cuztomization of the third image for the careers */
 .careersimages3 {
 	max-width: 100%;
 	float: left;
@@ -1318,15 +1318,7 @@ img {
 	margin-right: 20px;
 }
 
-/* Customization of Open Application part of Careers page */
-.openappcontent {
-	margin: 0 39px 25px;
-	background-color: transparent;
-	display: flex;
-	text-align: center;
-}
-
-/* missing comment */
+/* Cutomization of the Open Application container */
 .openapp {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1335,7 +1327,7 @@ img {
 	padding:0;
 }
 
-/* missing comment */
+/* Customization of the h2 of o"Open Application" */
 .openapp h2 {
 	display: flex;
 	font-size: 35px;
@@ -1344,7 +1336,7 @@ img {
 	align-items: center;
 }
 
-/* missing comment */
+/* Customization of the h3 of o"Open Application" text */
 .openapp h3{
 	justify-content: center;
 	align-items: center;
@@ -1352,9 +1344,9 @@ img {
 	font-size: 18px;
 }
 
-/* missing comment */
+/* Cuztomization of the responsive design when the window is smaller than 600px */
 @media screen and (min-width:600px) {
-	/* missing comment */
+	/* Customization of the openapp container */
 	.openapp {
 		flex-basis:48%;
 		margin:0 1%;
@@ -1363,7 +1355,7 @@ img {
 
 /* Customization of Career's Page Apply Now Button*/
 /* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
-/* missing comment */
+/* Customization of the button container */
 .buttoncontainer {
 	margin: 0 5px 25px;
 	background-color: transparent;
@@ -1371,7 +1363,7 @@ img {
 	text-align: center;
 }
 
-/* missing comment */
+/* Customization on the applynow button */
 .applynowbutton {
 	background-color: #43524d;
 	border: none;
@@ -1388,12 +1380,12 @@ img {
 	border-radius: 6px;
 }
 
-/* missing comment */
+/* Customization of the h3 of the applynow text */
 .applynowbutton h3{
 	color: white;
 }
 
-/* missing comment */
+/* Adding a hover on the applynow button */
 .applynowbutton:hover{
 background-color: #7ea69c;
 	transition: 0.3s;
