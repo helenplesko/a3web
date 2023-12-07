@@ -525,10 +525,10 @@ p {
 	/* missing comment */
 	.contactcontainer .contactcontent {flex-direction: column-reverse;}
 
-	/* missing comment */
+	/* settomg tje wodtj  */
 	.contactcontainer .contactcontent .bottom {
 		width: 100%;
-		flex-direction: row;
+		flex-direction: column;
 		margin-top: 40px;
 		justify-content: center;
 		flex-wrap: wrap;
