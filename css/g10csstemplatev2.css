@@ -29,6 +29,7 @@
 	--media-caldays-light: #43524d;
 	--media-calweekdays-light: #fff;
 	--media-calmonth-light: #7ea69c;
+	--team-card-background-color: #d6d6d6;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -53,6 +54,7 @@
 	--media-caldays-dark: #fff;
 	--media-calmonth-dark: #43524d;
 	--media-calweekdays-dark: #E4E6E6;
+	--team-card-background-color-dark: #303633;
 }
 /* Ryan Variable Section End */
 
@@ -797,6 +799,7 @@ address {
 	--media-caldays-light: var(--media-caldays-dark);
 	--media-calweekdays-light: var(--media-calweekdays-dark);
 	--media-calmonth-light: var(--media-calmonth-dark);
+	--team-card-background-color: var(--team-card-background-color-dark);
 }
 
 /* Customization of Dark Mode button */
@@ -1527,18 +1530,34 @@ background-color: #7ea69c;
 - Date:		December 5, 2023
 - Section:	TEAM PAGE CSS
 - Inspired by:	https://www.w3schools.com/howto/howto_css_flip_card.asp
+				https://www.w3schools.com/csS/css3_flexbox_responsive.asp
+				https://www.w3schools.com/howto/howto_css_profile_card.asp
 ******************/
 
-/* Container for a team card, sets size and 3D perspective */
+/* Responsive Flexbox container that arranges cards */
+.team-flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+	gap: 50px;
+}
+
+
+/* Container for a team card, sets size and 3D perspective with a background colour that makes sense */
 .team-card-container {
-	height: 250px;
-	width: 350px;
+	height: 350px;
+	width: 250px;
 	perspective: 500px;
-	background-color: #9b9214;
-	border: 6px outset blue;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-	border-radius: 8px;
+	background-color: var(--team-card-background-color);
+	/* border that goes within the container */
+	border: 6px outset gray;
+	box-shadow: 0 8px 16px 0 rgba(37, 34, 34, 0.2);
+	border-radius: 25px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: row;
 }
 
 /* Inner container that manages the flip transition effect */
@@ -1547,19 +1566,12 @@ background-color: #7ea69c;
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	transition: transform 0.5s;
+	transition: transform 0.8s;
 	transform-style: preserve-3d;
-	border: 1px dotted red;
-}
-
-/* Front of the card styling */
-.team-card-front {
-	background-color: darkmagenta;
 }
 
 /* Back of the card styling */
 .team-card-back {
-	background-color: darksalmon;
 	/* Flip the back to begin with so it can be flipped on hover */
 	transform: rotateY(180deg);
 }
@@ -1580,13 +1592,24 @@ background-color: #7ea69c;
 	/* This webkit property is necessary for Safari and older versions of Chrome*/
 	-webkit-backface-visibility: hidden; 
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	padding: 10px;
+	background-color: #7c9f96;
+	border-radius: 19px;
 }
 
-/* Styling just for the front and back paragraph text in the card */
-.team-card-front p, .team-card-back p {
+/* Styling for the name of the team member on the contact card */
+.team-card-front h2 {
+	color: var(--h2-color);
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* Styling for the front card text */
+.team-card-front p {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
@@ -1594,12 +1617,22 @@ background-color: #7ea69c;
 	font-family: helvetica, arial, sans-serif;
 }
 
-/* Image styling */
+
+team-card-back p {
+	color: var(--p-color);
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* Image styling, made to fill the top of the card and only rounding the top 2 corners */
 .team-card-front img {
-	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	border-radius: 19px 19px 0 0;
 }
 
 /* Styling for the team member's name on the front of the card */
@@ -1610,44 +1643,5 @@ background-color: #7ea69c;
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;
 }
-
-/* make css code that can be used to organize the cards in an adaptive grid layout */
-/* Inspiration: https://www.w3schools.com/howto/howto_css_cards.asp */
-/* Inspiration: https://www.w3schools.com/howto/howto_css_two_columns.asp */
-/* Inspiration: https://www.w3schools.com/howto/howto_css_three_columns.asp */
-/* Inspiration: https://www.w3schools.com/howto/howto_css_four_columns.asp */
-/* Inspiration: https://www.w3schools.com/howto/howto_css_five_columns.asp */
-
-/* Create four equal columns that floats next to each other */
-.column {
-	float: left;
-	width: 25%;
-	padding: 0 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 900px) {
-	.column {
-		width: 50%;
-	}
-}
-
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
-	.column {
-		width: 100%;
-	}
-}
-
-
 
 /* Ryan Team Page CSS End */
