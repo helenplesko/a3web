@@ -460,7 +460,7 @@ p {
 	background-color:var(--textarea-background-color)
 }
 
-/* missing comment */
+/* Adding in a minimum height for the Messege box for the user to fill in */
 .contactinput .message-box {
 	min-height: 110px;
 } 
@@ -563,7 +563,7 @@ p {
 	 
 }
 	 
-/* missing comment */
+/* adding style to the h1 text inside the testibanner div */
 .testibanner h1 {
 	position: relative;
 	text-align: center;
@@ -571,7 +571,7 @@ p {
 	border-radius: 26px;
 	padding: 20px;
 	margin: 15px;
-	background-color: rgb(233, 233, 233);
+	 
 	opacity: 0.7;
 	
 }
@@ -605,7 +605,7 @@ p {
 	color: black;
 }
 
-/* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
+/* css to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
 .wrapper .box .testicontent {
 	align-items: center;
 	margin-left: auto;
@@ -670,20 +670,20 @@ p {
 	 
 /* changes the webpage to stack the boxes on top of each other when the screen size is 950 pixels wide and keeping all the divs cenetered*/
 @media screen and (max-width: 950px) {
-	/* missing comment */
+	/* to center the divs surrounding the content of the testimonials when screen size is decreased */
 	.wrapper .box{
 		width: 100%;
 		align-items: center;
 		margin:70px;
 	}
 
-	/* missing comment */
+	/* setting a width of the testicontent div when screen size is reduced */
 	.wrapper .box .testicontent {
 		width:250px;
 
 	}
 
-	/* missing comment */
+	/* to center the image within the testicontent div when screen size is decreased */
 	.box .testicontent .clientimage {
 		align-items: center;
 		margin-left: auto;
