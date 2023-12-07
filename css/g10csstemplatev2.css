@@ -520,10 +520,8 @@ p {
 		height: 100%;
 	}
 
-  	/* missing comment */
-	.contactcontainer .contactcontent {flex-direction: column-reverse;}
-
-	/* settomg tje width of the   */
+   
+	/* settomg the width of the bottom    */
 	.contactcontainer .contactcontent .bottom {
 		width: 100%;
 		flex-direction: column;
