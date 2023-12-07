@@ -341,7 +341,7 @@ p {
 				https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 ******************/
 /* div to hold everything that's involved with the contact section and style the area outside the contact box*/
- .flex-container {
+.flex-container {
 	min-height: 100vh;
 	width: 100%;
 	background: #ffffff;
@@ -350,10 +350,11 @@ p {
 	justify-content: center;
 	padding-top: 10px;
 	padding-bottom: 20px;
+	background-color: var(--background-color-light);
 }
 
 /* div that holds all the content */
- .contactcontainer { 
+.contactcontainer { 
 	width: 85%;
 	border-radius: 6px;
 	padding: 20px 60px 30px 40px;
