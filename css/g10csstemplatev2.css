@@ -1420,7 +1420,7 @@ background-color: #7ea69c;
 .calendarmonth {
 	padding: 10px;
 	width: 100%;
-	background: #7ea69c;
+	background-color: var(--media-calmonth-light);
 }
 
 /* Customization of calendar month text */
@@ -1438,14 +1438,14 @@ background-color: #7ea69c;
 .calendarweekdays {
 	margin: 0;
 	padding: 10px 0;
-	background-color: #ddd;
+	background-color: var(--media-calweekdays-light);
 }
 
 /* Customization of calendar weekday text */
 .calendarweekdays li {
 	display: inline-block;
 	width: 13.6%;
-	color: #fff;
+	color: #666;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
 	font-weight: bold;
@@ -1454,7 +1454,7 @@ background-color: #7ea69c;
 /* Customization of how to display calendar days */
 .calendardays {
 	padding: 10px 0;
-	background: #E4E6E6;
+	background-color: var(--media-caldaysbkgd-light);
 	margin: 0;
 }
 
