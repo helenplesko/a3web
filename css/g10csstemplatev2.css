@@ -521,7 +521,7 @@ p {
 	}
 
    
-	/* settomg the width of the bottom    */
+	/* settomg the dimensions of the containers icons/bottom half, turning the direction into a column so it lines up better on a mobile device   */
 	.contactcontainer .contactcontent .bottom {
 		width: 100%;
 		flex-direction: column;
