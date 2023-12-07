@@ -1495,6 +1495,53 @@ background-color: #7ea69c;
 	  align-items: center;
 	}
 }
+
+/* Customization of container holding the future events section of the media page */
+/* Inspiration: Lori Lowy home page, https://codepen.io/aimieisanxious/pen/XWxOeya */
+.media-futureevents-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Customization of future events display */
+.media-futureevents {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* Customization of h3 text in future events box */
+.media-futureevents h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+/* Customization of home-testimonial class */
+.media-futureevent {
+	width: 50%;
+	border-radius: 10px;
+	background: var(--media-caldaysbkgd-light);
+	padding: 20px;
+	position: relative;
+	margin: 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design if the browser window is 600px or smaller */
+@media screen and (max-width: 600px) {
+	/* Customization of both future event boxes */
+	.media-futureevents {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* Customization of single future event box */
+	.media-futureevent {
+		width: 90%;
+		margin-bottom: 60px;
+	}
+}
 /* Helen Media Page CSS End */
 
 /***************** 
