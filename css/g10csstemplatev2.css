@@ -833,8 +833,8 @@ address {
 	border-radius: 6px;
 	border: 2px solid var(--h1-color);
 	background: var(--pageintro-background-color);
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* Container to hold projects */
