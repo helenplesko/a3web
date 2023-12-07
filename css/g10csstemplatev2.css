@@ -29,6 +29,7 @@
 	--media-caldays-light: #43524d;
 	--media-calweekdays-light: #fff;
 	--media-calmonth-light: #7ea69c;
+	--i-color:  #0a0a0a;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -53,6 +54,7 @@
 	--media-caldays-dark: #fff;
 	--media-calmonth-dark: #43524d;
 	--media-calweekdays-dark: #E4E6E6;
+	--i-color-dark: #E4E6E6;
 }
 /* Ryan Variable Section End */
 
@@ -591,7 +593,7 @@ p {
 /* adjusting the size of the quotes that are stacked inside the two div's */ 
 .wrapper .box i.quote {
 	font-size: 15px;
-	color: black;
+	color: var(--i-color);
 }
 
 /* css to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
@@ -786,6 +788,7 @@ address {
 	--media-caldays-light: var(--media-caldays-dark);
 	--media-calweekdays-light: var(--media-calweekdays-dark);
 	--media-calmonth-light: var(--media-calmonth-dark);
+	--i-color: var(--i-color-dark);
 }
 
 /* Customization of Dark Mode button */
