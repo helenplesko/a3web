@@ -563,7 +563,7 @@ p {
 	 
 }
 	 
-/* adding style to the h1 text inside the testibanner div */
+/* adding style to the h1 text inside the testibanner */
 .testibanner h1 {
 	position: relative;
 	text-align: center;
@@ -571,7 +571,7 @@ p {
 	border-radius: 26px;
 	padding: 20px;
 	margin: 15px;
-	 
+	background-color: rgb(233, 233, 233);
 	opacity: 0.7;
 	
 }
