@@ -1374,8 +1374,8 @@ img {
 	display: flex;
 	font-size: 18px;
 	flex-basis: 100%;
-	margin-left: 183px;
-	margin-right: 183px;
+	margin-left: 10%;
+	margin-right: 10%;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 	border-radius: 6px;
 }
