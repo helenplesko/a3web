@@ -1000,9 +1000,9 @@ img {
 	padding: 0 30px;
 }
 
-/*Customization of testimonal section*/
-/*Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya*/
-/*Customization of home-testimonial-container class*/
+/* Customization of testimonal section */
+/* Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya */
+/* Customization of home-testimonial-container class */
 .home-testimonial-container {
 	display: flex;
 	justify-content: center;
@@ -1013,14 +1013,14 @@ img {
 	flex-direction: column;
 }
 
-/*Customization of home-testimonials class*/
+/* Customization of home-testimonials class */
 .home-testimonials {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: space-evenly;
 }
 
-/*Customization of home-testimonial h1 element*/
+/* Customization of home-testimonial h1 element */
 .home-testimonial-container h1 {
 	padding: 10px 10px 15px;
 	text-align: center;
@@ -1028,7 +1028,7 @@ img {
 	margin: 0 auto 30px;
 }
 
-/*Customization of home-testimonial class*/
+/* Customization of home-testimonial class */
 .home-testimonial {
 	width: 25%;
 	border-radius: 10px;
@@ -1039,7 +1039,7 @@ img {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/*Customization of after the content of home-testimonial class*/
+/* Customization of after the content of home-testimonial class */
 .home-testimonial::after {
 	content: "";
 	display: block;
@@ -1052,12 +1052,12 @@ img {
 	border-color: var(--h3-color) transparent;
 }
 
-/*Customization of home-testimonial h4 element*/
+/* Customization of home-testimonial h4 element */
 .home-testimonial h4 {
 	margin-bottom: 10px;
 }
 
-/*Customization of home-testimonial-author class*/
+/* Customization of home-testimonial-author class */
 .home-testimonial-author {
 	font-size: 15px;
 	font-weight: bold;
@@ -1067,36 +1067,33 @@ img {
 	right: 0;
 }
 
-/*Customization of home-contact class*/
+/* Customization of home-contact class */
 .home-contact {
 	margin: 20px;
 }
 
-/*Responsive design if the browser window is 600px or smaller*/
+/* Responsive design if the browser window is 600px or smaller */
 @media screen and (max-width: 600px) {
-	/*Classes starting with home-column is set to 100% width*/
+	/* Classes starting with home-column is set to 100% width */
     [class*="hcolumn"] {
         width: 100%;
-    }
+}
 
-	/*Customization of home-testimonials class*/
+	/* Customization of home-testimonials class */
 	.home-testimonials {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	/*Customization of home-testimonial class*/
+	/* Customization of home-testimonial class */
 	.home-testimonial {
 		width: 90%;
 		margin-bottom: 60px;
 	}
 
-	/*Customization of home-banner h1 element*/
-	.home-banner h1 {
-		font-size: 3rem;
-	}
+	/* Customization of home-banner h1 element */
+	.home-banner h1 {font-size: 3rem;}
 }
-
 /* Lori Index Page CSS End */
 
 /***************** 
@@ -1165,6 +1162,7 @@ img {
 	padding: 0px 100px;
 }
 
+/* missing comment */
 .columncareers1, .columncareers2, .columncareers3 {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1173,17 +1171,21 @@ img {
 	text-align: center;
 }
 
+/* missing comment */
 .card {
 	padding: 15px 25px;
 }
 
 /* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
 @media (max-width: 600px) {
+	/* missing comment */
 	.career-container {
 	  padding: 0 20px; 
 	  flex-direction: column;
 	  align-items: center;
 	}
+	
+	/* missing comment */
 	.columncareers1, .columncareers2, .columncareers3 {
 	  flex-basis: 100%; 
 	  margin: 0 0 25px;
@@ -1203,6 +1205,7 @@ img {
 	padding: 0px 15px;
 }
 
+/* missing comment */
 .countries{
 	margin: 0 5px 25px;
 	background-color: transparent;
@@ -1211,16 +1214,21 @@ img {
 	text-align: center;
 }
 
+/* missing comment */
 .countries-card {
 	padding: 15px;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
+/* missing comment */
 @media (max-width: 600px) {
+	/* missing comment */
 	.countries-container {
 	  padding: 0 50px; 
 	}
+
+	/* missing comment */
 	.countries {
 	  flex-basis: 50%; 
 	}
@@ -1239,6 +1247,7 @@ img {
 	padding: 0%;
 }
 
+/* missing comment */
 .careersimages {
 	max-width: 100%;
 	float: left;
@@ -1246,6 +1255,7 @@ img {
 	margin-right: 25px;
 }
 
+/* missing comment */
 .wrapped-text-box  {
 	justify-content: center;
 	display: flex;
@@ -1253,11 +1263,13 @@ img {
 	align-items: center;
 }
 
+/* missing comment */
 .wrapped-text-box h2 {
 	display: flex;
 	font-size: 35px;
 }
 
+/* missing comment */
 .wrapped-text-box h3 {
 	display: flex;
 	font-size: 20px;
@@ -1276,6 +1288,7 @@ img {
 	padding: 0%;
 }
 
+/* missing comment */
 .careersimages2 {
 	max-width: 100%;
 	float: left;
@@ -1297,6 +1310,7 @@ img {
 	padding: 0%;
 }
 
+/* missing comment */
 .careersimages3 {
 	max-width: 100%;
 	float: left;
@@ -1312,6 +1326,7 @@ img {
 	text-align: center;
 }
 
+/* missing comment */
 .openapp {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1320,6 +1335,7 @@ img {
 	padding:0;
 }
 
+/* missing comment */
 .openapp h2 {
 	display: flex;
 	font-size: 35px;
@@ -1328,6 +1344,7 @@ img {
 	align-items: center;
 }
 
+/* missing comment */
 .openapp h3{
 	justify-content: center;
 	align-items: center;
@@ -1335,7 +1352,9 @@ img {
 	font-size: 18px;
 }
 
+/* missing comment */
 @media screen and (min-width:600px) {
+	/* missing comment */
 	.openapp {
 		flex-basis:48%;
 		margin:0 1%;
@@ -1344,6 +1363,7 @@ img {
 
 /* Customization of Career's Page Apply Now Button*/
 /* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
+/* missing comment */
 .buttoncontainer {
 	margin: 0 5px 25px;
 	background-color: transparent;
@@ -1351,6 +1371,7 @@ img {
 	text-align: center;
 }
 
+/* missing comment */
 .applynowbutton {
 	background-color: #43524d;
 	border: none;
@@ -1367,10 +1388,12 @@ img {
 	border-radius: 6px;
 }
 
+/* missing comment */
 .applynowbutton h3{
 	color: white;
 }
 
+/* missing comment */
 .applynowbutton:hover{
 background-color: #7ea69c;
 	transition: 0.3s;
@@ -1447,10 +1470,12 @@ background-color: #7ea69c;
 @media screen and (max-width:720px) {
   .calendarweekdays li, .calendardays li {width: 13.1%;}
 }
+
 @media screen and (max-width: 420px) {
   .calendarweekdays li, .calendardays li {width: 12.5%;}
   .calendardays li {padding: 2px;}
 }
+
 @media screen and (max-width: 290px) {
   .calendarweekdays li, .calendardays li {width: 12.2%;}
 }
@@ -1495,9 +1520,7 @@ background-color: #7ea69c;
 	  align-items: center;
 	}
 }
-
 /* Helen Media Page CSS End */
-
 
 /***************** 
 - Owner: 	Ryan Jeffery
@@ -1527,7 +1550,7 @@ background-color: #7ea69c;
 	transition: transform 0.5s;
 	transform-style: preserve-3d;
 	border: 1px dotted red;
-  }
+}
 
 /* Front of the card styling */
 .team-card-front {
