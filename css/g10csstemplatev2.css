@@ -180,6 +180,7 @@ body {
     -ms-animation-name: fadeInFromNoneIE;
     -ms-animation-fill-mode: forwards;
 }
+
 /* Key frames webkit for older versions of chrome and safari*/
 @-webkit-keyframes fadeInFromNone {
     0% {opacity: 0}
@@ -208,17 +209,13 @@ body {
 .dropdown:hover .dropdown-content{
 	display: block;
 	opacity: 1;
-	visibility: visible;
-	 
+	visibility: visible; 
 }
 
-/* Responsive Design for the navigation bar */
+/* Responsive Design for the navigation bar, heighter max with threshold to prevent stacking*/
 @media screen and (max-width: 925px) {
 	/* Selects navbar links and the drop btn class in dropdown class */
-	.navbar a, .dropdown .dropbtn {
-    	display: none;
-		 
- 	}
+	.navbar a, .dropdown .dropbtn {display: none;}
 	
 	/* Selects all elements in the navbar and responsive class */
 	.navbar.responsive {position: relative;}
@@ -228,7 +225,6 @@ body {
 		float: none;
 		display: block;
 	  	text-align: left;
-	  	 
 	}
 	
 	/* Selects dropdown in the navbar and responsive class */
@@ -237,18 +233,14 @@ body {
 	/* Selects dropdown content in the navbar and responsive class */
 	.navbar.responsive .dropdown-content {
 		position: relative;
-		display: block;}
+		display: block;
+	}
 	
 	/* Selects dropdown button in the navbar and responsive class */
 	.navbar.responsive .dropdown .dropbtn {
 		display: block;
 		width: 100%;
 		text-align: left;
-	   
-	}
-
-	.dropdown-content .active {
-		display: block;
 	}
 	
 	/* Selects hamburger class (menu icon) */
@@ -349,7 +341,7 @@ p {
 				https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 ******************/
 /* div to hold everything that's involved with the contact section and style the area outside the contact box*/
- .flex-container{
+ .flex-container {
 	min-height: 100vh;
 	width: 100%;
 	background: #ffffff;
@@ -361,7 +353,7 @@ p {
 }
 
 /* div that holds all the content */
- .contactcontainer{ 
+ .contactcontainer { 
 	width: 85%;
 	border-radius: 6px;
 	padding: 20px 60px 30px 40px;
@@ -370,14 +362,14 @@ p {
 }
 
 /* organinzing the content inside the container */
-.contactcontainer .contactcontent{
+.contactcontainer .contactcontent {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
 /* organizing the area  on the elft side of the content box*/
-.contactcontainer .contactcontent .bottom{
+.contactcontainer .contactcontent .bottom {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -387,7 +379,7 @@ p {
 }
 
 /* creating a long | to stylize and seperate boxes in the contact box*/
-.divider{
+.divider {
 	border-top: 8px solid #bbb;
 	border-radius: 5px;
 	margin-bottom:14px;
@@ -395,40 +387,40 @@ p {
  
 /* stylizing the text reas on the left hand side */
 .contactcontent .bottom .details .text-one,
-.contactcontent .bottom .details .text-two{
+.contactcontent .bottom .details .text-two {
 	font-size: 16px;
 	color: var(--text-one-color);
 }
 
 
 /* creating a margin and centering the text  and icons  on the left side of the div*/
-.contactcontent .bottom .details{
+.contactcontent .bottom .details {
 	margin: 14px;
 	text-align: center;	
 	
 }
 
 /* adding style to the topic section text on the left hand side for the address phone number and email address  */
-.contactcontent .bottom .details .topic{
+.contactcontent .bottom .details .topic {
 	font-size: 18px;
 	font-weight:500;
 	color:var(--topic-color);
 }
 
 /* stylizing the icons on the left hand side of the contact section*/
-.contactcontent .bottom .details i{
+.contactcontent .bottom .details i {
 	font-size: 30px;
 	color: rgb(139, 173, 140);
 }
  
 /* creating a larger divide between the left and ride side of the contact box */
-.contactcontainer .contactcontent .contactinput{
+.contactcontainer .contactcontent .contactinput {
 	width: 75%;
 	margin-left:50px;
 }
 	
 /* adding style to the input moxes with specific height width and margin*/
-.contactinput .input-box{
+.contactinput .input-box {
 	height: 50px;
 	width: 100%;
 	margin: 12px 0;
@@ -468,21 +460,22 @@ p {
 	background-color:var(--textarea-background-color)
 }
 
-.contactinput .message-box{
+/* missing comment */
+.contactinput .message-box {
 	min-height: 110px;
 } 
 /* adding some padding to the messege box*/
-.contactinput .input-box textarea{
+.contactinput .input-box textarea {
 	padding-top: 6px;
 }
 
 /* adding style to the contact button to create some distance between above divs*/
-.contactinput .contactbutton{
+.contactinput .contactbutton {
 	display: inline-block;
 	margin-top: 12px;
 }
-/* adding style to the submit button */
 
+/* adding style to the submit button */
 #submit {
 	color: #fff;
 	font-size: 15px;
@@ -495,13 +488,13 @@ p {
 	transition: all 0.3s ease;
 }
 
- /* adding color for the submit button when the user over over it*/
-#submit:hover{
+/* adding color for the submit button when the user over over it*/
+#submit:hover {
 	background: #044603;
 }
 
 /* adding style to the reset button */
-.contactinput .contactbutton input[type="reset"]{
+.contactinput .contactbutton input[type="reset"] {
 	color: #fff;
 	font-size: 15px;
 	outline:none;
@@ -513,25 +506,30 @@ p {
 	transition: all 0.3s ease;
 }
  
- /* changing the color fo the reset button when the user hobers over it*/
-.contactbutton input[type="reset"]:hover{
+/* changing the color fo the reset button when the user hobers over it*/
+.contactbutton input[type="reset"]:hover {
 	background: #044603;
 }
 
 /*adding responsive design to the contact box, designed in a way so that the icons/details will narrow from a 3x1 row to a triangle in appearence and then into a single column as the webpage narrows*/
- 
 @media (max-width: 820px) {
-	.contactcontainer{
+	/* missing comment */
+	.contactcontainer {
 		margin: 40px 0;
 		height: 100%;
 	}
+
+	/* missing comment */
 	#select {
 		padding-left: 8px;
 		margin-left: 0;
 	}
 
-	.contactcontainer .contactcontent{flex-direction: column-reverse;}
-	.contactcontainer .contactcontent .bottom{
+	/* missing comment */
+	.contactcontainer .contactcontent {flex-direction: column-reverse;}
+
+	/* missing comment */
+	.contactcontainer .contactcontent .bottom {
 		width: 100%;
 		flex-direction: row;
 		margin-top: 40px;
@@ -539,13 +537,13 @@ p {
 		flex-wrap: wrap;
 	}
 
-	.contactcontainer .contactcontent .contactinput{
+	/* missing comment */
+	.contactcontainer .contactcontent .contactinput {
 		width: 100%;
 		margin-left: 0;
 	}
 }
-  
- /* Craig Comment Box Section End */
+/* Craig Comment Box Section End */
   
   
 /***************** 
@@ -555,7 +553,7 @@ p {
 - Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
 ******************/
 /* classes for the banner adn header having a slightly opaque  background for the header and ensuring no items overlap */ 
-.testibanner{
+.testibanner {
 	position: relative;
 	width: 100%;
 	height: 150px;
@@ -565,8 +563,8 @@ p {
 	 
 }
 	 
-	
-.testibanner h1{
+/* missing comment */
+.testibanner h1 {
 	position: relative;
 	text-align: center;
 	font-size: 40px;
@@ -579,7 +577,7 @@ p {
 }
 
 /* First div that encompasses all the boxes on testimonial page */ 
-.wrapper{
+.wrapper {
 	max-width: 1200px;
 	margin: auto;
 	padding: 0 20px;
@@ -591,7 +589,7 @@ p {
 
 
 /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
-.wrapper .box{
+.wrapper .box {
 	width: calc(33% - 10px);
 	padding: 25px;
 	margin: 10px;
@@ -601,21 +599,20 @@ p {
 	background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
 }
 
-
 /* adjusting the size of the quotes that are stacked inside the two div's */ 
-.wrapper .box i.quote{
+.wrapper .box i.quote {
 	font-size: 15px;
 	color: black;
 }
 
 /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
-.wrapper .box .testicontent{
+.wrapper .box .testicontent {
 	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
-	background-color: #a6a6a6;;
+	background-color: #a6a6a6;
 	border-radius: 20px;
 	width:fit-content;
 	padding-right: 10px;
@@ -623,14 +620,14 @@ p {
 }
 
 /* having the name div inside the info and box have a font weight and size */
-.box .info .name{
+.box .info .name {
 	font-weight: 600;
 	font-size: 17px;
 	text-align: center;
 }
 
 /* having the font size of the job information inside the .info and .box divs */
-.box .info .job{
+.box .info .job {
 	font-size: 16px;
 	font-weight: 500;
 	color: black;;
@@ -638,19 +635,19 @@ p {
 }
 
 /* creaing a margin for the .stars class inside the .box .info */
-.box .info .stars{
+.box .info .stars {
 	margin-top: 2px;
 	text-align: center;
 }
 
 /* color for the stars inside the div's */
-.box .info .stars i{
+.box .info .stars i {
 	color: white;
 	text-align: center;
 }
 
 /* adjusting the div inside the client image class , with a border radius and different background color than the iamge itself's*/
-.box .testicontent .clientimage{
+.box .testicontent .clientimage {
 	position: relative;
 	height: 150px;
 	width: 150px;
@@ -663,7 +660,7 @@ p {
 }
 
 /* css for the image itself, having a smaller border around the image to create a layering effect */
-.testicontent .clientimage img{
+.testicontent .clientimage img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
@@ -673,23 +670,27 @@ p {
 	 
 /* changes the webpage to stack the boxes on top of each other when the screen size is 950 pixels wide and keeping all the divs cenetered*/
 @media screen and (max-width: 950px) {
+	/* missing comment */
 	.wrapper .box{
 		width: 100%;
 		align-items: center;
 		margin:70px;
 	}
-	.wrapper .box .testicontent{
+
+	/* missing comment */
+	.wrapper .box .testicontent {
 		width:250px;
 
 	}
-	.box .testicontent .clientimage{
+
+	/* missing comment */
+	.box .testicontent .clientimage {
 		align-items: center;
 		margin-left: auto;
 		margin-right: auto;
 		display:block;
 	}
 }
- 
 /* Craig Testimonials Styles Section End */
 
 /***************** 
@@ -709,6 +710,7 @@ footer {
 	padding-bottom: 30px;
 }
 
+/* Customization of footer p element */
 .footertext p {
 	color: #FFF;
 	text-align: center;
@@ -762,10 +764,9 @@ address {
 /* Centers the icon on the webpage */
 .centericon {
 	display: flex;
-    	column-gap: 10px;
-    	justify-content: center;
+    column-gap: 10px;
+    justify-content: center;
 }
-
 /* Helen Footer Section End */
 
 /***************** 
@@ -810,7 +811,6 @@ address {
 	margin-top: 5px;
 	font-weight: 600;
 }
-
 /* Ryan and Lilit Dark Mode Section End */
 
 /***************** 
@@ -822,7 +822,6 @@ address {
 				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive
 				https://www.w3schools.com/howto/howto_css_image_center.asp
 ******************/
-
 /* Customization of paragraph text within content page, introduces the current industry page */
 .pageintro p {
 	color: var(--p-color);
@@ -834,8 +833,8 @@ address {
 	border-radius: 6px;
 	border: 2px solid var(--h1-color);
 	background: var(--pageintro-background-color);
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* Container to hold projects */
@@ -866,14 +865,10 @@ address {
 }
 
 /* Customization of project image opacity when hovered over it */
-.projectcontainer:hover .projectimage {
-	opacity: 0.4;
-}
+.projectcontainer:hover .projectimage {opacity: 0.4;}
 
 /* Customization of project text box opacity when hovered over the project image */
-.projectcontainer:hover .projectmiddle {
-	opacity: 1;
-}
+.projectcontainer:hover .projectmiddle {opacity: 1;}
 
 /* Customization of text about the project that appears when hovered over the image */
 .projecttext p {
@@ -906,9 +901,7 @@ address {
 }
 /* Display projects in one column if page size is too small */
 @media screen and (max-width: 1500px) {
-	.columnprojects {
-		width: 100%;
-	}
+	.columnprojects {width: 100%;}
 }
 /* Responsive Two Column Layout for Projects Page End */
 
@@ -920,7 +913,7 @@ address {
 - Section:	INDEX PAGE CSS
 - Inspired by:	https://blog.hubspot.com/website/video-background-css
 ******************/
-/*Customization of banner class*/
+/* Customization of banner class */
 .home-banner {
 	position: relative;
 	width: 100%;
@@ -931,7 +924,7 @@ address {
 	overflow: hidden;
 }
 
-/*Customization of h1 element in banner class*/
+/* Customization of h1 element in banner class */
 .home-banner h1 {
 	text-align: center;
 	font-size: 5rem;
@@ -942,7 +935,7 @@ address {
 	opacity: 0.7;
 }
 
-/*Customization of home-vidcontainer class*/
+/* Customization of home-vidcontainer class */
 .home-vidcontainer {
 	position: absolute;
 	top: 0;
@@ -951,14 +944,14 @@ address {
 	width: 100%;
 }
 
-/*Customization of dividing lines*/
+/* Customization of dividing lines */
 hr.rounded {
 	border-radius: 6px;
 	border-top: 3px solid var(--h3-color);
 	margin: 25px;
 }
 
-/*Customization of home-aboutus ul and home-aboutus p elements*/
+/* Customization of home-aboutus ul and home-aboutus p elements */
 .home-aboutus ul, .home-aboutus p {
 	color: var(--p-color);
 	text-align: center;
@@ -970,45 +963,46 @@ hr.rounded {
 	list-style-type: none;
 }
 
-/*Customization of home-aboutus li element*/
+/* Customization of home-aboutus li element */
 .home-aboutus li {
 	padding-bottom: 10px;
 }
 
-/*3 column design for industries section on index*/
-.hcolumn1, .hcolumn2, .hcolumn3 {     /*src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive*/
+/* 3 column design for industries section on index */
+/* src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive */
+.hcolumn1, .hcolumn2, .hcolumn3 {     
     float: left;
     width: 33.33%;
     padding: 15px;
 	text-align: center;
 }
 
-/*clear floats after the columns using the row class*/
+/* Clear floats after the columns using the row class */
 .row::after {      
     content: "";
     display: table;
     clear: both;
 }
 
-/*Responsive design for phone screens to resize images*/
-img {                  /*selects image tag src=https://www.w3schools.com/css/css_rwd_images.asp*/
-	max-width: 100%;   /*image width wont exceed its max width but will size down responsively*/
+/* Responsive design for resizing images */
+img {              
+	max-width: 100%;   
 	height: auto;
 }	
 
-/*Cusomization of home-industry class*/
+/* Cusomization of home-industry class */
 .home-industries {height: auto;}
 
-/*Cusomization of home-industry p element*/
+/* Cusomization of home-industry p element */
 .home-industries p {
 	text-align: center;
 	font-size: 18px;
 	padding: 0 30px;
 }
 
-/*Customization of testimonal section*/
-/*Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya*/
-/*Customization of home-testimonial-container class*/
+/* Customization of testimonal section */
+/* Inspiration: https://codepen.io/aimieisanxious/pen/XWxOeya */
+/* Customization of home-testimonial-container class */
 .home-testimonial-container {
 	display: flex;
 	justify-content: center;
@@ -1019,14 +1013,14 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	flex-direction: column;
 }
 
-/*Customization of home-testimonials class*/
+/* Customization of home-testimonials class */
 .home-testimonials {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: space-evenly;
 }
 
-/*Customization of home-testimonial h1 element*/
+/* Customization of home-testimonial h1 element */
 .home-testimonial-container h1 {
 	padding: 10px 10px 15px;
 	text-align: center;
@@ -1034,7 +1028,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin: 0 auto 30px;
 }
 
-/*Customization of home-testimonial class*/
+/* Customization of home-testimonial class */
 .home-testimonial {
 	width: 25%;
 	border-radius: 10px;
@@ -1045,6 +1039,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Customization of after the content of home-testimonial class */
 .home-testimonial::after {
 	content: "";
 	display: block;
@@ -1057,12 +1052,12 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	border-color: var(--h3-color) transparent;
 }
 
-/*Customization of home-testimonial h4 element*/
+/* Customization of home-testimonial h4 element */
 .home-testimonial h4 {
 	margin-bottom: 10px;
 }
 
-/*Customization of home-testimonial-author class*/
+/* Customization of home-testimonial-author class */
 .home-testimonial-author {
 	font-size: 15px;
 	font-weight: bold;
@@ -1072,35 +1067,33 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	right: 0;
 }
 
-/*Customization of home-contact class*/
+/* Customization of home-contact class */
 .home-contact {
 	margin: 20px;
 }
 
-/*Responsive design if the browser window is 600px or smaller*/
+/* Responsive design if the browser window is 600px or smaller */
 @media screen and (max-width: 600px) {
-	/*Classes starting with home-column is set to 100% width*/
+	/* Classes starting with home-column is set to 100% width */
     [class*="hcolumn"] {
         width: 100%;
-    }
+}
 
-	/*Customization of home-testimonials class*/
+	/* Customization of home-testimonials class */
 	.home-testimonials {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	/*Customization of home-testimonial class*/
+	/* Customization of home-testimonial class */
 	.home-testimonial {
 		width: 90%;
 		margin-bottom: 60px;
 	}
 
-	.home-banner h1 {
-		font-size: 3rem;
-	}
+	/* Customization of home-banner h1 element */
+	.home-banner h1 {font-size: 3rem;}
 }
-
 /* Lori Index Page CSS End */
 
 /***************** 
@@ -1169,6 +1162,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 0px 100px;
 }
 
+/* Customization of each column in the career container */
 .columncareers1, .columncareers2, .columncareers3 {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1177,24 +1171,28 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	text-align: center;
 }
 
+/* Adding a padding on the Cards */
 .card {
 	padding: 15px 25px;
 }
 
 /* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
 @media (max-width: 600px) {
+	/* Career Container to have a padding and center when the screen is smaller */
 	.career-container {
 	  padding: 0 20px; 
 	  flex-direction: column;
 	  align-items: center;
 	}
+	
+	/* Customization of the career columns */
 	.columncareers1, .columncareers2, .columncareers3 {
 	  flex-basis: 100%; 
 	  margin: 0 0 25px;
 	}
 }
 
-/* Customization of the county maps on the career page */
+/* Customization of the container that contains the county maps on the career page */
 .countries-container{
 	background-color: transparent;
 	border: 20px solid rgba(120, 144, 140, 0.226);
@@ -1207,6 +1205,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 0px 15px;
 }
 
+/* Customization of each country map */
 .countries{
 	margin: 0 5px 25px;
 	background-color: transparent;
@@ -1215,22 +1214,27 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	text-align: center;
 }
 
+/* Customization of each country card */
 .countries-card {
 	padding: 15px;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
+/* Customization of the coountries container to have a responsive design when the window is smaller than 600px */
 @media (max-width: 600px) {
+	/* Customization of the countries container */
 	.countries-container {
 	  padding: 0 50px; 
 	}
+
+	/* Customization of each country map */
 	.countries {
 	  flex-basis: 50%; 
 	}
 }
 
-/* customization of images and texts of the Careers page */
+/* customization of images and texts container of the Careers page */
 .wrapped-content {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1243,6 +1247,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 0%;
 }
 
+/* Customization of the images on the career page */
 .careersimages {
 	max-width: 100%;
 	float: left;
@@ -1250,6 +1255,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin-right: 25px;
 }
 
+/* Customization of the text on the career page */
 .wrapped-text-box  {
 	justify-content: center;
 	display: flex;
@@ -1257,17 +1263,19 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	align-items: center;
 }
 
+/* Customization of the text h2 to have a different size than the main h2 */
 .wrapped-text-box h2 {
 	display: flex;
 	font-size: 35px;
 }
 
+/* Customization of the text h3 to have a different size than the main h3 */
 .wrapped-text-box h3 {
 	display: flex;
 	font-size: 20px;
 }
 
-/* customization of second image and text of the Careers page */
+/* customization of the second image and text container */
 .wrapped-content-2 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1280,6 +1288,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 0%;
 }
 
+/* Cuztomization of the second image for the careers */
 .careersimages2 {
 	max-width: 100%;
 	float: left;
@@ -1288,7 +1297,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin-right: 20px;
 }
 
-/* customization of third image and text of the Careers page */
+/* customization of the third image and text container  */
 .wrapped-content-3 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1301,6 +1310,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding: 0%;
 }
 
+/* Cuztomization of the third image for the careers */
 .careersimages3 {
 	max-width: 100%;
 	float: left;
@@ -1308,14 +1318,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	margin-right: 20px;
 }
 
-/* Customization of Open Application part of Careers page */
-.openappcontent {
-	margin: 0 39px 25px;
-	background-color: transparent;
-	display: flex;
-	text-align: center;
-}
-
+/* Cutomization of the Open Application container */
 .openapp {
 	margin: 0 20px 25px;
 	background-color: transparent;
@@ -1324,6 +1327,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	padding:0;
 }
 
+/* Customization of the h2 of o"Open Application" */
 .openapp h2 {
 	display: flex;
 	font-size: 35px;
@@ -1332,6 +1336,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	align-items: center;
 }
 
+/* Customization of the h3 of o"Open Application" text */
 .openapp h3{
 	justify-content: center;
 	align-items: center;
@@ -1339,7 +1344,9 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	font-size: 18px;
 }
 
+/* Cuztomization of the responsive design when the window is smaller than 600px */
 @media screen and (min-width:600px) {
+	/* Customization of the openapp container */
 	.openapp {
 		flex-basis:48%;
 		margin:0 1%;
@@ -1348,6 +1355,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 
 /* Customization of Career's Page Apply Now Button*/
 /* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
+/* Customization of the button container */
 .buttoncontainer {
 	margin: 0 5px 25px;
 	background-color: transparent;
@@ -1355,6 +1363,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	text-align: center;
 }
 
+/* Customization on the applynow button */
 .applynowbutton {
 	background-color: #43524d;
 	border: none;
@@ -1371,10 +1380,12 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	border-radius: 6px;
 }
 
+/* Customization of the h3 of the applynow text */
 .applynowbutton h3{
 	color: white;
 }
 
+/* Adding a hover on the applynow button */
 .applynowbutton:hover{
 background-color: #7ea69c;
 	transition: 0.3s;
@@ -1451,10 +1462,12 @@ background-color: #7ea69c;
 @media screen and (max-width:720px) {
   .calendarweekdays li, .calendardays li {width: 13.1%;}
 }
+
 @media screen and (max-width: 420px) {
   .calendarweekdays li, .calendardays li {width: 12.5%;}
   .calendardays li {padding: 2px;}
 }
+
 @media screen and (max-width: 290px) {
   .calendarweekdays li, .calendardays li {width: 12.2%;}
 }
@@ -1499,9 +1512,7 @@ background-color: #7ea69c;
 	  align-items: center;
 	}
 }
-
 /* Helen Media Page CSS End */
-
 
 /***************** 
 - Owner: 	Ryan Jeffery
@@ -1531,7 +1542,7 @@ background-color: #7ea69c;
 	transition: transform 0.5s;
 	transform-style: preserve-3d;
 	border: 1px dotted red;
-  }
+}
 
 /* Front of the card styling */
 .team-card-front {
@@ -1591,5 +1602,44 @@ background-color: #7ea69c;
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;
 }
+
+/* make css code that can be used to organize the cards in an adaptive grid layout */
+/* Inspiration: https://www.w3schools.com/howto/howto_css_cards.asp */
+/* Inspiration: https://www.w3schools.com/howto/howto_css_two_columns.asp */
+/* Inspiration: https://www.w3schools.com/howto/howto_css_three_columns.asp */
+/* Inspiration: https://www.w3schools.com/howto/howto_css_four_columns.asp */
+/* Inspiration: https://www.w3schools.com/howto/howto_css_five_columns.asp */
+
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+
 
 /* Ryan Team Page CSS End */
