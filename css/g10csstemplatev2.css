@@ -25,6 +25,9 @@
 	--contactcontainer-background-color: #f5f5f5;
 	--pageintro-background-color: #FFF;
 	--textarea-background-color: #cdc8c8;
+	--media-caldaysbkgd-light: #E4E6E6;
+	--media-calweekdays-light: #fff;
+	--media-calmonth-light: #7ea69c;
 	/* Color variables for dark mode */
 	--background-color-dark: #39403d;
 	--header-background-dark: #1f2726;
@@ -45,7 +48,9 @@
 	--textarea-background-color-dark: #000;
 	--submit-background-color-dark: #0a0a0a;
 	--reset-background-color-dark: #0a0a0a;
-
+	--media-caldaysbkgd-dark: #637e77;
+	--media-calmonth-dark: #43524d;
+	--media-calweekdays-light: #E4E6E6;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -1437,7 +1442,7 @@ background-color: #7ea69c;
 .calendarweekdays li {
 	display: inline-block;
 	width: 13.6%;
-	color: #666;
+	color: #fff;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
 	font-weight: bold;
@@ -1446,7 +1451,7 @@ background-color: #7ea69c;
 /* Customization of how to display calendar days */
 .calendardays {
 	padding: 10px 0;
-	background: #eee;
+	background: #E4E6E6;
 	margin: 0;
 }
 
