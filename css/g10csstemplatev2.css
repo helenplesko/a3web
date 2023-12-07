@@ -426,7 +426,7 @@ p {
 	margin: 12px 0;
 }
 
-/* adding Style to the right side topic text (Contact US) */
+/* adding Style to the bottom half topic text (Contact US) */
 .contactcontent .contactinput .topic-text {
 	font-size: 23px;
 	font-weight: 600;
@@ -513,17 +513,13 @@ p {
 
 /*adding responsive design to the contact box, designed in a way so that the icons/details will narrow from a 3x1 row to a triangle in appearence and then into a single column as the webpage narrows*/
 @media (max-width: 820px) {
-	/* missing comment */
+	/* setting up the margins and height to the div container holding the contact */
 	.contactcontainer {
 		margin: 40px 0;
 		height: 100%;
 	}
 
-	/* missing comment */
-	#select {
-		padding-left: 8px;
-		margin-left: 0;
-	}
+  
 
 	/* missing comment */
 	.contactcontainer .contactcontent {flex-direction: column-reverse;}
@@ -537,11 +533,7 @@ p {
 		flex-wrap: wrap;
 	}
 
-	/* missing comment */
-	.contactcontainer .contactcontent .contactinput {
-		width: 100%;
-		margin-left: 0;
-	}
+ 
 }
 /* Craig Comment Box Section End */
   
