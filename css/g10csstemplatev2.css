@@ -26,6 +26,7 @@
 	--pageintro-background-color: #FFF;
 	--textarea-background-color: #cdc8c8;
 	--media-caldaysbkgd-light: #E4E6E6;
+	--media-caldays-light: #fff;
 	--media-calweekdays-light: #fff;
 	--media-calmonth-light: #7ea69c;
 	/* Color variables for dark mode */
@@ -49,6 +50,7 @@
 	--submit-background-color-dark: #0a0a0a;
 	--reset-background-color-dark: #0a0a0a;
 	--media-caldaysbkgd-dark: #637e77;
+	--media-caldays-dark: #43524d;
 	--media-calmonth-dark: #43524d;
 	--media-calweekdays-dark: #E4E6E6;
 }
@@ -812,6 +814,7 @@ address {
 	--pageintro-background-color: var(--pageintro-background-color-dark);
 	--textarea-background-color: var(--textarea-background-color-dark);
 	--media-caldaysbkgd-light: var(--media-caldaysbkgd-dark);
+	--media-caldays-light: var(--media-caldays-dark);
 	--media-calweekdays-light: var(--media-calweekdays-dark);
 	--media-calmonth-light: var(--media-calmonth-dark);
 }
@@ -1466,7 +1469,7 @@ background-color: #7ea69c;
 	text-align: center;
 	margin-bottom: 5px;
 	font-size: 16px;
-	color: #777;
+	color: var(--media-caldays-light);
 }
 
 /* Customization of calendar days that have an event occurring on that day */
