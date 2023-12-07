@@ -520,16 +520,18 @@ p {
 		height: 100%;
 	}
 
-  
-	 /* settomg tje width of the   */
-	 .contactcontainer .contactcontent .bottom {
-		 width: 100%;
-		 flex-direction: column;
-		 margin-top: 40px;
-		 justify-content: center;
-		 flex-wrap: wrap;
-	 }
+  	/* missing comment */
+	.contactcontainer .contactcontent {flex-direction: column-reverse;}
 
+	/* settomg tje width of the   */
+	.contactcontainer .contactcontent .bottom {
+		width: 100%;
+		flex-direction: column;
+		margin-top: 40px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	 
  
 }
 /* Craig Comment Box Section End */
