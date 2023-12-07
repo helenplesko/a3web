@@ -524,7 +524,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	background: #044603;
 }
 
-/*adding responsive design to the contact box */
+/*adding responsive design to the contact box, designed in a way so that the icons/details will narrow into a column as the webpage shrinks*/
  
 @media (max-width: 820px) {
 	.contactcontainer{
