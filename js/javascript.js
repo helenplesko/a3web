@@ -31,11 +31,15 @@ function darkMode() {
 }
 // Lilit & Ryan Dark Mode End
 
+///////////////////////
+// Owner: 	Craig Jurkiewicz
+// Date:		November 23, 2023
+// Section:	CONTACT PAGE ALERT BUTTON
+// Inspired By: 
+///////////////////////
 
-// Function to alert user that their email and response has been sent in the contact us page Craig Jurkiewicz 
-
+// Function to alert user that their email and response has been sent in the contact us page
 function myFunction(alert) {
   alert("Thank you for reaching out, we will get back to you shortly :) ");
 }
-
-// Contact Page End 
+// Craig Contact Page Alert Button End 
