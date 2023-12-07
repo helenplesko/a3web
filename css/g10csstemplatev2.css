@@ -716,6 +716,8 @@ address {
 	font-weight: normal;
 	font-size: 13px;
 	font-family: helvetica, arial, sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* Customization of all footer social media icons */
