@@ -50,7 +50,7 @@
 	--reset-background-color-dark: #0a0a0a;
 	--media-caldaysbkgd-dark: #637e77;
 	--media-calmonth-dark: #43524d;
-	--media-calweekdays-light: #E4E6E6;
+	--media-calweekdays-dark: #E4E6E6;
 }
 /* --------------------
 - Ryan Variable Section End
@@ -811,6 +811,9 @@ address {
 	--contactcontainer-background-color: var(--contactcontainer-background-color-dark);
 	--pageintro-background-color: var(--pageintro-background-color-dark);
 	--textarea-background-color: var(--textarea-background-color-dark);
+	--media-caldaysbkgd-light: var(--media-caldaysbkgd-dark);
+	--media-calweekdays-light: var(--media-calweekdays-dark);
+	--media-calmonth-light: var(--media-calmonth-dark);
 }
 
 /* Customization of Dark Mode button */
