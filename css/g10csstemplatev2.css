@@ -1640,7 +1640,7 @@ background-color: #7ea69c;
 }
 
 
-team-card-back p {
+.team-card-back p {
 	color: var(--p-color);
 	text-align: center;
 	font-weight: normal;
