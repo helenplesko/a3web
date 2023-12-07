@@ -522,10 +522,8 @@ p {
 
   
 
-	/* missing comment */
-	.contactcontainer .contactcontent {flex-direction: column-reverse;}
-
-	/* settomg tje wodtj  */
+ 
+	/* settomg tje width of the   */
 	.contactcontainer .contactcontent .bottom {
 		width: 100%;
 		flex-direction: column;
