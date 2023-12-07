@@ -1517,6 +1517,9 @@ background-color: #7ea69c;
 	perspective: 500px;
 	background-color: #9b9214;
 	border: 6px outset blue;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 /* Inner container that manages the flip transition effect */
@@ -1545,6 +1548,7 @@ background-color: #7ea69c;
 /* The flip effect when the card is hovered over */
 .team-card-container:hover .team-card-container-inner {
 	transform: rotateY(180deg);
+	box-shadow:	0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Styling that both sides have in common */
@@ -1556,6 +1560,36 @@ background-color: #7ea69c;
 	backface-visibility: hidden;
 	/* This webkit property is necessary for Safari and older versions of Chrome*/
 	-webkit-backface-visibility: hidden; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+/* Styling just for the front and back paragraph text in the card */
+.team-card-front p, .team-card-back p {
+	color: var(--p-color);
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* Image styling */
+.team-card-front img, {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/* Styling for the team member's name on the front of the card */
+.team-card-front h3 {
+	color: var(--h3-color);
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
 }
 
 /* Ryan Team Page CSS End */
