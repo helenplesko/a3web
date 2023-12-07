@@ -1,8 +1,8 @@
-/* --------------------
+/***************** 
 - Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
 - Section:	CSS Variables 
--------------------- */
+******************/
 /* Variables colors to assist JS light/dark mode function */
 :root {
 	/* Color variables */
@@ -26,7 +26,7 @@
 	--pageintro-background-color: #FFF;
 	--textarea-background-color: #cdc8c8;
 	--media-caldaysbkgd-light: #E4E6E6;
-	--media-caldays-light: #fff;
+	--media-caldays-light: #43524d;
 	--media-calweekdays-light: #fff;
 	--media-calmonth-light: #7ea69c;
 	/* Color variables for dark mode */
@@ -50,19 +50,17 @@
 	--submit-background-color-dark: #0a0a0a;
 	--reset-background-color-dark: #0a0a0a;
 	--media-caldaysbkgd-dark: #637e77;
-	--media-caldays-dark: #43524d;
+	--media-caldays-dark: #fff;
 	--media-calmonth-dark: #43524d;
 	--media-calweekdays-dark: #E4E6E6;
 }
-/* --------------------
-- Ryan Variable Section End
--------------------- */
+/* Ryan Variable Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Lilit Markarian
 - Date:		November 23, 2023
 - Section:	Header and Logo
--------------------- */
+******************/
 /* Customization of the header at the top of the website */
 header {
 	background-color: var(--header-background);
@@ -76,15 +74,13 @@ header {
 	height: 111px;
 	margin: 0;
 }
-/* --------------------
-- Lilit Header and Logo Section End
--------------------- */
+/* Lilit Header and Logo Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Ryan Jeffery
 - Date:		November 23, 2023
 - Section:	Body CSS 
--------------------- */
+******************/
 /* Customization of the site as a whole */
 body {
 	background-color: var(--background-color-light);
@@ -95,20 +91,17 @@ body {
 * {
 	box-sizing: border-box;
 }
-/* --------------------
-- Ryan Body CSS Section End
--------------------- */
+/* Ryan Body CSS Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Lori Lowy & Craig Jurkiewicz
 - Date:		November 23, 2023
 - Section:	NAVIGATION BAR CSS
 - Inspired By: 	https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
                	https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
-		https://www.w3schools.com/howto/howto_css_menu_icon.asp
-		https://stackoverflow.com/questions/17510658/css3-transition-fadein-with-displaynone
-		 
--------------------- */
+				https://www.w3schools.com/howto/howto_css_menu_icon.asp
+				https://stackoverflow.com/questions/17510658/css3-transition-fadein-with-displaynone
+******************/
 /* Customization of the navigation bar */
 .navbar {
 	overflow: hidden;
@@ -282,16 +275,14 @@ body {
 	.change .bar2 {opacity: 0;}
 	.change .bar3 {transform: translate(0, -11px) rotate(45deg);}
 }
-/* --------------------
-- Lori & Craig Navigation Bar CSS Section End
--------------------- */
+/* Lori & Craig Navigation Bar CSS Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
 - Section:	CSS Heading Styles 
 - Colour inspiration from: https://www.colorhexa.com/
--------------------- */
+******************/
 /* Customization of Header 1 */
 h1 {
 	color: var(--h1-color);
@@ -348,17 +339,15 @@ p {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-/* --------------------
-- Helen Heading & Paragraph Styles Section End
--------------------- */
+/* Helen Heading & Paragraph Styles Section End */
 
-/* --************************
+/***************** 
 - Owner: 	Craig Jurkiewicz
 - Date:		November 23, 2023
 - Section:	Comment Box CSS (in progress)
 - Inspired By: 	https://www.w3schools.com/howto/howto_css_contact_section.asp
-https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
-*************************-- */
+				https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
+******************/
 /* div to hold everything that's involved with the contact section and style the area outside the contact box*/
  .flex-container{
 	min-height: 100vh;
@@ -450,9 +439,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	font-size: 23px;
 	font-weight: 600;
 	color:var(--topic-text-color);
-}
- 
- 
+} 
 
 /* adding style to the select box container*/
 .select-box {
@@ -558,17 +545,15 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	}
 }
   
- /* --
- Craig Comment Box Section End
--- */
+ /* Craig Comment Box Section End */
   
   
-/* --------------------
+/***************** 
 - Owner: 	Craig Jurkiewicz 
 - Date:		November 23, 2023
 - Section:	Testimonials
 - Inspired By:	https://www.youtube.com/watch?v=-XX6MgbzQa8 
--------------------- */ 
+******************/
 /* classes for the banner adn header having a slightly opaque  background for the header and ensuring no items overlap */ 
 .testibanner{
 	position: relative;
@@ -614,7 +599,6 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
 	background-color: #57595d;
 	background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
-	
 }
 
 /* adjusting changes and comments */
@@ -623,7 +607,6 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	font-size: 15px;
 	color: black;
 }
-
 
 /* code to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are fleixble, wrap */
 .wrapper .box .testicontent{
@@ -707,11 +690,9 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 	}
 }
  
-/* --------------------
-- Craig Testimonials Styles Section End
--------------------- */
+/* Craig Testimonials Styles Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Helen Plesko
 - Date:		November 23, 2023
 - Section:	FOOTER CSS 
@@ -719,7 +700,7 @@ https://www.youtube.com/watch?v=eUMqJMkwOBY&t=9s
 				https://www.w3schools.com/html/html_layout.asp
 				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
 				https://programmersportal.com/how-to-center-social-media-icons-using-css/
--------------------- */
+******************/
 /* Customization of footer background */
 footer {
 	position: static;
@@ -785,16 +766,14 @@ address {
     	justify-content: center;
 }
 
-/* --------------------
-- Helen Footer Section End
--------------------- */
+/* Helen Footer Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Ryan and Lilit
 - Date:		November 23, 2023
 - Section:	Toggle Dark Mode
 - Inspired By:	https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
--------------------- */
+******************/
 /* Customization of Dark Mode */
 .dark-mode {
 	--background-color-light: var(--background-color-dark);
@@ -832,11 +811,9 @@ address {
 	font-weight: 600;
 }
 
-/* --------------------
-- Ryan and Lilit Dark Mode Section End
--------------------- */
+/* Ryan and Lilit Dark Mode Section End */
 
-/* --------------------
+/***************** 
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
 - Section:	INDUSTRY PAGE CSS
@@ -844,7 +821,7 @@ address {
 				https://www.w3schools.com/howto/howto_css_image_overlay.asp
 				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive
 				https://www.w3schools.com/howto/howto_css_image_center.asp
--------------------- */
+******************/
 
 /* Customization of paragraph text within content page, introduces the current industry page */
 .pageintro p {
@@ -935,17 +912,14 @@ address {
 }
 /* Responsive Two Column Layout for Projects Page End */
 
-/* --------------------
-- Helen Industry Page CSS End
--------------------- */
+/* Helen Industry Page CSS End */
 
-/* --------------------
+/***************** 
 - Owner: 	Lori Lowy
 - Date:		November 29, 2023
 - Section:	INDEX PAGE CSS
 - Inspired by:	https://blog.hubspot.com/website/video-background-css
--------------------- */
-
+******************/
 /*Customization of banner class*/
 .home-banner {
 	position: relative;
@@ -1127,17 +1101,15 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 	}
 }
 
-/* --------------------
-- Lori Index Page CSS End
--------------------- */
+/* Lori Index Page CSS End */
 
-/* --------------------
+/***************** 
 - Owner: 	Lilit Markarian
 - Date:		December 2, 2023
 - Section:	Career Page CSS
 - Inspired by:	
 - Content from: Canva
--------------------- */
+******************/
 
 /*Customization of banner class*/
 /* For the banner video I used the same sizes and a similar code to Lori's to not have very different styles on each page*/
@@ -1208,7 +1180,6 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 .card {
 	padding: 15px 25px;
 }
-
 
 /* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
 @media (max-width: 600px) {
@@ -1409,16 +1380,14 @@ background-color: #7ea69c;
 	transition: 0.3s;
 }
 
-/* --------------------
-- Lilit Career Page CSS End
--------------------- */
+/* Lilit Career Page CSS End */
 
-/* --------------------
+/***************** 
 - Owner: 	Helen Plesko
 - Date:		December 3, 2023
 - Section:	MEDIA PAGE CSS
 - Inspired by:	
--------------------- */
+******************/
 /* Customization of how to display calendar month */
 .calendarmonth {
 	padding: 10px;
@@ -1531,17 +1500,15 @@ background-color: #7ea69c;
 	}
 }
 
-/* --------------------
-- Helen Media Page CSS End
--------------------- */
+/* Helen Media Page CSS End */
 
 
-/* --------------------
+/***************** 
 - Owner: 	Ryan Jeffery
 - Date:		December 5, 2023
 - Section:	TEAM PAGE CSS
 - Inspired by:	https://www.w3schools.com/howto/howto_css_flip_card.asp
--------------------- */
+******************/
 
 /* Container for a team card, sets size and 3D perspective */
 .team-card-container {
@@ -1563,7 +1530,7 @@ background-color: #7ea69c;
 	border: 1px dotted red;
   }
 
-  /* Front of the card styling */
+/* Front of the card styling */
 .team-card-front {
 	background-color: darkmagenta;
 }
@@ -1591,6 +1558,4 @@ background-color: #7ea69c;
 	-webkit-backface-visibility: hidden; 
 }
 
-/* --------------------
-- Ryan Team Page CSS End
--------------------- */
+/* Ryan Team Page CSS End */
