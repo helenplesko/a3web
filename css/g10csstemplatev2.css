@@ -518,14 +518,14 @@ p {
 	background: #044603;
 }
 
-/*adding responsive design to the contact box, designed in a way so that the icons/details will narrow into a column as the webpage shrinks*/
+/*adding responsive design to the contact box, designed in a way so that the icons/details will narrow from a 3x1 row to a triangle in appearence and then into a single column as the webpage narrows*/
  
 @media (max-width: 820px) {
 	.contactcontainer{
 		margin: 40px 0;
 		height: 100%;
 	}
-	select {
+	#select {
 		padding-left: 8px;
 		margin-left: 0;
 	}
@@ -589,7 +589,7 @@ p {
 	justify-content: space-around;
 }
 
-/* adding changes to test for pullign */ 
+
 /* grabbing all the content thats in the .box class thats wrapped inside the .wrapper class  */
 .wrapper .box{
 	width: calc(33% - 10px);
@@ -601,7 +601,7 @@ p {
 	background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
 }
 
-/* adjusting changes and comments */
+
 /* adjusting the size of the quotes that are stacked inside the two div's */ 
 .wrapper .box i.quote{
 	font-size: 15px;
@@ -671,7 +671,7 @@ p {
 	border: 4px solid #362f2b;
 }
 	 
-/* changes the webpage to stack the boxes on top of each other when the screen size is 950pixels wide, overall making the webpage more responsive*/
+/* changes the webpage to stack the boxes on top of each other when the screen size is 950 pixels wide and keeping all the divs cenetered*/
 @media screen and (max-width: 950px) {
 	.wrapper .box{
 		width: 100%;
