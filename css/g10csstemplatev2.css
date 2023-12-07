@@ -943,7 +943,7 @@ address {
 }
 
 /*Customization of home-vidcontainer class*/
-.hvidcontainer {
+.home-vidcontainer {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1073,7 +1073,7 @@ img {                  /*selects image tag src=https://www.w3schools.com/css/css
 }
 
 /*Customization of home-contact class*/
-.hcontact {
+.home-contact {
 	margin: 20px;
 }
 
@@ -1576,7 +1576,7 @@ background-color: #7ea69c;
 }
 
 /* Image styling */
-.team-card-front img, {
+.team-card-front img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
