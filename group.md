@@ -30,7 +30,7 @@ Worked on by: Skeleton -Helen; Contribution of details -All
 
 Due by: before Week 12 Lab
 
-Completed: In Progress
+Completed: Y
 
 
 ## 4. Create CSS Template
@@ -41,7 +41,7 @@ Worked on by: Skeleton -Helen; Contribution of details -All
 
 Due by: before Week 12 Lab
 
-Completed: In Progress
+Completed: Y
 
 
 ## 5. Create JavaScript File
@@ -52,7 +52,7 @@ Worked on by: Craig & Ryan & Lilit
 
 Due by: end Week 11
 
-Completed: In Progress
+Completed: Y
 
 
 ## 6. Create File Directory
@@ -74,7 +74,7 @@ Worked on by: All
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 8. Page 2 (content) About the Team
@@ -85,7 +85,7 @@ Worked on by: Helen
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 9. Page 3 (content) In the Media
@@ -96,7 +96,7 @@ Worked on by: Helen
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 10. Page 4 (content) Industries
@@ -107,7 +107,7 @@ Worked on by: Ryan
 
 Due by: mid Week 13
 
-Completed: N
+Completed: Y
 
 
 ## 11. Page 5 (content) Environmental Industry
@@ -151,7 +151,7 @@ Worked on by: Craig
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 15. Page 9 (content) Careers
@@ -173,7 +173,7 @@ Worked on by: Craig
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 17. Footer
@@ -206,7 +206,7 @@ Worked on by: Lori & Craig
 
 Due by: before Week 12 Lab, include in template
 
-Completed: In Progress
+Completed: Y
 
 
 ## 21. JavaScript for Contact Page
@@ -217,7 +217,7 @@ Worked on by: Craig
 
 Due by: mid Week 13
 
-Completed: In Progress
+Completed: Y
 
 
 ## 22. JavaScript for Light/Dark Modes
@@ -272,7 +272,7 @@ Worked on by: Helen
 
 Due by: before Week 12 Lab, include in template
 
-Completed: In Progress
+Completed: Y
 
 
 ## 27. Demo use of GIT
@@ -327,7 +327,7 @@ Worked on by: Ryan & Lori
 
 Due by: mid Week 14
 
-Completed: N
+Completed: Y
 
 
 ## 32. Final Website Review
@@ -338,7 +338,7 @@ Worked on by: All
 
 Due by: mid Week 14
 
-Completed: N
+Completed: Y
 
 
 ## 33. Final Website Submission
@@ -349,6 +349,6 @@ Worked on by: All
 
 Due by: before Week 14 Lab
 
-Completed: N
+Completed: Y
 
 
