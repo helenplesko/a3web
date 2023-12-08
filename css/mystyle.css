@@ -957,7 +957,14 @@ hr.rounded {
 
 /* Customization of home-aboutus li element */
 .home-aboutus li {
+	color: var(--p-color);
 	padding-bottom: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	list-style-type: none;
 }
 
 /* 3 column design for industries section on index */
