@@ -314,7 +314,7 @@ h3 {
 	padding-right: 10px;
 }
 
-/* Customization of Header 4 */
+/* Customi{zation of Header 4 */
 h4 {
 	color: var(--h4-color);
 	text-align: center;
@@ -326,7 +326,7 @@ h4 {
 }
 
 /* Customization of paragraph text */
-p {
+p, li {
 	color: var(--p-color);
 	text-align: left;
 	font-weight: normal;
