@@ -443,7 +443,7 @@ p, li {
 	position: relative;
 	border-radius: 6px;
 	margin-left: 6px;
-	width: 250px;
+	width: auto;
 	height: 25px;
 	background-color: #F0F1F8;
 }
@@ -478,6 +478,7 @@ p, li {
 .contactinput .contactbutton {
 	display: inline-block;
 	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 /* Adding style to the submit button */
@@ -1126,7 +1127,7 @@ img {
 }
 
 /* Customization of h2 for the banner of careers page */
-.bannercareer h2 {
+.bannercareer h1 {
 	text-align: center;
 	font-size: 3rem;
 	z-index: 1;
