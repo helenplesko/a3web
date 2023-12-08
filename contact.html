@@ -9,7 +9,7 @@
 	<link rel="icon" href="images/topography.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- External link to stylesheet -->
-	<link rel="stylesheet" href="./css/g10csstemplatev2.css">
+	<link rel="stylesheet" href="css/g10csstemplatev2.css">
 	<!-- External link to font awesome icons (social media icons in the footer and stars and quotation marks on client testimonials page) -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -29,9 +29,9 @@
 	
 	<!-- This logo will appear on every page of our website -->
 	<!-- When you click the top banner, it will link back to the homepage -->
-	<a href = "index.html">
+	<a href="index.html">
 		<div class="logo">
-			<img src= "images/LogoLayerLarks.png" alt="Layer Larks Logo">
+			<img src="images/LogoLayerLarks.png" alt="Layer Larks Logo">
 		</div>
 	</a>
 </header>
@@ -84,79 +84,86 @@
 				https://www.youtube.com/watch?v=eUMqJMkwOBY&t=187s
 --------------------- -->
 <!-- Creating a flex container to hold everything and style the area outside the box-->
-<div class = "flex-container"> 
+<div class="flex-container"> 
+
     <!-- Creating a container element to hold content-->
-   	<div class = "contactcontainer">
-	<!-- Div to hold and organize content within the box -->
- 		<div class = "contactcontent">
- 
- 
-   <!-- Div for the content on the top half of contactcontent, for user to input name, email and message for us-->
-    		<div class = "contactinput">
-    			<div class = "topic-text">Contact Us</div>
-    	<p> If you have any work related questions or wish to know more please shoot us an email with the links provided below or directly through the text below</p>
-  			<div class = "divider"></div>
-	<form> 
-	 
-	<select class = "select-box"> 
-		<option value="">Select an Option for Reaching Out</option>
-		 
-		<!-- Options for user to select to help narrow down topic when writing to Layerlarks-->
-	    <option value="quote">Quotes</option>
-	    <option value="questions">General Questions</option>
-	    <option value="metadata">Metadata Questions</option>
-	    <option value="jobs">Potential Job Offering</option>
-	    <option value="other">Other</option>
-	</select>
-	 
-			<div class = "input-box"> 
-				<input type = "text" placeholder = "Please Enter Your Full Name">
-			</div>
-			<div class = "input-box"> 
-				<input type = "text" placeholder = "Please Enter your Email Address">
-			</div>
-	 
-			<div class = "input-box message-box">
-				<textarea class="message-box" placeholder="Please Enter your Message here"></textarea>
-		 
-			</div>
-		
-			<button id ="reset" value = "Reset Entry"></button>
-		<!--reset button for user to reset their entry-->
-			<div class = "contactbutton">
-				<input type="reset" value="Reset Entry">
-			</div>
-		 <!--Submit button for user after filling in all necessary information-->
-  
-			<button id="submit" onclick="myFunction(alert)">Submit</button>
-	   
-	  </form>
-    		<div class = "bottom">
-	<!-- Adding  font awesome markers for the  the address, phone and email with corresponding details-->
-				<div class = "address details">
-					<i class = "fas fa-map-marker-alt"></i>
-					<div class = "topic"> Address</div>
-					<div class = "text-one">101 Fleming Nest K9V 5E6 </div>
-					<div class = "text-two"> Lindsay On</div>
+   	<div class="contactcontainer">
+
+		<!-- Div to hold and organize content within the box -->
+		<div class="contactcontent">
+	
+			<!-- Div for the content on the top half of contactcontent, for user to input name, email and message for us-->
+			<div class="contactinput">
+				
+				<div class="topic-text">Contact Us</div>
+					<p> If you have any work related questions or wish to know more please shoot us an email with the links provided below or directly through the text below</p>
+				<div class="divider"></div>
+				
+				<form>
+
+					<!-- Dropdown for user to choose their reason for contacting -->
+					<select class="select-box"> 
+						<option value="">Select an Option for Reaching Out</option>
+						<!-- Options for user to select to help narrow down topic when writing to Layerlarks -->
+						<option value="quote">Quote</option>
+						<option value="questions">General Question</option>
+						<option value="metadata">Metadata Question</option>
+						<option value="jobs">Potential Job Offering</option>
+						<option value="other">Other</option>
+					</select>
+					
+					<!-- Input box for Full Name -->
+					<div class="input-box"> 
+						<input type="text" placeholder="Please Enter Your Full Name">
+					</div>
+					
+					<!-- Input box for Email -->			
+					<div class="input-box"> 
+						<input type="text" placeholder="Please Enter your Email Address">
+					</div>
+					
+					<!-- Input box for Message -->
+					<div class="input-box message-box">
+						<textarea class="message-box" placeholder="Please Enter your Message here"></textarea>
+					</div>
+						
+					<!-- Reset button for user to reset their entry -->
+					<div class="contactbutton">
+						<input type="reset" value="Reset Entry">
+					</div>
+
+					<!-- Submit button for user after filling in all necessary information -->		
+					<button id="submit" onclick="myFunction(alert)">Submit</button>
+				
+				</form>
+
+				<div class="bottom">
+					<!-- Adding  font awesome markers for the address -->
+					<div class="address details">
+						<i class="fas fa-map-marker-alt"></i>
+						<div class="topic">Address</div>
+						<div class="text-one">101 Fleming Nest K9V 5E6 </div>
+						<div class="text-two">Lindsay On</div>
+					</div>
+					<!-- Adding font awesome markers for phone number -->
+					<div class="phone details">
+						<i class="fas fa-phone-alt"></i>
+						<div class="topic">Phone</div>
+						<div class="text-one">+555-555-5555</div>
+						<div class="text-two">1-800-555-5555</div>
+					</div>
+					<!-- Adding font awesome markers for the emails -->
+					<div class="email details">
+						<i class="fas fa-envelope"></i>
+						<div class="topic">Email</div>
+						<div class="text-one">questions@layerlarks.com</div>
+						<div class="text-two">quota@layerlarks.com</div>
+					</div>
 				</div>
- 				<div class = "phone details">
-					<i class = "fas fa-phone-alt"></i>
-					<div class = "topic"> Phone</div>
-					<div class = "text-one">+555-555-5555</div>
-					<div class = "text-two">1-800-555-5555</div>
- 
- 	</div>
- 		    	<div class = "email details">
-					<i class = "fas fa-envelope"></i>
-					<div class = "topic"> Email</div>
-					<div class = "text-one">questions@layerlarks.com</div>
-					<div class = "text-two">quota@layerlarks.com</div>
-			</div>
-</div>
- </div>
-   </div>
+ 			</div>
+   		</div>
     </div>
-      </div>
+</div>
 <!-- *** Craig Contact Section End *** -->
 
 <!-- --------------------
