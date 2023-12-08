@@ -1594,6 +1594,7 @@ background-color: #7ea69c;
 	text-align: center;
 	transition: transform 0.8s;
 	transform-style: preserve-3d;
+	border-radius: 19px;
 }
 
 /* Back of the card styling */
@@ -1618,6 +1619,7 @@ background-color: #7ea69c;
 	/* This webkit property is necessary for Safari and older versions of Chrome*/
 	-webkit-backface-visibility: hidden; 
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
@@ -1627,10 +1629,10 @@ background-color: #7ea69c;
 
 /* Styling for the name of the team member on the contact card */
 .team-card-front h2 {
-	color: var(--h2-color);
-	/* making the text appear in the center and just below the bottom of the image */
+	position: absolute;
+	top: 68%;
 	text-align: center;
-	vertical-align: bottom;
+	color: black;
 	font-weight: normal;
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;
@@ -1638,15 +1640,16 @@ background-color: #7ea69c;
 
 /* Styling for the front card text */
 .team-card-front p {
-	color: var(--p-color);
+	position: absolute;
+	top: 75%;
 	text-align: center;
-	vertical-align: bottom;
+	color: black;
 	font-weight: normal;
 	font-size: 16px;
 	font-family: helvetica, arial, sans-serif;
 }
 
-
+/* Styling for the back card text */
 .team-card-back p {
 	color: var(--p-color);
 	text-align: center;
@@ -1662,15 +1665,6 @@ background-color: #7ea69c;
 	position: absolute;
 	top: 0;
 	border-radius: 19px 19px 0 0;
-}
-
-/* Styling for the team member's name on the front of the card */
-.team-card-front h3 {
-	color: var(--h3-color);
-	text-align: center;
-	font-weight: normal;
-	font-size: 20px;
-	font-family: helvetica, arial, sans-serif;
 }
 
 /* Ryan Team Page CSS End */
