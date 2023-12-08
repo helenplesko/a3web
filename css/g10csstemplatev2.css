@@ -471,7 +471,7 @@ p, li {
 /* Adding padding to the message box and changing font */
 .contactinput .input-box textarea {
 	padding-top: 12px;
-	font-family: helvetica, arial, sans-serif;
+	font-family: sans-serif;
 }
 
 /* Adding style to the contact button to create some distance between above divs */
