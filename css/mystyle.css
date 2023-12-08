@@ -235,6 +235,7 @@ body {
 	.navbar.responsive .dropdown {float: none;}
     	
 	/* Selects dropdown content in the navbar and responsive class */
+	/* Dropdown stays open in responsive so user knows what page they are on */
 	.navbar.responsive .dropdown-content {
 		position: relative;
 		display: block;
