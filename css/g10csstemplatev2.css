@@ -21,7 +21,7 @@
 	--text-one-color: #000;
 	--text-two-color: #030202;
 	--topic-color: #060303;
-	--i-color: #060303;
+	--quote-color: #060303;
 	--topic-text-color-dark: #fff;
 	--contactcontainer-background-color: #fff;
 	--pageintro-background-color: #fff;
@@ -45,7 +45,7 @@
 	--text-one-color-dark: #fff;
 	--text-two-color-dark: #fff;
 	--topic-color-dark: #fff;
-	--i-color-dark: #fff;
+	--quote-color-dark: #fff;
 	--topic-text-color-dark: #fff;
 	--contactcontainer-background-color-dark: #1f2726;
 	--pageintro-background-color-dark: #000;
@@ -588,7 +588,7 @@ p {
 /* Adjusting the size of the quotes that are stacked inside the two div's */ 
 .wrapper .box i.quote {
 	font-size: 15px;
-	color: var(--i-color);
+	color: var(--quote-color);
 }
 
 /* CSS to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are flexible, wrap */
@@ -778,6 +778,7 @@ address {
 	--text-two-color: var(--text-two-color-dark);
 	--topic-text-color: var(--topic-text-color-dark);
 	--topic-color: var(--topic-color-dark);
+	--quote-color: var(--quote-color-dark);
 	--contactcontainer-background-color: var(--contactcontainer-background-color-dark);
 	--pageintro-background-color: var(--pageintro-background-color-dark);
 	--textarea-background-color: var(--textarea-background-color-dark);
@@ -785,11 +786,8 @@ address {
 	--media-caldays-light: var(--media-caldays-dark);
 	--media-calweekdays-light: var(--media-calweekdays-dark);
 	--media-calmonth-light: var(--media-calmonth-dark);
-<<<<<<< HEAD
-	--i-color: var(--i-color-dark);
-=======
 	--team-card-background-color: var(--team-card-background-color-dark);
->>>>>>> f34e38e22aa20f52fa2a5546550991e55174b1a0
+
 }
 
 /* Customization of Dark Mode button */
