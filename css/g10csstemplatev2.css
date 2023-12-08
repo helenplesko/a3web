@@ -1261,15 +1261,16 @@ img {
 }
 
 /* Customization of the text h2 to have a different size than the main h2 */
-.wrapped-text-box h2 {
-	display: flex;
-	font-size: 35px;
-}
-
-/* Customization of the text h3 to have a different size than the main h3 */
 .wrapped-text-box h3 {
 	display: flex;
 	font-size: 20px;
+	margin: 0;
+}
+
+/* Customization of the text h3 to have a different size than the main h3 */
+.wrapped-text-box p {
+	display: flex;
+	text-align: center;
 }
 
 /* Customization of the second image and text container */
