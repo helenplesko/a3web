@@ -1140,8 +1140,8 @@ img {
 	transform: translate(0%,-40%);
 }
 
-/* Customization of h2 for the banner of careers page */
-.bannercareer h2 {
+/* Customization of h1 for the banner of careers page */
+.bannercareer h1 {
 	text-align: center;
 	font-size: 3rem;
 	z-index: 1;
