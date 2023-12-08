@@ -74,7 +74,7 @@ header {
 }
 
 /* Customization of the logo of the website */
-.logo{
+.logo {
 	width: 195px;
 	height: 111px;
 	margin: 0;
@@ -205,12 +205,12 @@ body {
 }
 
 /* Customization of the navigation bar dropdown text when mouse hovers over them */
-.dropdown-content a:hover{
+.dropdown-content a:hover {
 	background-color: #e0e0e0;
 }
 
 /* Shows the dropdown menu on hover */
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
 	display: block;
 	opacity: 1;
 	visibility: visible; 
@@ -277,7 +277,7 @@ body {
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
 - Section:	CSS Heading Styles 
-- Color inspiration from: https://www.colorhexa.com/
+- Colour inspiration from: https://www.colorhexa.com/
 ******************/
 /* Customization of Header 1 */
 h1 {
@@ -314,7 +314,7 @@ h3 {
 	padding-right: 10px;
 }
 
-/* Customi{zation of Header 4 */
+/* Customization of Header 4 */
 h4 {
 	color: var(--h4-color);
 	text-align: center;
@@ -443,7 +443,7 @@ p, li {
 	position: relative;
 	border-radius: 6px;
 	margin-left: 6px;
-	width: auto;
+	width: 250px;
 	height: 25px;
 	background-color: #F0F1F8;
 }
@@ -471,16 +471,30 @@ p, li {
 /* Adding padding to the message box and changing font */
 .contactinput .input-box textarea {
 	padding-top: 12px;
-	font-family:sans-serif;
+	font-family: helvetica, arial, sans-serif;
 }
 
 /* Adding style to the contact button to create some distance between above divs */
 .contactinput .contactbutton {
 	display: inline-block;
 	margin-top: 12px;
-	margin-bottom: 12px;
+}
+#reset {
+	color: #fff;
+	font-size: 15px;
+	outline:none;
+	border:none;
+	padding: 8px 16px;
+	border-radius: 6px;
+	background: var(--submit-button-background);
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
+/* Adding color for the submit button when the user hovers over it */
+#reset:hover {
+	background: #044603;
+}
 /* Adding style to the submit button */
 #submit {
 	color: #fff;
@@ -659,7 +673,7 @@ p, li {
 /* Changes the webpage to stack the boxes on top of each other when the screen size is 950 pixels wide and keeping all the divs cenetered */
 @media screen and (max-width: 950px) {
 	/* Center the divs surrounding the content of the testimonials when screen size is decreased */
-	.wrapper .box{
+	.wrapper .box {
 		width: 100%;
 		align-items: center;
 		margin:70px;
@@ -1012,7 +1026,7 @@ img {
 .home-testimonials {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;
+	align-items: space-evenly;
 }
 
 /* Customization of home-testimonial h1 element */
@@ -1105,7 +1119,8 @@ img {
 /* For the banner video I used the same sizes and a similar code to Lori's to not have very different styles on each page */
 .bannercareer {
 	position: relative;
-	width: 100%;
+	max-width: 100%;
+	width: 100;
 	height: 450px;
 	display: flex;
 	align-items: center;
@@ -1126,7 +1141,7 @@ img {
 }
 
 /* Customization of h2 for the banner of careers page */
-.bannercareer h1 {
+.bannercareer h2 {
 	text-align: center;
 	font-size: 3rem;
 	z-index: 1;
@@ -1189,7 +1204,7 @@ img {
 }
 
 /* Customization of the container that contains the county maps on the career page */
-.countries-container{
+.countries-container {
 	background-color: transparent;
 	border: 20px solid rgba(120, 144, 140, 0.226);
 	max-width: 1450px;;
@@ -1202,7 +1217,7 @@ img {
 }
 
 /* Customization of each country map */
-.countries{
+.countries {
 	margin: 0 5px 25px;
 	background-color: transparent;
 	flex-basis: 100%;
@@ -1252,26 +1267,23 @@ img {
 }
 
 /* Customization of the text on the career page */
-.wrapped-text-box  {
+.wrapped-text-box {
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+/* Customization of the text h2 to have a different size than the main h2 */
+.wrapped-text-box h2 {
+	display: flex;
+	font-size: 35px;
+}
+
 /* Customization of the text h3 to have a different size than the main h3 */
 .wrapped-text-box h3 {
 	display: flex;
-	font-size: 21px;
-	margin: 0;
-	color: var(--h2-color);
-}
-
-/* Customization of the text h4 to have a different size than the main h4 */
-.wrapped-text-box h4 {
-	display: flex;
-	text-align: center;
-	font-size: 18;
+	font-size: 20px;
 }
 
 /* Customization of the second image and text container */
@@ -1579,7 +1591,7 @@ img {
 }
 
 
-/* Container for a team card, sets size and 3D perspective with a background Color that makes sense */
+/* Container for a team card, sets size and 3D perspective with a background colour that makes sense */
 .team-card-container {
 	height: 350px;
 	width: 250px;
