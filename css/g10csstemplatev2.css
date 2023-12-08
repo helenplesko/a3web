@@ -5,7 +5,7 @@
 ******************/
 /* Variables colors to assist JS light/dark mode function */
 :root {
-	/* Color variables */
+	/* Color variables for light mode */
 	--background-color-light: #f5f5f5;
 	--header-background: #f5f5f5;
 	--navbar-color: #2b3634;
@@ -433,7 +433,7 @@ p {
 .contactcontent .contactinput .topic-text {
 	font-size: 23px;
 	font-weight: 600;
-	color:var(--topic-text-color);
+	color: var(--topic-text-color);
 } 
 
 /* Adding style to the select box container */
@@ -468,9 +468,10 @@ p {
 	min-height: 110px;
 } 
 
-/* Adding padding to the message box */
+/* Adding padding to the message box and changing font */
 .contactinput .input-box textarea {
-	padding-top: 6px;
+	padding-top: 12px;
+	font-family: helvetica, arial, sans-serif;
 }
 
 /* Adding style to the contact button to create some distance between above divs */
@@ -586,13 +587,13 @@ p {
 	background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
 }
 
-/* Adjusting the size of the quotes that are stacked inside the two div's */ 
+/* Adjusting the size of the quotes that are stacked inside the two divs */ 
 .wrapper .box i.quote {
 	font-size: 15px;
 	color: var(--quote-color);
 }
 
-/* CSS to adjust and align items in the content inside the box and wrapper, having the content be centered and putting space between the content   */
+/* CSS to adjust and align items in the content inside the box and wrapper, having the content be centered and putting space between the content */
 .wrapper .box .testicontent {
 	align-items: center;
 	margin-left: auto;
@@ -809,7 +810,7 @@ address {
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
 - Section:	INDUSTRY PAGE CSS
-- Inspired by:	Shawn Morgan, https://fleming.desire2learn.com/d2l/home
+- Inspired by:	Shawn Morgan, https://fleming.desire2learn.com/d2l/le/content/200606/Home
 				https://www.w3schools.com/howto/howto_css_image_overlay.asp
 				https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive
 				https://www.w3schools.com/howto/howto_css_image_center.asp
@@ -962,7 +963,7 @@ hr.rounded {
 
 /* 3 column design for industries section on index */
 /* src: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive */
-.hcolumn1, .hcolumn2, .hcolumn3 {     
+.hcolumn1, .hcolumn2, .hcolumn3 {
     float: left;
     width: 33.33%;
     padding: 15px;
@@ -970,20 +971,22 @@ hr.rounded {
 }
 
 /* Clear floats after the columns using the row class */
-.row::after {      
+.row::after {
     content: "";
     display: table;
     clear: both;
 }
 
 /* Responsive design for resizing images */
-img {              
+img {
 	max-width: 100%;   
 	height: auto;
 }	
 
 /* Customization of home-industry class */
-.home-industries {height: auto;}
+.home-industries {
+	height: auto;
+}
 
 /* Customization of home-industry p element */
 .home-industries p {
@@ -1035,7 +1038,7 @@ img {
 .home-testimonial::after {
 	content: "";
 	display: block;
-	position:absolute;
+	position: absolute;
 	bottom: -15px;
 	right: 50px;
 	width: 0;
@@ -1084,7 +1087,9 @@ img {
 	}
 
 	/* Customization of home-banner h1 element */
-	.home-banner h1 {font-size: 3rem;}
+	.home-banner h1 {
+		font-size: 3rem;
+	}
 }
 /* Lori Index Page CSS End */
 
@@ -1122,7 +1127,7 @@ img {
 }
 
 /* Customization of h2 for the banner of careers page */
-.bannercareer h2 {
+.bannercareer h1 {
 	text-align: center;
 	font-size: 3rem;
 	z-index: 1;
@@ -1168,7 +1173,7 @@ img {
 	padding: 15px 25px;
 }
 
-/* I got a little help from chatgpt to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
+/* I got a little help from chatGPT to know how to do the responsive part of cards. used only 2 lines, the flex-direction and flex-basis */
 @media (max-width: 600px) {
 	/* Career Container to have a padding and center when the screen is smaller */
 	.career-container {
@@ -1289,7 +1294,7 @@ img {
 	margin-right: 20px;
 }
 
-/* Customization of the third image and text container  */
+/* Customization of the third image and text container */
 .wrapped-content-3 {
 	margin: 25px auto;
 	box-sizing: border-box;
@@ -1329,7 +1334,7 @@ img {
 }
 
 /* Customization of the h3 of "Open Application" text */
-.openapp h3{
+.openapp h3 {
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -1346,7 +1351,7 @@ img {
 }
 
 /* Customization of Career's Page Apply Now Button*/
-/* inspiration : https://www.w3schools.com/css/css3_buttons.asp */
+/* inspiration: https://www.w3schools.com/css/css3_buttons.asp */
 /* Customization of the button container */
 .buttoncontainer {
 	margin: 0 5px 25px;
@@ -1373,13 +1378,13 @@ img {
 }
 
 /* Customization of the h3 of the applynow text */
-.applynowbutton h3{
+.applynowbutton h3 {
 	color: white;
 }
 
 /* Adding a hover on the applynow button */
-.applynowbutton:hover{
-background-color: #7ea69c;
+.applynowbutton:hover {
+	background-color: #7ea69c;
 	transition: 0.3s;
 }
 
@@ -1389,7 +1394,7 @@ background-color: #7ea69c;
 - Owner: 	Helen Plesko
 - Date:		December 3, 2023
 - Section:	MEDIA PAGE CSS
-- Inspired by:	
+- Inspired by:	Lori Lowy home page, https://codepen.io/aimieisanxious/pen/XWxOeya
 ******************/
 /* Customization of how to display calendar month */
 .calendarmonth {
@@ -1506,7 +1511,6 @@ background-color: #7ea69c;
 }
 
 /* Customization of container holding the future events section of the media page */
-/* Inspiration: Lori Lowy home page, https://codepen.io/aimieisanxious/pen/XWxOeya */
 .media-futureevents-container {
 	display: flex;
 	justify-content: center;
@@ -1596,6 +1600,7 @@ background-color: #7ea69c;
 	text-align: center;
 	transition: transform 0.8s;
 	transform-style: preserve-3d;
+	border-radius: 19px;
 }
 
 /* Back of the card styling */
@@ -1620,6 +1625,7 @@ background-color: #7ea69c;
 	/* This webkit property is necessary for Safari and older versions of Chrome*/
 	-webkit-backface-visibility: hidden; 
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
@@ -1629,8 +1635,10 @@ background-color: #7ea69c;
 
 /* Styling for the name of the team member on the contact card */
 .team-card-front h2 {
-	color: var(--h2-color);
+	position: absolute;
+	top: 68%;
 	text-align: center;
+	color: black;
 	font-weight: normal;
 	font-size: 20px;
 	font-family: helvetica, arial, sans-serif;
@@ -1638,14 +1646,16 @@ background-color: #7ea69c;
 
 /* Styling for the front card text */
 .team-card-front p {
-	color: var(--p-color);
+	position: absolute;
+	top: 75%;
 	text-align: center;
+	color: black;
 	font-weight: normal;
 	font-size: 16px;
 	font-family: helvetica, arial, sans-serif;
 }
 
-
+/* Styling for the back card text */
 .team-card-back p {
 	color: var(--p-color);
 	text-align: center;
@@ -1663,13 +1673,5 @@ background-color: #7ea69c;
 	border-radius: 19px 19px 0 0;
 }
 
-/* Styling for the team member's name on the front of the card */
-.team-card-front h3 {
-	color: var(--h3-color);
-	text-align: center;
-	font-weight: normal;
-	font-size: 20px;
-	font-family: helvetica, arial, sans-serif;
-}
-
 /* Ryan Team Page CSS End */
+
