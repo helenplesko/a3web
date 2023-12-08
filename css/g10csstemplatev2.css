@@ -21,6 +21,7 @@
 	--text-one-color: #000;
 	--text-two-color: #030202;
 	--topic-color: #060303;
+	--i-color: #060303;
 	--topic-text-color-dark: #fff;
 	--contactcontainer-background-color: #fff;
 	--pageintro-background-color: #fff;
@@ -44,6 +45,7 @@
 	--text-one-color-dark: #fff;
 	--text-two-color-dark: #fff;
 	--topic-color-dark: #fff;
+	--i-color-dark: #fff;
 	--topic-text-color-dark: #fff;
 	--contactcontainer-background-color-dark: #1f2726;
 	--pageintro-background-color-dark: #000;
@@ -54,11 +56,8 @@
 	--media-caldays-dark: #fff;
 	--media-calmonth-dark: #43524d;
 	--media-calweekdays-dark: #E4E6E6;
-<<<<<<< HEAD
-	--i-color-dark: #E4E6E6;
-=======
 	--team-card-background-color-dark: #303633;
->>>>>>> f34e38e22aa20f52fa2a5546550991e55174b1a0
+
 }
 /* Ryan Variable Section End */
 
