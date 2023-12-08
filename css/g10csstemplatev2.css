@@ -1260,18 +1260,18 @@ img {
 }
 
 /* Customization of the text h3 to have a different size than the main h3 */
-.wrapped-text-box h3 {
+.wrapped-text-box h2 {
 	display: flex;
-	font-size: 21px;
+	font-size: 30px;
 	margin: 0;
-	color: var(--h2-color);
 }
 
-/* Customization of the text h4 to have a different size than the main h4 */
-.wrapped-text-box h4 {
+/* Customization of the text p to have a different size than the main p */
+.wrapped-text-box p {
 	display: flex;
 	text-align: center;
-	font-size: 18;
+	font-size: 20px;
+	color:var(--p-color);
 }
 
 /* Customization of the second image and text container */
