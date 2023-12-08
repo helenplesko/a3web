@@ -591,7 +591,7 @@ p {
 	color: var(--quote-color);
 }
 
-/* CSS to adjust and align items in the content inside the box and wrapper, having the content be centered, putting space between the content and having items that are flexible, wrap */
+/* CSS to adjust and align items in the content inside the box and wrapper, having the content be centered and putting space between the content   */
 .wrapper .box .testicontent {
 	align-items: center;
 	margin-left: auto;
