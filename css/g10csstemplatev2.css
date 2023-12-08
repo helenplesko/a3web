@@ -1261,10 +1261,11 @@ img {
 }
 
 /* Customization of the text h2 to have a different size than the main h2 */
-.wrapped-text-box h3 {
+.wrapped-text-box h4 {
 	display: flex;
 	font-size: 20px;
 	margin: 0;
+	color: var(--h2-color);
 }
 
 /* Customization of the text h3 to have a different size than the main h3 */
