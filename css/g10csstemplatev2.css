@@ -277,7 +277,7 @@ body {
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
 - Section:	CSS Heading Styles 
-- Colour inspiration from: https://www.colorhexa.com/
+- Color inspiration from: https://www.colorhexa.com/
 ******************/
 /* Customization of Header 1 */
 h1 {
@@ -1259,18 +1259,19 @@ img {
 	align-items: center;
 }
 
-/* Customization of the text h2 to have a different size than the main h2 */
-.wrapped-text-box h4 {
+/* Customization of the text h3 to have a different size than the main h3 */
+.wrapped-text-box h3 {
 	display: flex;
-	font-size: 20px;
+	font-size: 21px;
 	margin: 0;
 	color: var(--h2-color);
 }
 
-/* Customization of the text h3 to have a different size than the main h3 */
-.wrapped-text-box p {
+/* Customization of the text h4 to have a different size than the main h4 */
+.wrapped-text-box h4 {
 	display: flex;
 	text-align: center;
+	font-size: 18;
 }
 
 /* Customization of the second image and text container */
@@ -1578,7 +1579,7 @@ img {
 }
 
 
-/* Container for a team card, sets size and 3D perspective with a background colour that makes sense */
+/* Container for a team card, sets size and 3D perspective with a background Color that makes sense */
 .team-card-container {
 	height: 350px;
 	width: 250px;
