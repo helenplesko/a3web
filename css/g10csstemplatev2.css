@@ -185,19 +185,19 @@ body {
     -ms-animation-fill-mode: forwards;
 }
 
-/* Key frames webkit for older versions of chrome and safari */
+/* Key frames animation webkit for older versions of chrome and safari */
 @-webkit-keyframes fadeInFromNone {
     0% {opacity: 0}
     1% {opacity: 0}
     100% {opacity: 1}
 }
-/* Key frames for internet explorer */
+/* Key frames animation for internet explorer */
 @keyframes fadeInFromNoneIE {
     0% {opacity: 0}
     1% {opacity: 0}
 	100% {opacity: 1}
 }
-/* Key frames for modern browsers that follow standard CSS specifications */
+/* Key frames animation for modern browsers that follow standard CSS specifications */
 @keyframes fadeInFromNone {
     0% {opacity: 0}
     1% {opacity: 0}
