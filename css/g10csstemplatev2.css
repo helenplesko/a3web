@@ -1140,8 +1140,8 @@ img {
 	transform: translate(0%,-40%);
 }
 
-/* Customization of h2 for the banner of careers page */
-.bannercareer h2 {
+/* Customization of h1 for the banner of careers page */
+.bannercareer h1 {
 	text-align: center;
 	font-size: 3rem;
 	z-index: 1;
@@ -1274,16 +1274,19 @@ img {
 	align-items: center;
 }
 
-/* Customization of the text h2 to have a different size than the main h2 */
+/* Customization of the text h3 to have a different size than the main h3 */
 .wrapped-text-box h2 {
 	display: flex;
-	font-size: 35px;
+	font-size: 30px;
+	margin: 0;
 }
 
-/* Customization of the text h3 to have a different size than the main h3 */
-.wrapped-text-box h3 {
+/* Customization of the text p to have a different size than the main p */
+.wrapped-text-box p {
 	display: flex;
+	text-align: center;
 	font-size: 20px;
+	color:var(--p-color);
 }
 
 /* Customization of the second image and text container */
