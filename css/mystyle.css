@@ -1012,7 +1012,7 @@ img {
 .home-testimonials {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: space-evenly;
+	align-items: center;
 }
 
 /* Customization of home-testimonial h1 element */
