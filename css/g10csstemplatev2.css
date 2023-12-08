@@ -277,7 +277,7 @@ body {
 - Owner: 	Helen Plesko
 - Date:		November 21, 2023
 - Section:	CSS Heading Styles 
-- Colour inspiration from: https://www.colorhexa.com/
+- Color inspiration from: https://www.colorhexa.com/
 ******************/
 /* Customization of Header 1 */
 h1 {
@@ -1579,7 +1579,7 @@ img {
 }
 
 
-/* Container for a team card, sets size and 3D perspective with a background colour that makes sense */
+/* Container for a team card, sets size and 3D perspective with a background Color that makes sense */
 .team-card-container {
 	height: 350px;
 	width: 250px;
